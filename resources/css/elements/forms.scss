@@ -1,0 +1,59 @@
+.ppf-form {
+    display: grid;
+    gap: 1rem;
+
+
+    &__group {
+        position: relative;
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="number"],
+        textarea,
+        select {
+            font-size: 1.5rem;
+            width: 100%;
+            background-color: transparent;
+            border: 2px solid white;
+            border-radius: 4px;
+            padding: 0.75rem;
+            position: relative;
+            appearance: none;
+        }
+
+
+        label {
+            background-color: theme("colors.accent");
+            position: absolute;
+            font-size: 1rem;
+            top: -0.5rem;
+            left: 0.5rem;
+            z-index: 2;
+            line-height: 1;
+            padding: 0.2rem 0.75rem;
+        }
+
+        // Change placeholder color to white
+        ::placeholder {
+            color: white;
+        }
+
+        &--checkbox {
+            label {
+                background-color: transparent;
+                color: white;
+                position: relative;
+                font-size: 1rem;
+                top: unset;
+                left: unset;
+            }
+        }
+    }
+
+    &__button {
+        @apply bg-white text-accent font-graph text-3xl py-2 px-4 w-full text-center;
+    }
+}

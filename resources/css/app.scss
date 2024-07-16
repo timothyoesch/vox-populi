@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "elements/hero-section.scss";
+@import "elements/forms.scss";
+
+@import "typography/fonts.scss";
+@import "typography/typography.scss";
+
+html {
+    @apply bg-background font-futura;
+}
+
+
+:root {
+    --tamaro-primary-color: #d52932 !important;
+    --tamaro-bg-color: white;
+    --tamaro-primary-color__hover: #d52932 !important;
+}
