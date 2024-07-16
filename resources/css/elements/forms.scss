@@ -42,6 +42,8 @@
         }
 
         &--checkbox {
+            @apply -mb-3;
+
             label {
                 background-color: transparent;
                 color: white;

@@ -1,18 +1,21 @@
 <x-app-layout>
     <x-hero-section />
+    <div class="md:px-12 px-4 mt-12 mb-8 max-w-[1650px] mx-auto">
+        <div class="pff-lead font-graph !leading-[1.15] md:text-5xl text-2xl text-accent flex-1">
+            <p>{!! __("texts.landing.lead") !!}</p>
+            <a href="#support" class="bg-accent text-white font-graph text-2xl md:text-5xl py-[0.4em] px-[1em] inline-block mt-6 text-center">{{__("texts.buttons.support")}}</a>
+        </div>
+    </div>
 
     <div class="ppf-landing-sections lg:flex gap-20 md:px-12 px-4 mt-12 mb-20 max-w-[1650px] mx-auto">
         <div class="ppf-landing-sections__section flex-1">
-            <div class="pff-lead font-graph !leading-[1.15] md:text-5xl text-3xl text-accent flex-1">
-                <p>{!! __("texts.landing.lead") !!}</p>
-            </div>
             <div class="pff-content mt-6 text-xl md:text-3xl leading-[1.25]">
                 {!! Illuminate\Support\Str::markdown(file_get_contents(resource_path('content/landing/' . app()->getLocale() . '.md'))) !!}
             </div>
         </div>
-        <div class="ppf-landing-sections__section flex-1">
-            <div class="ppf-landing__form-container lg:h-screen mt-12 lg:mt-0 sticky top-0 flex items-center">
-                <div class="ppf-landing__form my-6 p-6 bg-accent w-full text-white h-fit">
+        <div class="ppf-landing-sections__section flex-1" id="support">
+            <div class="ppf-landing__form-container mt-12 lg:mt-0">
+                <div class="ppf-landing__form my-6 md:p-6 p-4 bg-accent w-full text-white h-fit">
                     <h2 class="md:text-5xl text-3xl font-graph mb-6">{{__("texts.form.title")}}</h2>
                     <form action="{{route("supporter.submit")}}" class="ppf-form" method="POST">
                         @csrf
@@ -51,7 +54,7 @@
                                 <p class="text-red-500 text-sm">{{ $errors->first('zip') }}</p>
                             @endif
                         </div>
-                        <div class="ppf-form__group col-span-full ppf-form__group--checkbox -mb-2">
+                        <div class="ppf-form__group col-span-full ppf-form__group--checkbox">
                             <input type="checkbox" name="public" id="public" class="ppf-input" value="1" checked>
                             <label for="public" class="text-3xl">{{__("texts.form.public")}}</label>
                             @if ($errors->has('public'))
