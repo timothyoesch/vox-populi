@@ -1,0 +1,13 @@
+/* Webfont: FuturaPT-Bold */@font-face {
+    font-family: 'FuturaPTBold';
+    src: url('FuturaPT-Bold.eot'); /* IE9 Compat Modes */
+    src: url('FuturaPT-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('FuturaPT-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('FuturaPT-Bold.woff') format('woff'), /* Modern Browsers */
+         url('FuturaPT-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('FuturaPT-Bold.svg#FuturaPT-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
