@@ -22,6 +22,8 @@
     "labels.form.supporter.zip": "Code postal",
     "labels.form.supporter.configuration": "Configuration",
     "lables.form.supporter.locale": "Langue",
+    "labels.form.supporter.optin": "Veut être contacté",
+    "labels.form.supporter.public": "Soutient publiquement",
     "labels.table.supporter.firstname": "Prénom",
     "labels.table.supporter.lastname": "Nom de famille",
     "labels.table.supporter.email": "Adresse e-mail",

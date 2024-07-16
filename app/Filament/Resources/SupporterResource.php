@@ -13,6 +13,7 @@ use App\Filament\Exports\SupporterExporter;
 use App\Filament\Resources\SupporterResource\Pages;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use App\Filament\Resources\SupporterResource\RelationManagers;
+use Filament\Forms\FormsComponent;
 
 class SupporterResource extends Resource
 {
@@ -62,6 +63,12 @@ class SupporterResource extends Resource
                     ->searchable()
                     ->preload()
                     ->required(),
+                Forms\Components\Toggle::make('optin')
+                    ->label(__('labels.form.supporter.optin'))
+                    ->default(true),
+                Forms\Components\Toggle::make('public')
+                    ->label(__('labels.form.supporter.public'))
+                    ->default(false),
             ]);
     }
 
