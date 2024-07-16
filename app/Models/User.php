@@ -55,7 +55,7 @@ class User extends Authenticatable implements MustVerifyEmail, FilamentUser
         if (env("APP_ENV") === "local") {
             return true;
         } else {
-            $allowedUserDomains = env("ALLOWED_USER_DOMAINS", "");
+            $allowedUserDomains = env("APP_ALLOWED_USER_DOMAINS", "");
             $allowedUserDomains = explode(",", $allowedUserDomains);
             $userDomain = explode("@", $this->email)[1];
             return in_array($userDomain, $allowedUserDomains);
