@@ -1,8 +1,44 @@
 {
   "resources/css/app.scss": {
-    "file": "assets/app-BGMLSfXQ.css",
+    "file": "assets/app-CIiesM6z.css",
     "src": "resources/css/app.scss",
     "isEntry": true
+  },
+  "resources/fonts/FuturaCyrillicBold.woff": {
+    "file": "assets/FuturaCyrillicBold-Zxl1jJEs.woff",
+    "src": "resources/fonts/FuturaCyrillicBold.woff"
+  },
+  "resources/fonts/FuturaCyrillicBook.woff": {
+    "file": "assets/FuturaCyrillicBook--MOdaFZO.woff",
+    "src": "resources/fonts/FuturaCyrillicBook.woff"
+  },
+  "resources/fonts/FuturaCyrillicDemi.woff": {
+    "file": "assets/FuturaCyrillicDemi-Crekj7xR.woff",
+    "src": "resources/fonts/FuturaCyrillicDemi.woff"
+  },
+  "resources/fonts/FuturaCyrillicExtraBold.woff": {
+    "file": "assets/FuturaCyrillicExtraBold-BANytS8b.woff",
+    "src": "resources/fonts/FuturaCyrillicExtraBold.woff"
+  },
+  "resources/fonts/FuturaCyrillicHeavy.woff": {
+    "file": "assets/FuturaCyrillicHeavy-CFCnmtTM.woff",
+    "src": "resources/fonts/FuturaCyrillicHeavy.woff"
+  },
+  "resources/fonts/FuturaCyrillicLight.woff": {
+    "file": "assets/FuturaCyrillicLight-CvQOEEkH.woff",
+    "src": "resources/fonts/FuturaCyrillicLight.woff"
+  },
+  "resources/fonts/FuturaCyrillicMedium.woff": {
+    "file": "assets/FuturaCyrillicMedium-C2gAlCWa.woff",
+    "src": "resources/fonts/FuturaCyrillicMedium.woff"
+  },
+  "resources/fonts/graph-black-web.woff2": {
+    "file": "assets/graph-black-web-TxNZJ6zt.woff2",
+    "src": "resources/fonts/graph-black-web.woff2"
+  },
+  "resources/fonts/graph-bold-web.woff2": {
+    "file": "assets/graph-bold-web-5Kp2IsHx.woff2",
+    "src": "resources/fonts/graph-bold-web.woff2"
   },
   "resources/js/app.js": {
     "file": "assets/app-C1-XIpUa.js",
