@@ -5,6 +5,8 @@
     "labels.export.supporter.phone": "Numero di Telefono",
     "labels.export.supporter.zip": "Codice Postale",
     "labels.export.supporter.configuration_id": "Configurazione",
+    "labels.export.supporter.optin": "Vuole essere contattato",
+    "labels.export.supporter.public": "Sostiene pubblicamente",
     "labels.export.created_at": "Creato il",
     "labels.export.updated_at": "Aggiornato il",
     "labels.export.deleted_at": "Cancellato il",

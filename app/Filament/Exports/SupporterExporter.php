@@ -28,6 +28,10 @@ class SupporterExporter extends Exporter
                 ->label(__('labels.export.supporter.zip')),
             ExportColumn::make('configuration.id')
                 ->label(__('labels.export.supporter.configuration_id')),
+            ExportColumn::make('optin')
+                ->label(__('labels.export.supporter.optin')),
+            ExportColumn::make('public')
+                ->label(__('labels.export.supporter.public')),
             ExportColumn::make('created_at')
                 ->label(__('labels.export.created_at')),
             ExportColumn::make('updated_at')

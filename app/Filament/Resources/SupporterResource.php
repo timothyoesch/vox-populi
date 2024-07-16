@@ -2,16 +2,17 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\SupporterResource\Pages;
-use App\Filament\Resources\SupporterResource\RelationManagers;
-use App\Models\Supporter;
 use Filament\Forms;
-use Filament\Forms\Form;
-use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Forms\Form;
+use App\Models\Supporter;
 use Filament\Tables\Table;
+use Filament\Resources\Resource;
 use Illuminate\Database\Eloquent\Builder;
+use App\Filament\Exports\SupporterExporter;
+use App\Filament\Resources\SupporterResource\Pages;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use App\Filament\Resources\SupporterResource\RelationManagers;
 
 class SupporterResource extends Resource
 {
@@ -102,6 +103,10 @@ class SupporterResource extends Resource
                     ->dateTime()
                     ->sortable()
                     ->toggleable(isToggledHiddenByDefault: true),
+            ])
+            ->headerActions([
+                Tables\Actions\ExportAction::make()
+                    ->exporter(SupporterExporter::class),
             ])
             ->filters([
                 //
