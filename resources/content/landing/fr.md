@@ -1,0 +1,7 @@
+Die Superreichen nehmen die Schweiz in Geiselhaft. Wehren wir uns! Die Medienberichterstattung der letzten Wochen über die Initiative für eine Zukunft haben gezeigt: Die Initiative trifft einen wunden Punkt. Rund zwei Jahre vor dem Abstimmungstermin drohen uns Martullo-Blocher, Spuhler und Co. mit dem Wegzug aus der Schweiz, andere wollen unsere Initiative gar für ungültig erklären lassen. Dieses Verhalten ist zutiefst undemokratisch. Wenn keine rationalen Argumente gegen unsere Initiative sprechen, versuchen es die Reichsten mit Drohgebärden und Angstmacherei.  Nicht mit uns!
+
+Mit einer Zukunftssteuer von 50% auf Erbschaften und Schenkungen bei einem Freibetrag von 50 Mio. holen wir das Geld für sozial gerechten Klimaschutz. Betroffen von der Steuer wären die rund 2000 reichsten Menschen im Land: Jene, die vom Wirtschaftssystem profitiert haben, das auf der Ausbeutung unserer Umwelt aufbaut.
+
+Mit dem Ertrag aus dieser Erbschaftssteuer finanzieren wir endlich den konsequenten und sozial gerechten Klimaschutz, den wir so dringend brauchen! Die Reichsten dieses Landes wollen diesen Richtungswechsel offensichtlich verhindern.
+
+Wir lassen uns aber nicht erpressen! Nicht die Reichsten sollen über unsere Zukunft entscheiden, sondern WIR, die breite Bevölkerung. Halten wir zusammen und wehren wir uns gegen diesen Angriff auf die Demokratie! Werde heute Teil der Veränderung!

@@ -9,7 +9,7 @@ return [
         'jetzt.zukunft-initiative.ch' => 'de',
         'go.initiative-pour-lavenir.ch' => 'fr',
         'ora.iniziativa-per-il-futuro.ch' => 'it',
-        'vp.ddev.site' => 'de'
+        'vp.ddev.site' => 'fr'
     ],
 
     /*
