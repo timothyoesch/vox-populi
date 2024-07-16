@@ -60,6 +60,12 @@
     "texts.links.homepage": "JUSO Schweiz",
     "texts.thanks.title": "Danke für deine Unterstützung, :name!",
     "texts.thanks.content": "Danke für deine Teilhabe! Wir lassen uns nicht von den Reichsten erpressen. Gemeinsam werden wir uns erfolgreich gegen den Angriff auf unsere Demokratie wehren und die Reichsten zur Kasse bitten.",
+    "texts.thanks.share.message": "Wir%20m%C3%BCssen%20uns%20wehren%21%0A%0ADie%20Superreichen%20nehmen%20die%20Schweiz%20in%20Geiselhaft%20und%20drohen%20mit%20dem%20Wegzug%2C%20sollten%20sie%20dank%20der%20Initiative%20f%C3%BCr%20eine%20Zukunft%20endlich%20anst%C3%A4ndig%20besteuert%20werden.%20Zur%20sozial%20gerechten%20Bek%C3%A4mpfung%20der%20Klimakrise%20braucht%20es%20jedoch%20dringend%20die%20Erbschaftssteuer%20f%C3%BCrs%20Klima.%0A%0AUm%20mich%20dagegen%20zu%20wehren%2C%20bin%20ich%20teil%20des%20%2AKomitees%20f%C3%BCr%20eine%20Zukunft.%2A%20Bist%20du%20auch%20dabei%3F%0ADann%20trage%20dich%20hier%20ein%21%3A%0Ahttps%3A%2F%2Fjetzt.zukunft-initiative.ch%2F%0A%0AUnd%20leite%20die%20Nachricht%20an%20weitere%205%20Menschen%21%20Danke%20f%C3%BCr%20deine%20Unterst%C3%BCtzung%21%3C3",
+    "texts.thanks.share.whatsapp": "Auf WhatsApp teilen",
+    "__.baseurl": "https://jetzt.zukunft-initiative.ch",
+    "texts.thanks.share.telegram": "Auf Telegram teilen",
+    "texts.thanks.share.facebook": "Auf Facebook teilen",
+    "texts.thanks.share.twitter": "Auf Twitter teilen",
     "texts.thanks.donate": "Unterstütze uns mit einer Spende",
     "seo.og.title": "Werde zur Zukunftskämpfer*in!",
     "seo.og.description": "Wir müssen uns wehren! Die Superreichen nehmen die Schweiz in Geiselhaft und drohen mit dem Wegzug, sollten sie endlich anständig besteuert werden. Zur sozial gerechten Bekämpfung der Klimakrise braucht es jedoch dringend die Erbschaftssteuer fürs Klima. Ziehen wir die Superreichen zur Verantwortung und retten damit unsere Zukunft: Schliesse dich uns an und werde Teil der Veränderung!"
