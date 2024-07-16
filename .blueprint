@@ -1,0 +1,11 @@
+created:
+    - database/factories/ConfigurationFactory.php
+    - database/factories/SupporterFactory.php
+    - database/migrations/2024_07_16_085300_create_configurations_table.php
+    - database/migrations/2024_07_16_085301_create_supporters_table.php
+    - app/Models/Configuration.php
+    - app/Models/Supporter.php
+models:
+    User: {  }
+    Configuration: { key: string, softdeletes: softDeletes, relationships: { hasMany: Supporter } }
+    Supporter: { firstname: string, lastname: string, email: string, phone: 'string, nullable', zip: 'string, nullable', softdeletes: softDeletes, relationships: { belongsTo: Configuration } }

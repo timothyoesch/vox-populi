@@ -1,0 +1,19 @@
+models:
+
+  Configuration:
+    key: string
+    softDeletes
+    relationships:
+      hasMany: Supporter
+
+
+  Supporter:
+    firstname: string
+    lastname: string
+    email: string
+    phone: string, nullable
+    zip: string, nullable
+    softDeletes
+    relationships:
+      belongsTo: Configuration
+
