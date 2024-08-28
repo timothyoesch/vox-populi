@@ -1,0 +1,78 @@
+.vpb-cta__form {
+
+    &__fieldgroup {
+        position: relative;
+
+        &__text {
+            border: 2px solid theme("colors.foreground");
+            border-radius: 0.25rem;
+            background: transparent;
+            color: theme("colors.foreground");
+            line-height: 1;
+            padding: 0.5rem 1rem;
+            width: 100%;
+        }
+
+        &__label {
+            position: absolute;
+            top: -0.3rem;
+            left: 0.5rem;
+            font-size: 0.75rem;
+            padding: 0 0.25rem;
+            line-height: 1;
+            background-color: theme("colors.background");
+        }
+
+        &--checkbox {
+            display: flex;
+            gap: 0.5rem;
+
+            .vpb-cta__form__fieldgroup__label {
+                position: relative;
+                top: 0;
+                left: 0;
+                font-size: 1rem;
+            }
+
+            &+& {
+                margin-top: -1rem;
+            }
+        }
+
+        &__submit {
+            background-color: theme("colors.foreground");
+            color: theme("colors.background");
+            border: 2px solid theme("colors.foreground");
+            border-radius: 0.25rem;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.1s;
+
+            &:hover {
+                filter: brightness(1.75);
+            }
+        }
+
+    }
+
+    ::placeholder {
+        color: theme("colors.foreground") !important;
+        opacity: 1 !important;
+        font-style: italic;
+    }
+}
+
+.vpb-cta {
+    &__success {
+        background-color: theme("colors.green.200");
+        color: theme("colors.green.800");
+        padding: 1rem;
+        border-radius: 0.25rem;
+        margin-top: 1rem;
+        border: 2px solid theme("colors.green.800");
+        font-weight: 700;
+        font-size: 1.25rem;
+    }
+}

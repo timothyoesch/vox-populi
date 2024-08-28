@@ -2,16 +2,6 @@
 
 return [
 
-    /**
-     * App Locales for domains
-     */
-    'locales' => [
-        'jetzt.zukunft-initiative.ch' => 'de',
-        'go.initiative-pour-lavenir.ch' => 'fr',
-        'ora.iniziativa-per-il-futuro.ch' => 'it',
-        'vp.ddev.site' => 'de'
-    ],
-
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -89,6 +79,8 @@ return [
     */
 
     'locale' => env('APP_LOCALE', 'en'),
+
+    'available_locales' => explode(',', env('APP_AVAILABLE_LOCALES', 'en')),
 
     'fallback_locale' => env('APP_FALLBACK_LOCALE', 'en'),
 

@@ -15,7 +15,7 @@ export default defineConfig({
     },
     server: {
         hmr: {
-            host: "vp.ddev.site",
+            host: "vp-bildungsgesetz.ddev.site",
             protocol: "wss"
         }
     }

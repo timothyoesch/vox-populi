@@ -20,5 +20,9 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         \Illuminate\Database\Eloquent\Model::unguard();
+        \BezhanSalleh\FilamentLanguageSwitch\LanguageSwitch::configureUsing(function (\BezhanSalleh\FilamentLanguageSwitch\LanguageSwitch $switch) {
+            $switch
+                ->locales(explode(',', env('APP_AVAILABLE_LOCALES', 'en')));
+        });
     }
 }

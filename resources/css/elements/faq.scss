@@ -1,0 +1,7 @@
+.vpb-faq {
+    @apply border-y-2 border-foreground border-solid py-3 md:py-6;
+
+    &+& {
+        margin-top: -2px;
+    }
+}

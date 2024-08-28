@@ -3,19 +3,20 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\SupporterController;
+use App\Models\Supporter;
 
 Route::get('/', function () {
-    return view("landing.index");
+    return view('landing', [
+        'supporters' => Supporter::where('email_verified_at', '!=', null)->where('public', true)->get(),
+    ]);
 });
 
-Route::post('/submit', [SupporterController::class, 'store'])->name('supporter.submit');
+Route::prefix("supporter")->group(function () {
+    Route::post('submit', [SupporterController::class, 'store'])->name('supporter.submit');
 
-Route::get('/thanks', function () {
-    return view("landing.thanks");
-})->name('supporter.thanks');
+    Route::get('verify/{id}/{token}', [SupporterController::class, 'verify'])->name('supporter.confirm-email');
 
-Route::get("/cron", function() {
-    Artisan::call('schedule:run --no-interaction');
-    Artisan::call('queue:work --stop-when-empty');
-    return response()->json(['message' => 'Cron jobs have been executed and queue has been worked']);
+    Route::get("verify/success", function () {
+        return view('supporter.verify-success');
+    })->name('supporter.verify.success');
 });
