@@ -2,21 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "elements/hero-section.scss";
-@import "elements/forms.scss";
-@import "elements/share-buttons.scss";
-
-@import "typography/fonts.scss";
-@import "typography/typography.scss";
-
-html {
-    scroll-behavior: smooth;
-    @apply bg-background font-futura;
-}
+@import "./typography/fonts.scss";
+@import "./typography/typography.scss";
 
 
-:root {
-    --tamaro-primary-color: #d52932 !important;
-    --tamaro-bg-color: white;
-    --tamaro-primary-color__hover: #d52932 !important;
-}
+@import "./views/landing.scss";
+
+
+@import "./elements/sections.scss";
+@import "./elements/heroine.scss";
+@import "./elements/testimonials.scss";
+@import "./elements/arguments.scss";
+@import "./elements/facts.scss";
+@import "./elements/faq.scss";
+@import "./elements/form.scss";

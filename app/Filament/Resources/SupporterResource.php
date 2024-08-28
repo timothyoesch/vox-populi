@@ -69,6 +69,25 @@ class SupporterResource extends Resource
                 Forms\Components\Toggle::make('public')
                     ->label(__('labels.form.supporter.public'))
                     ->default(false),
+                Forms\Components\Repeater::make('customFields')
+                    ->label(__('labels.form.supporter.customFields'))
+                    ->schema([
+                        Forms\Components\Select::make('customField_id')
+                            ->label(__('labels.form.supporter.customField_id'))
+                            ->options(fn() => \App\Models\CustomField::all()->pluck('label.' . app()->getLocale(), 'id'))
+                            ->searchable()
+                            ->preload()
+                            ->required(),
+                        Forms\Components\TextInput::make('value')
+                            ->label(__('labels.form.supporter.value'))
+                            ->required()
+                            ->maxLength(255),
+                    ])
+                    ->default(\App\Models\CustomField::all()->map(fn($customField) => [
+                        'customField_id' => $customField->id,
+                        'value' => null,
+                    ]))
+                    ->columnSpanFull()
             ]);
     }
 

@@ -1,0 +1,10 @@
+.vpb-section {
+    &+& {
+        @apply mt-16 md:mt-24 lg:mt-32;
+    }
+
+    &__title {
+        line-height: 101%;
+        @apply text-4xl font-bold md:text-5xl lg:text-6xl mb-6 md:mb-8 lg:mb-12;
+    }
+}

@@ -22,6 +22,7 @@ class Supporter extends Model
     protected $casts = [
         'id' => 'integer',
         'configuration_id' => 'integer',
+        'customFields' => 'array',
     ];
 
     public function configuration(): BelongsTo
@@ -37,5 +38,69 @@ class Supporter extends Model
     {
         return LogOptions::defaults()
             ->logAll();
+    }
+
+    /**
+     * Get customField value from customField name
+     */
+    public function getCustomField($name)
+    {
+        $fieldId = CustomField::where('name', $name)->first()->id;
+        if (!$fieldId) {
+            return false;
+        }
+        return collect($this->customFields)->where('customField_id', $fieldId)->first()['value'] ?? null;
+    }
+
+    /**
+     * Set customField value from customField name
+     */
+    public function setCustomField($name, $value, $store = false)
+    {
+        $fieldId = CustomField::where('name', $name)->first()->id;
+        if (!$fieldId) {
+            return false;
+        }
+        // Check if customField already exists
+        $customFields = $this->customFields;
+        if (collect($this->customFields)->where('customField_id', $fieldId)->first()) {
+            foreach ($customFields as $key => $field) {
+                if ($field['customField_id'] == $fieldId) {
+                    $customFields[$key]['value'] = $value;
+                }
+            }
+        } else {
+            $customField = [
+                'customField_id' => $fieldId,
+                'value' => $value
+            ];
+            $customFields[] = $customField;
+        }
+        $this->customFields = $customFields;
+        if ($store) {
+            $this->save();
+        }
+    }
+
+    /**
+     * Set customFields through array of values
+     */
+    public function setCustomFields(array $customFields, bool $store = false)
+    {
+        foreach ($customFields as $name => $value) {
+            $this->setCustomField($name, $value, false);
+        }
+        if ($store) {
+            $this->save();
+        }
+    }
+
+    /**
+     * Mark Email as verified
+     */
+    public function markEmailAsVerified() : void
+    {
+        $this->email_verified_at = now();
+        $this->save();
     }
 }

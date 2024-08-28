@@ -17,6 +17,11 @@ class ViewSupporter extends ViewRecord
     {
         return [
             Actions\EditAction::make(),
+            Actions\Action::make("verify_email")
+                ->label(__("labels.actions.verify_email"))
+                ->requiresConfirmation()
+                ->visible(fn ($record) => is_null($record->email_verified_at))
+                ->action(fn ($record) => $record->markEmailAsVerified()),
         ];
     }
 }

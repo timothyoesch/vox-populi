@@ -1,27 +1,43 @@
 {
   "resources/css/app.scss": {
-    "file": "assets/app-Ck6AyeON.css",
+    "file": "assets/app-BZH2HPGn.css",
     "src": "resources/css/app.scss",
     "isEntry": true
   },
-  "resources/fonts/FuturaPT-Bold.woff2": {
-    "file": "assets/FuturaPT-Bold-DCbkVlJN.woff2",
-    "src": "resources/fonts/FuturaPT-Bold.woff2"
+  "resources/fonts/poppins-latin-400-italic.woff": {
+    "file": "assets/poppins-latin-400-italic-BPejoDS-.woff",
+    "src": "resources/fonts/poppins-latin-400-italic.woff"
   },
-  "resources/fonts/FuturaPT-Book.woff2": {
-    "file": "assets/FuturaPT-Book-Bnx_fqib.woff2",
-    "src": "resources/fonts/FuturaPT-Book.woff2"
+  "resources/fonts/poppins-latin-400-italic.woff2": {
+    "file": "assets/poppins-latin-400-italic-B4GYq972.woff2",
+    "src": "resources/fonts/poppins-latin-400-italic.woff2"
   },
-  "resources/fonts/graph-black-web.woff2": {
-    "file": "assets/graph-black-web-TxNZJ6zt.woff2",
-    "src": "resources/fonts/graph-black-web.woff2"
+  "resources/fonts/poppins-latin-400-normal.woff": {
+    "file": "assets/poppins-latin-400-normal-BOb3E3N0.woff",
+    "src": "resources/fonts/poppins-latin-400-normal.woff"
   },
-  "resources/fonts/graph-bold-web.woff2": {
-    "file": "assets/graph-bold-web-5Kp2IsHx.woff2",
-    "src": "resources/fonts/graph-bold-web.woff2"
+  "resources/fonts/poppins-latin-400-normal.woff2": {
+    "file": "assets/poppins-latin-400-normal-cpxAROuN.woff2",
+    "src": "resources/fonts/poppins-latin-400-normal.woff2"
+  },
+  "resources/fonts/poppins-latin-700-italic.woff": {
+    "file": "assets/poppins-latin-700-italic-CW91C-LJ.woff",
+    "src": "resources/fonts/poppins-latin-700-italic.woff"
+  },
+  "resources/fonts/poppins-latin-700-italic.woff2": {
+    "file": "assets/poppins-latin-700-italic-RKf6esGj.woff2",
+    "src": "resources/fonts/poppins-latin-700-italic.woff2"
+  },
+  "resources/fonts/poppins-latin-700-normal.woff": {
+    "file": "assets/poppins-latin-700-normal-BVuQR_eA.woff",
+    "src": "resources/fonts/poppins-latin-700-normal.woff"
+  },
+  "resources/fonts/poppins-latin-700-normal.woff2": {
+    "file": "assets/poppins-latin-700-normal-Qrb0O0WB.woff2",
+    "src": "resources/fonts/poppins-latin-700-normal.woff2"
   },
   "resources/js/app.js": {
-    "file": "assets/app-C1-XIpUa.js",
+    "file": "assets/app-l0sNRNKZ.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true

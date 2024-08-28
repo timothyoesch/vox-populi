@@ -6,12 +6,16 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "bezhansalleh/filament-language-switch": "^3.1",
+        "bezhansalleh/filament-shield": "^3.2",
         "filament/filament": "^3.2",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
-        "pxlrbt/filament-activity-log": "^1.1"
+        "pxlrbt/filament-activity-log": "^1.1",
+        "tomatophp/filament-users": "^1.0"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.13",
         "fakerphp/faker": "^1.23",
         "kkomelin/laravel-translatable-string-exporter": "^1.22",
         "laravel-shift/blueprint": "^2.10",

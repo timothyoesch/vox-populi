@@ -1,7 +1,0 @@
-Les ultra-riches prennent la Suisse en otage. Ripostons ! La couverture médiatique de l'initiative pour l'avenir de ces dernière semaines l'a montré : elle touche un point sensible. Environ deux ans avant la votation, Martullo-Blocher, Spuhler et compagnie nous menacent déjà de fuir la Suisse et d'autres essaient de faire invalider notre initiative. Ces actions sont profondément antidémocratiques. À défaut d'arguments rationnels contre notre initiative, les plus riches se retrouvent à recourir à la menace et à la peur. Pas avec nous !
-
-Avec un impôt pour l'avenir de 50 % sur les héritages et donations au-dessus d'une base intouchée de 50 millions, nous récolterons l'argent nécessaire à une protection du climat socialement juste. Cet impôt ne concernerait que les 2000 personnes les plus riches du pays environ — celles qui ont tiré profit de ce système économique basé sur l'explotiation de notre environnement.
-
-Avec le produit de cet impôt sur les successions, nous pourrons enfin financer une protection du climat conséquente et socialement juste comme nous en avons si urgemment besoin ! Les plus riches de ce pays veulent très manifestement empêcher cette bifurcation.
-
-Nous ne nous laisserons pas intimider ! Ce ne sont pas les plus riches qui devraient pouvoir décider de notre avenir mais NOUS, l'ensemble de la population. Serrons-nous les coudes et ripostons à cette attaque contre notre démocratie ! Rejoins le changement aujourd'hui !

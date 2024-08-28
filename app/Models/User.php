@@ -2,16 +2,18 @@
 
 namespace App\Models;
 
+use BezhanSalleh\FilamentShield\Traits\HasPanelShield;
 use Filament\Panel;
 use Illuminate\Notifications\Notifiable;
 use Filament\Models\Contracts\FilamentUser;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable implements MustVerifyEmail, FilamentUser
 {
-    use HasFactory, Notifiable;
+    use HasFactory, Notifiable, HasRoles, HasPanelShield;
 
     /**
      * The attributes that are mass assignable.
@@ -52,13 +54,6 @@ class User extends Authenticatable implements MustVerifyEmail, FilamentUser
      */
     public function canAccessPanel(Panel $panel): bool
     {
-        if (env("APP_ENV") === "local") {
-            return true;
-        } else {
-            $allowedUserDomains = env("APP_ALLOWED_USER_DOMAINS", "");
-            $allowedUserDomains = explode(",", $allowedUserDomains);
-            $userDomain = explode("@", $this->email)[1];
-            return in_array($userDomain, $allowedUserDomains);
-        }
+        return $this->hasRole('super_admin') || $this->user_verified_at !== null;
     }
 }

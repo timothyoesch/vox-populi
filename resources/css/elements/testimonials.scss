@@ -1,0 +1,17 @@
+.vpb-testimonials {
+    &__controls {
+        &__pagination {
+
+            @apply w-full sm:w-fit;
+
+            &__page {
+                background-color: white;
+
+                &[data-active="true"] {
+                    background-color: theme('colors.foreground');
+                }
+
+            }
+        }
+    }
+}

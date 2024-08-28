@@ -17,7 +17,36 @@ class ConfigurationResource extends Resource
 {
     protected static ?string $model = Configuration::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-cog';
+
+    public static function getNavigationGroup(): ?string
+    {
+        return __("labels.navigation.settings");
+    }
+
+    /**
+     * Translate navigation label
+     */
+    public static function getNavigationLabel(): string
+    {
+        return __('labels.navigation.configurations');
+    }
+
+    /**
+     * Translate navigation singular label
+     */
+    public static function getModelLabel(): string
+    {
+        return __('labels.navigation.configuration');
+    }
+
+    /**
+     * Translate navigation plural label
+     */
+    public static function getPluralModelLabel(): string
+    {
+        return __('labels.navigation.configurations');
+    }
 
     public static function form(Form $form): Form
     {
@@ -81,29 +110,5 @@ class ConfigurationResource extends Resource
             'edit' => Pages\EditConfiguration::route('/{record}/edit'),
             'view' => Pages\ViewConfiguration::route('/{record}'),
         ];
-    }
-
-    /**
-     * Translate navigation label
-     */
-    public static function getNavigationLabel(): string
-    {
-        return __('labels.navigation.configurations');
-    }
-
-    /**
-     * Translate navigation singular label
-     */
-    public static function getModelLabel(): string
-    {
-        return __('labels.navigation.configuration');
-    }
-
-    /**
-     * Translate navigation plural label
-     */
-    public static function getPluralModelLabel(): string
-    {
-        return __('labels.navigation.configurations');
     }
 }
