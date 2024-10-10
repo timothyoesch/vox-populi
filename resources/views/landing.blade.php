@@ -17,7 +17,11 @@
                 \Illuminate\Mail\Markdown::parse(file_get_contents(resource_path('content/petition.de.md')))
             }}
             <div id="support">
+                {{__("pages.landing.sections.supporters.count", ["count" => \App\Models\Supporter::count()])}}
                 <x-supporters.form />
+            </div>
+            <div class="w-full fixed bottom-0 left-0 flex justify-center">
+                <a href="#support" class="bg-black text-white uppercase px-4 py-1 font-black text-lg">{{__("pages.landing.sections.supporters.form.submit")}}</a>
             </div>
         </div>
     </div>

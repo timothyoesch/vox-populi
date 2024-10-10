@@ -91,6 +91,7 @@
     "pages.landing.sections.supporters.form.public": "Ich bin einverstanden, dass mein Name auf der Website als Unterstützer:in angezeigt wird.",
     "pages.landing.sections.supporters.form.optin": "Ich möchte mehr Infos. Mehr dazu im <a href=\"\" class=\"underline\">Datenschutz</a>",
     "pages.landing.sections.supporters.form.submit": "Jetzt unterzeichnen",
+    "pages.landing.sections.supporters.count": "Bereits :count Personen haben unsere Petition unterzeichnet!",
     "og.title": "Einreiseverbot für Martin Sellner!",
     "og.description": "Kein Platz für rechtsextreme Hetze in der Schweiz und überall! Unterstütze das Einreiseverbot für Martin Sellner!"
 }
