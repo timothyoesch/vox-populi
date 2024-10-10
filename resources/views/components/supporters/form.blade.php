@@ -18,10 +18,10 @@
                 <label for="city" class="sellner-cta__form__fieldgroup__label">{{__("pages.landing.sections.supporters.form.city")}}</label>
                 <input type="text" name="customFields[city]" id="city" class="sellner-cta__form__fieldgroup__text" required>
             </div>
-            <div class="sellner-cta__form__fieldgroup col-span-full">
+            {{-- <div class="sellner-cta__form__fieldgroup col-span-full">
                 <label for="position" class="sellner-cta__form__fieldgroup__label">{{__("pages.landing.sections.supporters.form.position")}}</label>
                 <input type="text" name="customFields[position]" id="position" class="sellner-cta__form__fieldgroup__text" placeholder="{{__("pages.landing.sections.supporters.form.placeholders.optional")}}">
-            </div>
+            </div> --}}
             <div class="sellner-cta__form__fieldgroup">
                 <label for="email" class="sellner-cta__form__fieldgroup__label">{{__("pages.landing.sections.supporters.form.email")}}</label>
                 <input type="email" name="email" id="email" class="sellner-cta__form__fieldgroup__text" required>
