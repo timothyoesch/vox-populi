@@ -28,7 +28,7 @@ class SupporterController extends Controller
         } catch (\Illuminate\Validation\ValidationException $th) {
             return $th->validator->errors();
         }
-        $customFields = $validated['customFields'] || [];
+        $customFields = $validated['customFields'] ?? [];
         unset($validated['customFields']);
 
         if (!isset($validated['optin'])) {
