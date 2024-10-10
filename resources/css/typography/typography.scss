@@ -1,12 +1,8 @@
 html {
-    font-size: clamp(14px, 1.041666666666667vw, 18px);
+    font-size: clamp(20px, 1.951666666666667vw, 36px);
     font-family: "Poppins", sans-serif;
 }
 
 p+p {
     margin-top: 1em;
-}
-
-::selection {
-    @apply bg-fuchsia-900 text-white;
 }

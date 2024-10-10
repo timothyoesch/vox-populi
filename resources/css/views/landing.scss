@@ -1,3 +1,51 @@
 html {
     @apply bg-background text-foreground font-poppins;
 }
+
+.sellner-container {
+    @apply max-w-[1442px] px-3 md:px-6 lg:px-8 mx-auto;
+}
+
+.heroine-image {
+    @apply w-full flex;
+
+    .heroine-title {
+
+        h1 {
+            font-weight: 900;
+            text-transform: uppercase;
+            line-height: 1;
+            transform: skew(-12deg) rotate(-12deg);
+            transform-origin: center;
+            -webkit-text-stroke: 0.02em theme("colors.background");
+            filter: drop-shadow(-0.1rem 0.1rem 0 theme("colors.background"));
+            font-size: 1.7rem
+        }
+
+        h2 {
+            line-height: 1;
+            transform: skew(-12deg) rotate(-12deg);
+            transform-origin: center;
+        }
+    }
+
+
+    img {
+        filter: drop-shadow(-0.3rem 0.3rem 0 theme("colors.accent"));
+    }
+}
+
+.heroine-title-mobile {
+    h1 {
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 1;
+        transform-origin: center;
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        line-height: 1;
+        transform-origin: center;
+    }
+}

@@ -35,7 +35,7 @@
 </head>
 <body class="antialiased">
 
-    <div id="main-content" class="mb-40">
+    <div id="main-content" class="mb-12">
         {{ $slot }}
     </div>
 

@@ -9,8 +9,9 @@ export default {
     theme: {
         extend: {
             "colors": {
-                "foreground": "#1A2471",
-                "background": "#FFD647"
+                "foreground": "#ffffff",
+                "background": "#CC00A3",
+                "accent": "#00dafb"
             },
             "fontFamily": {
                 "poppins": ["Poppins", "sans-serif"]
