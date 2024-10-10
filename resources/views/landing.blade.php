@@ -1,5 +1,5 @@
 <x-frontend-layout>
-    <div class="sellner-container mt-8">
+    <div class="sellner-container mt-4">
         <div class="heroine-image relative">
             <div class="heroine-title absolute top-0 left-1/2 w-1/2 ml-auto h-full z-20 hidden md:flex flex-col justify-center">
                 <h1>{{__("pages.landing.heroine.title.1")}}</h1>

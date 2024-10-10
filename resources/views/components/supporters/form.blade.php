@@ -1,4 +1,4 @@
-<div class="vpb-cta mt-4">
+<div class="vpb-cta mt-8">
     <div class="sellner-cta__form--container">
         <form action="{{route("supporter.submit")}}" method="POST" class="sellner-cta__form grid md:grid-cols-2 gap-8 mt-4">
             @csrf
