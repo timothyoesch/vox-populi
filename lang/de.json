@@ -36,6 +36,7 @@
     "labels.table.supporter.created_at": "Erstellt am",
     "labels.table.supporter.updated_at": "Aktualisiert am",
     "labels.table.supporter.deleted_at": "Gelöscht am",
+    "labels.table.supporter.is_optin" : "Will Kontakt",
     "lables.actions.activities": "Aktivitäten",
     "labels.navigation.supporters": "Unterstützer*innen",
     "labels.navigation.supporter": "Unterstützer*in",

@@ -135,7 +135,10 @@ class SupporterResource extends Resource
                     ->exporter(SupporterExporter::class),
             ])
             ->filters([
-                //
+                Tables\Filters\Filter::make('is_optin')
+                    ->label(__('labels.table.supporter.is_optin'))
+                    ->query(fn (Builder $query): Builder => $query->where('optin', true))
+                    ->toggle()
             ])
             ->actions([
                 Tables\Actions\ViewAction::make(),
