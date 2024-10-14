@@ -25,11 +25,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="/images/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#CC00A3">
+    <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#280050">
     <link rel="shortcut icon" href="/images/favicon/favicon.ico">
-    <meta name="msapplication-TileColor" content="#CC00A3">
+    <meta name="msapplication-TileColor" content="#280050">
     <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#CC00A3">
+    <meta name="theme-color" content="#280050">
 
     @vite("resources/css/app.scss")
 </head>
