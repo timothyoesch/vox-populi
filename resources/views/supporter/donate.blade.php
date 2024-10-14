@@ -6,7 +6,7 @@
                 file_get_contents(resource_path('content/donate.' . app()->getLocale() . '.md'))
             )
         !!}
-        <script language="javascript" src="https://widget.raisenow.com/widgets/lema/gsoas-948f/js/dds-init-widget-de.js" type="text/javascript"></script>
+        <script language="javascript" src="https://widget.raisenow.com/widgets/lema/gsoas-948f/js/dds-init-widget-{{app()->getLocale()}}.js" type="text/javascript"></script>
         <script type="text/javascript">
             window.rnwWidget = window.rnwWidget || {};
             window.rnwWidget.configureWidget = function(options) {
