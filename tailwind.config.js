@@ -9,12 +9,12 @@ export default {
     theme: {
         extend: {
             "colors": {
-                "foreground": "#ffffff",
-                "background": "#CC00A3",
-                "accent": "#00dafb"
+                "background": "#280050",
+                "foreground": "#FFE53E",
             },
             "fontFamily": {
-                "poppins": ["Poppins", "sans-serif"]
+                "inter": ["Inter", "sans-serif"],
+                "garamond": ["EB Garamond", "serif"],
             }
         },
     },

@@ -1,40 +1,8 @@
 {
   "resources/css/app.scss": {
-    "file": "assets/app-C-e0fz0v.css",
+    "file": "assets/app-BgsfSbnj.css",
     "src": "resources/css/app.scss",
     "isEntry": true
-  },
-  "resources/fonts/poppins-latin-400-italic.woff": {
-    "file": "assets/poppins-latin-400-italic-BPejoDS-.woff",
-    "src": "resources/fonts/poppins-latin-400-italic.woff"
-  },
-  "resources/fonts/poppins-latin-400-italic.woff2": {
-    "file": "assets/poppins-latin-400-italic-B4GYq972.woff2",
-    "src": "resources/fonts/poppins-latin-400-italic.woff2"
-  },
-  "resources/fonts/poppins-latin-400-normal.woff": {
-    "file": "assets/poppins-latin-400-normal-BOb3E3N0.woff",
-    "src": "resources/fonts/poppins-latin-400-normal.woff"
-  },
-  "resources/fonts/poppins-latin-400-normal.woff2": {
-    "file": "assets/poppins-latin-400-normal-cpxAROuN.woff2",
-    "src": "resources/fonts/poppins-latin-400-normal.woff2"
-  },
-  "resources/fonts/poppins-latin-700-italic.woff": {
-    "file": "assets/poppins-latin-700-italic-CW91C-LJ.woff",
-    "src": "resources/fonts/poppins-latin-700-italic.woff"
-  },
-  "resources/fonts/poppins-latin-700-italic.woff2": {
-    "file": "assets/poppins-latin-700-italic-RKf6esGj.woff2",
-    "src": "resources/fonts/poppins-latin-700-italic.woff2"
-  },
-  "resources/fonts/poppins-latin-700-normal.woff": {
-    "file": "assets/poppins-latin-700-normal-BVuQR_eA.woff",
-    "src": "resources/fonts/poppins-latin-700-normal.woff"
-  },
-  "resources/fonts/poppins-latin-700-normal.woff2": {
-    "file": "assets/poppins-latin-700-normal-Qrb0O0WB.woff2",
-    "src": "resources/fonts/poppins-latin-700-normal.woff2"
   },
   "resources/js/app.js": {
     "file": "assets/app-BZ7OUHX4.js",

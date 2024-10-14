@@ -55,12 +55,16 @@ class SupporterController extends Controller
             $supporter->markEmailAsVerified();
         }
         if ($supporter) {
-            return response()->json([
-                "status" => "success",
-                "code" => 200,
-                "message" => $message ?? __("controllers.supporter.store.success", ["name" => $supporter->firstname]),
-                "supporter" => $supporter
-            ]);
+            if ($request->ajax()) {
+                return response()->json([
+                    "status" => "success",
+                    "code" => 200,
+                    "message" => $message ?? __("controllers.supporter.store.success", ["name" => $supporter->firstname]),
+                    "supporter" => $supporter
+                ]);
+            } else {
+                return redirect()->route('supporter.success', ['name' => $supporter->firstname]);
+            }
         } else {
             return response()->json(['message' => 'Supporter creation failed'], 500);
         }

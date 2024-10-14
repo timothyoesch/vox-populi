@@ -1,0 +1,11 @@
+html {
+    background-color: theme("colors.background");
+    color: theme("colors.foreground");
+    scroll-behavior: smooth;
+}
+
+.appeal-container {
+    max-width: 1080px;
+
+    @apply px-4 md:px-8 mx-auto;
+}

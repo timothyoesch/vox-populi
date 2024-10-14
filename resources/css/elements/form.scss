@@ -1,4 +1,4 @@
-.sellner-cta__form {
+.appeal-cta__form {
 
     &__fieldgroup {
         position: relative;
@@ -27,7 +27,7 @@
             display: flex;
             gap: 0.5rem;
 
-            .sellner-cta__form__fieldgroup__label {
+            .appeal-cta__form__fieldgroup__label {
                 position: relative;
                 top: 0;
                 left: 0;
@@ -45,8 +45,10 @@
             border: 2px solid theme("colors.foreground");
             border-radius: 0.25rem;
             padding: 0.5rem 1rem;
+            font-family: "Inter", "sans";
             font-size: 1rem;
-            font-weight: 700;
+            text-transform: uppercase;
+            font-weight: 900;
             cursor: pointer;
             transition: all 0.1s;
 
@@ -64,7 +66,7 @@
     }
 }
 
-.vpb-cta {
+.appeal-cta {
     &__success {
         background-color: theme("colors.green.200");
         color: theme("colors.green.800");

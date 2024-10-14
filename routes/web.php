@@ -9,10 +9,21 @@ Route::get('/', function () {
     return view('landing', [
         'supporters' => Supporter::where('email_verified_at', '!=', null)->where('public', true)->get(),
     ]);
-});
+})->name('landing');
 
 Route::prefix("supporter")->group(function () {
     Route::post('submit', [SupporterController::class, 'store'])->name('supporter.submit');
+
+    Route::get(__("routes.supporters.success"), function () {
+        if (!request()->name) {
+            return redirect()->route('landing');
+        }
+        return view('supporter.success');
+    })->name('supporter.success');
+
+    Route::get(__("routes.supporters.donate"), function () {
+        return view('supporter.donate');
+    })->name('supporter.donate');
 
     Route::get('verify/{id}/{token}', [SupporterController::class, 'verify'])->name('supporter.confirm-email');
 

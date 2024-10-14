@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "./typography/fonts.scss";
 @import "./typography/typography.scss";
 
 
+@import "./views/base.scss";
 @import "./views/landing.scss";
 
 @import "./elements/form.scss";
+@import "./elements/shareButtons.scss";
