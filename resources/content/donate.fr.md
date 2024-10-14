@@ -1,1 +1,1 @@
-Unsere Arbeit basiert auf viel freiwilliger Arbeit: Finanziert sind wir durch grosszügige Spenden von Menschen wir dir. *Kannst du uns unterstützen?*
+Notre travail repose sur beaucoup de bénévolat : nous sommes financés par les dons généreux de personnes comme vous. *Pouvez-vous nous soutenir ?*
