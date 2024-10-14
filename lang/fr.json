@@ -76,7 +76,7 @@
     "labels.table.actions.user.verify": "labels.table.actions.user.verify",
     "pages.landing.intro": "Appel urgent : arrêt immédiat des relations militaires et d'armement avec Israël et les pays du Proche et du Moyen-Orient !",
     "pages.landing.title": "<span>Jetzt handeln!</span>",
-    "pages.landing.lead": "Nous demandons au Conseil fédéral de suspendre immédiatement toute collaboration militaire et toute relation d'armement avec Israël et les autres pays du Proche et du Moyen-Orient.",
+    "pages.landing.lead": "Nous demandons au Conseil fédéral de <span class=\"underline\">suspendre immédiatement toute collaboration militaire et toute relation</span> d'armement avec Israël et les autres pays du Proche et du Moyen-Orient.",
     "pages.landing.cta": "Signez l'appel maintenant !",
     "pages.landing.cta.anchor": "signer",
     "pages.landing.supporters.title": "Soutenez notre appel !",
