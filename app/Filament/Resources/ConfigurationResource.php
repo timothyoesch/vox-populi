@@ -56,7 +56,26 @@ class ConfigurationResource extends Resource
                     ->label(__("labels.form.configuration.key"))
                     ->required()
                     ->maxLength(255),
+                Forms\Components\Tabs::make("dataprotectiondisclaimer")
+                    ->columnSpanFull()
+                    ->tabs(static::getLocaleTabs()),
             ]);
+    }
+
+    protected static function getLocaleTabs(): array
+    {
+        $localeTabs = [];
+        foreach (config('app.available_locales') as $locale) {
+            $localeTabs[] = Forms\Components\Tabs\Tab::make($locale)
+                ->schema([
+                    Forms\Components\RichEditor::make("dataprotectiondisclaimer.{$locale}")
+                        ->label("dataprotectiondisclaimer.label.labels.{$locale}")
+                        ->required()
+                        ->maxLength(255),
+                ])
+                ->label("languages.{$locale}");
+        }
+        return $localeTabs;
     }
 
     public static function table(Table $table): Table
@@ -87,6 +106,7 @@ class ConfigurationResource extends Resource
             ])
             ->actions([
                 Tables\Actions\ViewAction::make(),
+                Tables\Actions\EditAction::make(),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([

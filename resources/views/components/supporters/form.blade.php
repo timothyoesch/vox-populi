@@ -1,3 +1,7 @@
+@php
+    $configuration = \App\Models\Configuration::where("key", "=", request()->s)->first() ?? \App\Models\Configuration::first();
+@endphp
+
 <div class="appeal-cta mt-8">
     <div class="appeal-cta__form--container">
         <form action="{{route("supporter.submit")}}" method="POST" class="appeal-cta__form grid md:grid-cols-2 gap-8 mt-4">
@@ -24,13 +28,15 @@
             </div>
             <div class="appeal-cta__form__fieldgroup appeal-cta__form__fieldgroup--checkbox col-span-full">
                 <input type="checkbox" name="optin" id="optin" class="appeal-cta__form__checkbox" value="1">
-                <label for="optin" class="appeal-cta__form__fieldgroup__label">{!! __("pages.landing.supporters.form.optin") !!}</label>
+                <label for="optin" class="appeal-cta__form__fieldgroup__label">
+                    {!! $configuration->dataprotectiondisclaimer[app()->getLocale()] !!}
+                </label>
             </div>
             <div class="appeal-cta__form__fieldgroup col-span-full flex justify-end">
                 <button type="submit" class="appeal-cta__form__fieldgroup__submit">{{__("pages.landing.supporters.form.submit")}}</button>
             </div>
             <input type="hidden" name="locale" value="{{app()->getLocale()}}">
-            <input type="hidden" name="configuration_id" value="{{\App\Models\Configuration::first()->id}}">
+            <input type="hidden" name="configuration_id" value="{{$configuration->id}}">
         </form>
     </div>
 </div>

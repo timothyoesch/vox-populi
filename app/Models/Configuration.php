@@ -18,6 +18,7 @@ class Configuration extends Model
      */
     protected $casts = [
         'id' => 'integer',
+        'dataprotectiondisclaimer' => 'array',
     ];
 
     public function supporters(): HasMany
