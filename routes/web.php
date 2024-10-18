@@ -21,6 +21,13 @@ Route::prefix("supporter")->group(function () {
         return view('supporter.success');
     })->name('supporter.success');
 
+    Route::get("thanks", function () {
+        if (!request()->name) {
+            return redirect()->route('landing');
+        }
+        return view('supporter.success-campax');
+    })->name('supporter.success.campax');
+
     Route::get(__("routes.supporters.donate"), function () {
         return view('supporter.donate');
     })->name('supporter.donate');

@@ -63,7 +63,7 @@ class SupporterController extends Controller
                     "supporter" => $supporter
                 ]);
             } else {
-                return redirect()->route('supporter.success', ['name' => $supporter->firstname]);
+                return redirect()->route($supporter->configuration->successroute, ["name" => $supporter->firstname, "source" => $supporter->configuration->key]);
             }
         } else {
             return response()->json(['message' => 'Supporter creation failed'], 500);

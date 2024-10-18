@@ -8,12 +8,13 @@ use Illuminate\View\Component;
 
 class ShareButtons extends Component
 {
+    public bool $end;
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public function __construct($end = false)
     {
-        //
+        $this->end = $end;
     }
 
     /**
