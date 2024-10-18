@@ -56,6 +56,10 @@ class ConfigurationResource extends Resource
                     ->label(__("labels.form.configuration.key"))
                     ->required()
                     ->maxLength(255),
+                Forms\Components\Select::make("successroute")
+                    ->label(__("labels.form.configuration.successroute"))
+                    ->required()
+                    ->options(static::getSuccessRouteOptions()),
                 Forms\Components\Tabs::make("dataprotectiondisclaimer")
                     ->columnSpanFull()
                     ->tabs(static::getLocaleTabs()),
@@ -76,6 +80,19 @@ class ConfigurationResource extends Resource
                 ->label("languages.{$locale}");
         }
         return $localeTabs;
+    }
+
+    public static function getSuccessRouteOptions(): array
+    {
+        $routes = \Illuminate\Support\Facades\Route::getRoutes()->getRoutesByName();
+        $routes = array_filter($routes, function ($route) {
+            return str_contains($route, 'supporter') && !str_contains($route, 'filament');
+        }, ARRAY_FILTER_USE_KEY);
+        $options = [];
+        foreach ($routes as $key => $route) {
+            $options[$key] = $key;
+        }
+        return $options;
     }
 
     public static function table(Table $table): Table

@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('configurations', function (Blueprint $table) {
-            $table->json("dataprotectiondisclaimer")->nullable();
+            $table->string("successroute");
         });
     }
 
@@ -22,7 +22,7 @@ return new class extends Migration
     public function down(): void
     {
         Schema::table('configurations', function (Blueprint $table) {
-            $table->dropColumn("dataprotectiondisclaimer");
+            $table->dropColumn("successroute");
         });
     }
 };
