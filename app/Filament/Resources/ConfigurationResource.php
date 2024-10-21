@@ -74,8 +74,7 @@ class ConfigurationResource extends Resource
                 ->schema([
                     Forms\Components\RichEditor::make("dataprotectiondisclaimer.{$locale}")
                         ->label("dataprotectiondisclaimer.label.labels.{$locale}")
-                        ->required()
-                        ->maxLength(255),
+                        ->required(),
                 ])
                 ->label("languages.{$locale}");
         }
