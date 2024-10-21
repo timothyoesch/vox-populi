@@ -1,0 +1,1 @@
+*Grazie per aver sottoscritto il nostro appello!* Dobbiamo far pressione al Consiglio federale in modo che prenda finalmente la propria responsabilità interrompendo il prima possibile qualsiasi collaborazione militare e in tema di armamenti con Israele e i Paesi del Medio Oriente. *Condividi questo appello nella tua cerchia di conoscenze:*
