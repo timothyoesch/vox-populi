@@ -37,10 +37,16 @@ class SupporterController extends Controller
         if (!isset($validated['public'])) {
             $validated['public'] = false;
         }
-        $supporter = Supporter::withTrashed()->updateOrCreate(
+        $configuration_id = $validated['configuration_id'];
+        unset($validated['configuration_id']);
+        $supporter = Supporter::withTrashed()->firstOrNew(
             ['email' => $validated['email']],
             $validated
         );
+        if (!$supporter->exists) {
+            $supporter->configuration_id = $configuration_id;
+        }
+        $supporter->save();
         if ($supporter->trashed()) {
             $supporter->restore();
         }
