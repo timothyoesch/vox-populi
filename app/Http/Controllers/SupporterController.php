@@ -39,14 +39,13 @@ class SupporterController extends Controller
         }
         $configuration_id = $validated['configuration_id'];
         unset($validated['configuration_id']);
-        $supporter = Supporter::withTrashed()->firstOrNew(
-            ['email' => $validated['email']],
+        $supporter = Supporter::withTrashed()->updateOrCreate(
+            [
+                'email' => $validated['email'],
+                'configuration_id' => $configuration_id
+            ],
             $validated
         );
-        if (!$supporter->exists) {
-            $supporter->configuration_id = $configuration_id;
-        }
-        $supporter->save();
         if ($supporter->trashed()) {
             $supporter->restore();
         }
