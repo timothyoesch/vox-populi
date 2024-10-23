@@ -13,6 +13,7 @@
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
         "pxlrbt/filament-activity-log": "^1.1",
+        "rupadana/filament-api-service": "^3.3",
         "tomatophp/filament-users": "^1.0"
     },
     "require-dev": {

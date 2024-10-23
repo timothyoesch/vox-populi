@@ -47,14 +47,13 @@ class AdminPanelProvider extends PanelProvider
                 DisableBladeIconComponents::class,
                 DispatchServingFilamentEvent::class,
             ])
-            ->registration()
             ->passwordReset()
-            ->emailVerification()
             ->profile()
             ->databaseNotifications()
             ->plugins([
                 \BezhanSalleh\FilamentShield\FilamentShieldPlugin::make(),
-                \TomatoPHP\FilamentUsers\FilamentUsersPlugin::make()
+                \TomatoPHP\FilamentUsers\FilamentUsersPlugin::make(),
+                \Rupadana\ApiService\ApiServicePlugin::make()
             ])
             ->authMiddleware([
                 Authenticate::class,

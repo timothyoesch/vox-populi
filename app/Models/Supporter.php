@@ -103,4 +103,21 @@ class Supporter extends Model
         $this->email_verified_at = now();
         $this->save();
     }
+
+    /**
+     * Change default query to only show supporters from user's configurations unless super_admin
+     */
+    public function newQuery()
+    {
+        $query = parent::newQuery();
+        if (!auth()->user()) {
+            return $query;
+        }
+        if (!auth()->user()->hasRole('super_admin')) {
+            $query->whereHas('configuration', function ($query) {
+                $query->whereIn('id', auth()->user()->configurations->pluck('id'));
+            });
+        }
+        return $query;
+    }
 }

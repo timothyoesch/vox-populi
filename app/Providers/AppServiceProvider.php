@@ -24,5 +24,6 @@ class AppServiceProvider extends ServiceProvider
             $switch
                 ->locales(explode(',', env('APP_AVAILABLE_LOCALES', 'en')));
         });
+        \Illuminate\Support\Facades\Gate::policy(\Spatie\Permission\Models\Role::class, \App\Policies\RolePolicy::class);
     }
 }
