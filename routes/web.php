@@ -38,3 +38,7 @@ Route::prefix("supporter")->group(function () {
         return view('supporter.verify-success');
     })->name('supporter.verify.success');
 });
+
+Route::get('/scheduler', function() {
+    Artisan::call('schedule:run');
+});
