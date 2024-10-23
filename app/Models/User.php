@@ -7,14 +7,18 @@ use Laravel\Sanctum\HasApiTokens;
 use Spatie\Permission\Traits\HasRoles;
 use Illuminate\Notifications\Notifiable;
 use Filament\Models\Contracts\FilamentUser;
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use BezhanSalleh\FilamentShield\Traits\HasPanelShield;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class User extends Authenticatable implements MustVerifyEmail, FilamentUser
+class User extends Authenticatable implements FilamentUser
 {
-    use HasFactory, Notifiable, HasRoles, HasPanelShield, HasApiTokens;
+    use
+        HasFactory,
+        Notifiable,
+        HasRoles,
+        HasPanelShield,
+        HasApiTokens;
 
     /**
      * The attributes that are mass assignable.
@@ -56,5 +60,21 @@ class User extends Authenticatable implements MustVerifyEmail, FilamentUser
     public function canAccessPanel(Panel $panel): bool
     {
         return $this->hasRole('super_admin') || $this->user_verified_at !== null;
+    }
+
+    public function configurations(): \Illuminate\Database\Eloquent\Relations\BelongsToMany
+    {
+        return $this->belongsToMany(Configuration::class);
+    }
+
+    public function configurationChallenge($configuration_id)
+    {
+        if ($this->hasRole('super_admin')) {
+            return true;
+        } else if ($this->configurations->contains($configuration_id)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }

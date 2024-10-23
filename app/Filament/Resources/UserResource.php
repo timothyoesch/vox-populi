@@ -20,6 +20,7 @@ use Filament\Tables\Actions\ActionGroup;
 use Filament\Tables\Actions\DeleteAction;
 use Illuminate\Database\Eloquent\Builder;
 use App\Filament\Resources\UserResource\Pages;
+use Filament\Forms\Components\Select;
 use STS\FilamentImpersonate\Tables\Actions\Impersonate;
 
 class UserResource extends Resource
@@ -77,7 +78,12 @@ class UserResource extends Resource
             DateTimePicker::make('user_verified_at')
                 ->label(__('labels.form.user.verified'))
                 ->format('Y-m-d H:i:s')
-                ->default(now()->format('Y-m-d H:i:s'))
+                ->default(now()->format('Y-m-d H:i:s')),
+            Select::make('confifugations')
+                ->multiple()
+                ->preload()
+                ->relationship('configurations', 'key')
+                ->label(__('user.resource.configurations'))
         ];
 
 
