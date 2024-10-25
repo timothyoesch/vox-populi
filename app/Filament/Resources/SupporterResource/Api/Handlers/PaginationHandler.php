@@ -15,7 +15,6 @@ class PaginationHandler extends Handlers {
     {
         $query = static::getEloquentQuery();
         $model = static::getModel();
-
         $query = QueryBuilder::for($query)
         ->allowedFields($this->getAllowedFields() ?? [])
         ->allowedSorts($this->getAllowedSorts() ?? [])

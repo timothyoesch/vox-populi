@@ -2,13 +2,15 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+use App\Models\Supporter;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Rupadana\ApiService\Contracts\HasAllowedFilters;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
-class Configuration extends Model
+class Configuration extends Model implements HasAllowedFilters
 {
     use HasFactory, SoftDeletes;
 
@@ -48,6 +50,17 @@ class Configuration extends Model
             });
         }
         return $query;
+    }
+
+    public static function getAllowedFilters(): array
+    {
+        return [
+            'key',
+            'value',
+            'created_at',
+            'updated_at',
+            'deleted_at',
+        ];
     }
 
 }

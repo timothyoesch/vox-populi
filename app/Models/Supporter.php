@@ -6,11 +6,12 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Rupadana\ApiService\Contracts\HasAllowedFilters;
 use Spatie\Activitylog\LogOptions;
 use Spatie\Activitylog\Traits\LogsActivity;
 use Illuminate\Notifications\Notifiable;
 
-class Supporter extends Model
+class Supporter extends Model implements HasAllowedFilters
 {
     use HasFactory, SoftDeletes, LogsActivity, Notifiable;
 
@@ -119,5 +120,18 @@ class Supporter extends Model
             });
         }
         return $query;
+    }
+
+    public static function getAllowedFilters(): array
+    {
+        return [
+            'configuration_id',
+            'email',
+            'firstname',
+            'lastname',
+            'created_at',
+            'updated_at',
+            'deleted_at',
+        ];
     }
 }
