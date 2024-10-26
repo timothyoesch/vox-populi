@@ -139,6 +139,6 @@ class Supporter extends Model implements HasAllowedFilters
 
     public function scopeCreatedAfter(Builder $query, $value)
     {
-        return $query->whereDate('created_at', '>=', Carbon::parse($value));
+        return $query->where('created_at', '>=', Carbon::parse($value));
     }
 }
