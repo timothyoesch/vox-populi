@@ -4,6 +4,7 @@ namespace App\Filament\Resources\ConfigurationResource\Api\Handlers;
 use Illuminate\Http\Request;
 use Spatie\QueryBuilder\QueryBuilder;
 use Rupadana\ApiService\Http\Handlers;
+use Spatie\QueryBuilder\AllowedFilter;
 use App\Filament\Resources\ConfigurationResource;
 
 class SupportersHandler extends Handlers {
@@ -19,10 +20,20 @@ class SupportersHandler extends Handlers {
 
         $query = $query->first()->supporters();
 
+        // if (request()->filter && request()->filter["created_at"]) {
+        //     $query = $query->where('created_at', '>=', request()->filter["created_at"]);
+        // }
+
         $query = QueryBuilder::for($query)
             ->allowedFields($this->getAllowedFields() ?? [])
             ->allowedSorts($this->getAllowedSorts() ?? [])
-            ->allowedFilters($this->getAllowedFilters() ?? [])
+            ->allowedFilters([
+                'configuration_id',
+                'email',
+                'firstname',
+                'lastname',
+                AllowedFilter::scope('created_after'),
+            ])
             ->allowedIncludes($this->getAllowedIncludes() ?? [])
             ->paginate(request()->query('per_page'))
             ->appends(request()->query());

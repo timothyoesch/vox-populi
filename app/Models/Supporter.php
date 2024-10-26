@@ -2,14 +2,16 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Carbon\Carbon;
+use Spatie\Activitylog\LogOptions;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Notifications\Notifiable;
+use Spatie\Activitylog\Traits\LogsActivity;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Rupadana\ApiService\Contracts\HasAllowedFilters;
-use Spatie\Activitylog\LogOptions;
-use Spatie\Activitylog\Traits\LogsActivity;
-use Illuminate\Notifications\Notifiable;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Supporter extends Model implements HasAllowedFilters
 {
@@ -133,5 +135,10 @@ class Supporter extends Model implements HasAllowedFilters
             'updated_at',
             'deleted_at',
         ];
+    }
+
+    public function scopeCreatedAfter(Builder $query, $value)
+    {
+        return $query->whereDate('created_at', '>=', Carbon::parse($value));
     }
 }
