@@ -140,7 +140,11 @@ class SupporterResource extends Resource
                     ->query(fn (Builder $query): Builder => $query->where('optin', true))
                     ->toggle(),
                 Tables\Filters\SelectFilter::make('locale')
-                    ->options(explode(",", env("APP_AVAILABLE_LOCALES"))),
+                    ->options([
+                        'de' => __("labels.form.supporter.locale.de"),
+                        'fr' => __("labels.form.supporter.locale.fr"),
+                        'it' => __("labels.form.supporter.locale.it"),
+                    ])
             ])
             ->actions([
                 Tables\Actions\ViewAction::make(),
