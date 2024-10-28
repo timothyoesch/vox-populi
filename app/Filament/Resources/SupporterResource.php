@@ -138,7 +138,16 @@ class SupporterResource extends Resource
                 Tables\Filters\Filter::make('is_optin')
                     ->label(__('labels.table.supporter.is_optin'))
                     ->query(fn (Builder $query): Builder => $query->where('optin', true))
-                    ->toggle()
+                    ->toggle(),
+                Tables\Filters\Filter::make('language')
+                    ->label(__('labels.table.supporter.language'))
+                    ->options([
+                        'de' => __("labels.form.supporter.locale.de"),
+                        'fr' => __("labels.form.supporter.locale.fr"),
+                        'it' => __("labels.form.supporter.locale.it"),
+                    ])
+                    ->query(fn (Builder $query, $value): Builder => $query->where('locale', $value))
+                    ->toggle(),
             ])
             ->actions([
                 Tables\Actions\ViewAction::make(),
