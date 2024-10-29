@@ -20,10 +20,6 @@ class SupportersHandler extends Handlers {
 
         $query = $query->first()->supporters();
 
-        // if (request()->filter && request()->filter["created_at"]) {
-        //     $query = $query->where('created_at', '>=', request()->filter["created_at"]);
-        // }
-
         $query = QueryBuilder::for($query)
             ->allowedFields($this->getAllowedFields() ?? [])
             ->allowedSorts($this->getAllowedSorts() ?? [])
@@ -33,6 +29,7 @@ class SupportersHandler extends Handlers {
                 'firstname',
                 'lastname',
                 AllowedFilter::scope('created_after'),
+                'locale'
             ])
             ->allowedIncludes($this->getAllowedIncludes() ?? [])
             ->paginate(request()->query('per_page'))
