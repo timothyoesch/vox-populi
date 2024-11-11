@@ -90,7 +90,9 @@ return [
         "vp.ddev.site" => "de",
         "dringender-appell.ch" => "de",
         "appel-urgent.ch" => "fr",
+        "www.appel-urgent.ch" => "fr",
         "appello-urgente.ch" => "it",
+        "www.appello-urgente.ch" => "it",
     ],
 
     /*
