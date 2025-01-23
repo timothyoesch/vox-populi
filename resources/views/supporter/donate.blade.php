@@ -6,7 +6,7 @@
         file_get_contents(resource_path('content/donate.' . app()->getLocale() . '.md'))
     )
         !!}
-        <div class="rnw-tamaro-widget" class="mt-12"></div>
+        <div class="rnw-tamaro-widget mt-8"></div>
 
         <script src="https://tamaro.raisenow.com/gsoa-ch/latest/widget.js"></script>
 
@@ -16,8 +16,18 @@
 
         <style>
             :root {
-                --tamaro-primary-color: #280050;
-                --tamaro-primary-color__hover: #1a002e;
+                --tamaro-primary-color: #ffe53e;
+                --tamaro-primary-color__hover: #ffe53e;
+                --tamaro-primary-bg-color: #190032;
+                --tamaro-bg-color__hover: #190032;
+                --tamaro-bg-color: transparent;
+                --tamaro-text-color: #ffe53e;
+                --tamaro-input-color: #ffe53e;
+                --tamaro-placeholder-color: #ffffff;
+                --tamaro-info-icon-color: #280050;
+                --tamaro-block-header-position-color: #280050;
+                --tamaro-dropdown-bg-color: #280050;
+                --tamaro-button-primary-color: #280050;
             }
 
             #donateNow {
