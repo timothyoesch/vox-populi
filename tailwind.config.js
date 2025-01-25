@@ -9,12 +9,13 @@ export default {
     theme: {
         extend: {
             "colors": {
-                "background": "#280050",
-                "foreground": "#FFE53E",
+                "background": "#fff",
+                "foreground": "#000",
+                "accent": "#248BCC",
+                "secondary": "#88FF00",
             },
             "fontFamily": {
-                "inter": ["Inter", "sans-serif"],
-                "garamond": ["EB Garamond", "serif"],
+                "inter": ["Sanuk", "sans-serif"],
             }
         },
     },

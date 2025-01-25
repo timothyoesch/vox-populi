@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Sanuk;
+    src: url("@fonts/SanukOT-Regular.woff2");
+    src: url("@fonts/SanukOT-Regular.woff"), format("woff");
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    font-swapping: antialiased;
+}
+
+@font-face {
+    font-family: Sanuk;
+    src: url("@fonts/SanukOT-Bold.woff2");
+    src: url("@fonts/SanukOT-Bold.woff"), format("woff");
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+    font-swapping: antialiased;
+}
+
+@font-face {
+    font-family: Sanuk;
+    src: url("@fonts/SanukOT-Fat.woff2");
+    src: url("@fonts/SanukOT-Fat.woff"), format("woff");
+    font-style: normal;
+    font-weight: 900;
+    text-rendering: optimizeLegibility;
+    font-swapping: antialiased;
+}
+
+@font-face {
+    font-family: Sanuk;
+    src: url("@fonts/SanukOT-Light.woff2");
+    src: url("@fonts/SanukOT-Light.woff"), format("woff");
+    font-style: normal;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    font-swapping: antialiased;
+}

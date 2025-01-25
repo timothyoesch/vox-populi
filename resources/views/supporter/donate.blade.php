@@ -1,20 +1,7 @@
-<x-frontend-layout>
+<x-frontend-layout class="bg-accent text-white min-h-screen">
     <div class="appeal-container py-4 md:py-8">
-        <h1 class="text-4xl mb-8">{{__("pages.donate.title")}}</h1>
-        {!!
-            \Illuminate\Mail\Markdown::parse(
-                file_get_contents(resource_path('content/donate.' . app()->getLocale() . '.md'))
-            )
-        !!}
-        <script language="javascript" src="https://widget.raisenow.com/widgets/lema/gsoas-948f/js/dds-init-widget-{{app()->getLocale()}}.js" type="text/javascript"></script>
-        <script type="text/javascript">
-            window.rnwWidget = window.rnwWidget || {};
-            window.rnwWidget.configureWidget = function(options) {
-                options.defaults['stored_campaign_name'] = 'gsoa_dringenderaufruf';
-            };
-        </script>
-        <div class="p-4 bg-foreground w-fit mt-8">
-            <div class="dds-widget-container" data-widget="lema"></div>
-        </div>
+        <h1 class="text-4xl mb-8 font-black uppercase">{{__("pages.donate.title")}}</h1>
+        <p>ellow</p>
+        <iframe src="https://gruene-zh.payrexx.com/ch-DE/pay?cid=a7021d57&donation[preselect_amount]=100&hide_description=1&appview=1" allow="payment *" width="100%" height="800" style="border:0;" id="payrexx-embed"></iframe>
     </div>
 </x-frontend-layout>

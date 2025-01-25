@@ -1,13 +1,13 @@
-.appeal-cta__form {
+.nettonull-cta__form {
 
     &__fieldgroup {
         position: relative;
 
         &__text {
-            border: 2px solid theme("colors.foreground");
+            border: 2px solid theme("colors.white");
             border-radius: 0.25rem;
             background: transparent;
-            color: theme("colors.foreground");
+            color: theme("colors.white");
             line-height: 1;
             padding: 0.5rem 1rem;
             width: 100%;
@@ -20,14 +20,15 @@
             font-size: 0.75rem;
             padding: 0 0.25rem;
             line-height: 1;
-            background-color: theme("colors.background");
+            color: theme("colors.white");
+            background-color: theme("colors.accent");
         }
 
         &--checkbox {
             display: flex;
             gap: 0.5rem;
 
-            .appeal-cta__form__fieldgroup__label {
+            .nettonull-cta__form__fieldgroup__label {
                 position: relative;
                 top: 0;
                 left: 0;
@@ -40,33 +41,39 @@
         }
 
         &__submit {
-            background-color: theme("colors.foreground");
-            color: theme("colors.background");
-            border: 2px solid theme("colors.foreground");
-            border-radius: 0.25rem;
+            background-color: theme("colors.secondary");
+            color: theme("colors.black");
+            border: 2px solid theme("colors.secondary");
             padding: 0.5rem 1rem;
-            font-family: "Inter", "sans";
+            font-weight: 900;
             font-size: 1rem;
             text-transform: uppercase;
             font-weight: 900;
             cursor: pointer;
             transition: all 0.1s;
 
-            &:hover {
-                filter: brightness(1.75);
+            &:hover,
+            &:focus {
+                transform: translate(-0.25em, -0.25em);
+                box-shadow: 0.25em 0.25em 0 theme('colors.white', #000);
+            }
+
+            &:active {
+                transform: translate(-0.125em, -0.125em);
+                box-shadow: 0.125em 0.125em 0 theme('colors.white', #000);
             }
         }
 
     }
 
     ::placeholder {
-        color: theme("colors.foreground") !important;
-        opacity: 1 !important;
+        color: theme("colors.white") !important;
+        opacity: 0.7 !important;
         font-style: italic;
     }
 }
 
-.appeal-cta {
+.nettonull-cta {
     &__success {
         background-color: theme("colors.green.200");
         color: theme("colors.green.800");

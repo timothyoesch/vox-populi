@@ -1,0 +1,26 @@
+.nettonull-button {
+    padding: 1rem;
+    font-weight: 900;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    justify-content: center;
+    display: inline-flex;
+    transform: translate(0, 0);
+    transition: transform 0.07s, box-shadow 0.07s;
+    @apply bg-secondary;
+}
+
+.nettonull-button:hover,
+.nettonull-button:focus {
+    transform: translate(-0.25em, -0.25em);
+    box-shadow: 0.25em 0.25em 0 theme('colors.accent', #000);
+}
+
+.nettonull-button:focus {
+    outline: none;
+}
+
+.nettonull-button:active {
+    transform: translate(-0.125em, -0.125em);
+    box-shadow: 0.125em 0.125em 0 theme('colors.accent', #000);
+}
