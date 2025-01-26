@@ -7,7 +7,7 @@ use App\Models\Supporter;
 
 Route::get('/', function () {
     return view('landing', [
-        'supporters' => Supporter::where('email_verified_at', '!=', null)->where('public', true)->get(),
+        'supporters' => Supporter::all(),
     ]);
 })->name('landing')->middleware('auth.basic');
 
