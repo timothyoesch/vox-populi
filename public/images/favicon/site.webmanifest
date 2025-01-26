@@ -1,5 +1,5 @@
 {
-  "name": "MyWebSite",
+  "name": "Züri kann das!",
   "short_name": "MySite",
   "icons": [
     {
@@ -16,6 +16,6 @@
     }
   ],
   "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "background_color": "#248BCC",
   "display": "standalone"
 }
