@@ -8,6 +8,7 @@
             Das Ziel Netto-Null 2040 wird im kantonalen Energiegesetz verankert. Der Kanton Zürich muss die Treibhausgasneutralität grundsätzlich bis 2040 erreichen. Ausnahmen gelten dort, wo der Kanton von der Umsetzung auf Bundesebene besonders abhängig ist. Als Zwischenziel muss der Kanton bis 2030 eine Senkung der Treibhausgasemissionen gegenüber 1990 um 48 % anstreben. In den Bereichen, wo die CO2-Emissionen gegenwärtig kaum vermeidbar sind, müssen sie durch natürliche oder technische Kohlenstoffsenkungen ausgeglichen werden.
         </p>
         <a href="#mitmachen" class="nettonull-button w-full mt-10">Sei auch dabei! 🙌</a>
+        <a href="#spenden" class="nettonull-button w-full mt-4">Ich helfe mit einer Spende 💖</a>
 		<div class="nettonull-toggles mt-16">
 	        <x-toggle
                 title="Was heisst Netto-Null?"
@@ -16,7 +17,7 @@
                 <a href="https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/b80c0c99a92944d08a265570ae1fe496-332/1/pdf" target="_blank" class="nettonull-button mt-4 !text-base">Hier geht's zum Geseztestext</a>
             </x-toggle>
 	        <x-toggle
-                title="Der Klimawandel heute im Kanton Zürich."
+                title="Wo wirkt sich der Klimawandel heute im Kanton Zürich aus?"
                 >
                 <p>Diese Ziele sind richtig und wichtig, denn bereits heute macht sich der Klimawandel im Kanton Zürich sehr deutlich bemerkbar:</p>
                 <ul class="list-disc pl-4 mt-4">
@@ -112,8 +113,18 @@
                 <x-supporters.form />
             </div>
         </div>
+        <div id="spenden" class="pt-12">
+            <x-toggle
+                title="Danke für deine Spende"
+                >
+                <p>Eine Kampagne bringt jedoch nicht nur viel Arbeit mit sich – sondern auch viele Kosten. <b>Danke, dass du unsere Arbeit mit einer Spende unterstützt.</b></p>
+                <div class="mt-8">
+                    <iframe src="https://gruene-zh.payrexx.com/ch-DE/pay?cid=a7021d57&donation[preselect_amount]=100&hide_description=1&appview=1" allow="payment *" width="100%" height="800" style="border:0;" id="payrexx-embed"></iframe>
+                </div>
+            </x-toggle>
+        </div>
 
-        <div class="nettonull-alliance mt-12">
+        <div class="nettonull-alliance mt-8">
             <h2 class="text-accent font-black text-2xl md:text-4xl uppercase !leading-none mb-2">Die Allianz für Netto-Null 2040:</h2>
             <x-supporters.logos />
         </div>
