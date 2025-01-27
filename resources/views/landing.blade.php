@@ -2,10 +2,10 @@
 	<x-heroine class="mb-8"/>
 	<div class="nettonull-content nettonull-containerpadding">
 		<p class="nettonull-lead text-xl font-bold">
-			Der Zürcher Kantonsrat hat heute beschlossen, dass der Kanton Zürich bis 2040 das Netto-Null-Ziel erreichen soll, für wenige Ausnahmen bis 2050. Eine Mehrheit aus GRÜNEN, SP, GLP, AL, EVP und Mitte will beim Klimaschutz vorwärts machen: Um im Kanton Zürich unseren Beitrag ans globale 1.5 Grad Ziel zu leisten, müssen wir möglichst bald, spätestens aber 2040 aus den fossilen Energien aussteigen. Doch die rückwärtsgewandte SVP hat einmal mehr das Kantonsratsreferendum gegen den Klimaschutz ergriffen. Jetzt wird die Bevölkerung über das Klimaziel abstimmen.
+			Der Zürcher Kantonsrat hat beschlossen, dass der Kanton Zürich bis 2040 das Netto-Null-Ziel erreichen soll, mit Ausnahmen bis 2050. Eine Mehrheit aus Grünen, SP, GLP, AL und EVP will beim Klimaschutz vorwärts machen: Um im Kanton Zürich unseren Beitrag ans globale 1.5 Grad-Ziel zu leisten, müssen wir alles daran setzen, aus den fossilen Energien auszusteigen. Doch die SVP hat einmal mehr das Kantonsratsreferendum gegen den Klimaschutz ergriffen. Jetzt wird die Bevölkerung über das Klimaziel entscheiden.
         </p>
         <p>
-            Das Ziel Netto-Null 2040 wird im kantonalen Energiegesetz verankert. Der Kanton Zürich muss Treibhausgasneutralität grundsätzlich bis 2040 erreichen. Ausnahmen gelten dort, wo der Kanton von der Umsetzung auf Bundesebene besonders abhängig ist. Als Zwischenziel muss der Kanton bis 2030 eine Senkung der Treibhausgasemissionen gegenüber 1990 um 48 % anstreben. In den Bereichen, wo die CO2-Emissionen gegenwärtig kaum vermeidbar sind, müssen sie durch natürliche oder technische Kohlenstoffsenkungen ausgeglichen werden.
+            Das Ziel Netto-Null 2040 wird im kantonalen Energiegesetz verankert. Der Kanton Zürich muss die Treibhausgasneutralität grundsätzlich bis 2040 erreichen. Ausnahmen gelten dort, wo der Kanton von der Umsetzung auf Bundesebene besonders abhängig ist. Als Zwischenziel muss der Kanton bis 2030 eine Senkung der Treibhausgasemissionen gegenüber 1990 um 48 % anstreben. In den Bereichen, wo die CO2-Emissionen gegenwärtig kaum vermeidbar sind, müssen sie durch natürliche oder technische Kohlenstoffsenkungen ausgeglichen werden.
         </p>
         <a href="#mitmachen" class="nettonull-button w-full mt-10">Sei auch dabei! 🙌</a>
 		<div class="nettonull-toggles mt-16">
@@ -18,38 +18,35 @@
 	        <x-toggle
                 title="Der Klimawandel heute im Kanton Zürich."
                 >
-                <p>Dieses Ziele sind richtige und wichtige Massnahmen, denn bereits heute macht sich der Klimawandel im Kanton Zürich sehr deutlich bemerkbar:</p>
+                <p>Diese Ziele sind richtig und wichtig, denn bereits heute macht sich der Klimawandel im Kanton Zürich sehr deutlich bemerkbar:</p>
                 <ul class="list-disc pl-4 mt-4">
-                    <li>Die Zahl der <strong>Hitzetage</strong> (über 30°C) und <strong>Tropennächte </strong>(über 20°C) hat stark zugenommen. In Zürich und Winterthur können Temperaturen entstehen, die bis zu °10 höher sind als im Umland. Solche Hitzeinseln sind ein gefährliches Gesundheitsrisiko: Sie erhöhen die Sterblichkeit, senken die Lebensqualität und beeinträchtigen die Arbeit massiv. </li>
-                    <li>Die <strong>Zunahme von Extremwetterereignisse</strong> wie Dürren oder sehr lange Regenperioden haben der Zürcher <strong>Landwirtschaft</strong> zugesetzt. Ernteausfälle und vertrocknete Wiesen führten zu starken Verlusten und zu Futtermittelknappheit. Hitze und Trockenheit verringern die Nährstoffe in den Böden (Humus) und gefährden die Biodiversität. Zu hohe Temperaturen in Flüssen und Bächen haben Fischbestände zerstört.</li>
-                    <li><strong>Lange Hitze- und Trockenperioden belasten den Wald</strong> als Lunge des Siedlungsgebiet und Naherholungsraum doppelt: Einerseits können sich Schädlinge (z.B. der Borkenkäfer) auf einem trocken gestressten Baum besser verbreiten. Andererseits steigt die Waldbrandgefahr. Die Erhaltung eines einigermassen vielgestaltigen und resiliten Walds im Schweizer Mittelland ist nur möglich, wenn die Entwicklung des Klimawandels stabilisiert werden kann. </li>
-                    <li>Mit zunehmender Erwärmung des Klimas nehmen die Risiken für Kosten und Verluste<strong> in der Wirtschaft </strong>zu. In überdurchschnittlich heissen Sommern betragen die wirtschaftlichen Verluste im Kanton Zürich bereits eine halbe Milliarde Franken, ausgelöst durch Arbeits- und Produktionsausfälle. Extremwetterereignisse führen im Finanzsektor zu verlustreichen Abschreibungen auf Krediten an Unternehmen und Privathaushalten. Zudem können Investitionen und Finanzanlagen massive Entwertungen erfahren. Die Zunahme von Hochwassern verursacht schon heute jährliche Schäden von durchschnittlich 270 Millionen Franken.</li>
+                    <li>Die Zahl der <strong>Hitzetage</strong> (über 30° C) und der <strong>Tropennächte</strong> (über 20° C) hat stark zugenommen. In Zürich und Winterthur können Temperaturen entstehen, die bis zu 10° heisser sind als im Umland. Solche Hitzeinseln sind ein grosses Gesundheitsrisiko. Sie erhöhen die Sterblichkeit, senken die Lebensqualität und beeinträchtigen die Arbeit massiv.</li>
+                    <li>Die <strong>Zunahme von Extremwetterereignissen</strong> wie Dürren oder sehr langen Regenperioden haben der Zürcher <strong>Landwirtschaft</strong> Ernteausfälle und vertrocknete Wiesen führten zu starken Verlusten und zu Futtermittelknappheit. Hitze und Trockenheit verringern die Nährstoffe in den Böden (Humus) und gefährden die Biodiversität. Zu hohe Temperaturen in Flüssen und Bächen haben Fischbestände zerstört.</li>
+                    <li>Lange <strong>Hitze- und Trockenperioden</strong> <strong>belasten unsere Wälder</strong> doppelt: Einerseits können sich Schädlinge (z.B. der Borkenkäfer) auf einem durch Trockenheit gestressten Baum besser verbreiten. Andererseits steigt die Waldbrandgefahr. Die Erhaltung eines vielfältigen und resilienten Walds im Schweizer Mittelland ist nur möglich, wenn die Entwicklung der Klimaerwärmung stabilisiert werden kann.</li>
+                    <li>Mit zunehmender Erwärmung des Klimas nehmen die Risiken für <strong>Kosten und Verluste in der Wirtschaft</strong> In überdurchschnittlich heissen Sommern betragen die wirtschaftlichen Verluste im Kanton Zürich bereits heute eine halbe Milliarde Franken, ausgelöst durch Arbeits- und Produktionsausfälle. Extremwetterereignisse führen im Finanzsektor zu verlustreichen Abschreibungen auf Krediten an Unternehmen und Privathaushalte. Zudem können Investitionen und Finanzanlagen massive Entwertungen erfahren. Die Zunahme von Hochwassern verursacht schon heute jährliche Schäden von durchschnittlich 270 Millionen Franken.</li>
                 </ul>
             </x-toggle>
 	        <x-toggle
                 title="Der Kanton Zürich stimmt regelmässig für Klimaschutz!"
                 >
-                <p>Die Stimmbevölkerung im Kanton Zürich hat sich in mehreren Abstimmungen bereits deutlich für einen griffigen Klimaschutz ausgesprochen:</p>
+                <p>Die Mitglieder der Allianz für Netto Null 2040 sind zuversichtlich, dass die Stimmbevölkerung des Kantons Zürich an die heute bereits betroffenen Menschen und als auch an die nächsten Generationen denkt und dem Netto Null-Ziel 2040 zustimmt. Bereits in mehreren Abstimmungen hat sie die Zürcher Bevölkerung für einen griffigen Klimaschutz ausgesprochen:</p>
                 <ul class="list-disc pl-4 mt-4">
-                    <li><b>Eidg. CO2-Gesetz (2021):</b> wäre im Kanton Zürich mit 55% angenommen worden.</li>
-                    <li><b>Energiegesetz (2021):</b> 63% stimmten dafür, dass Öl- und Gasheizungen durch Wärmepumpen ersetzt werden müssen.</li>
-                    <li><b>Klimaschutz-Artikel (2022):</b> 67% befürworteten, dass der Klimaschutz in der Kantonsverfassung verankert wird</li>
-                    <li><b>Kreislauf-Initiative (2022):</b> 89% der Stimmberechtigen sagten Ja zur CO2-reduzierenden Kreislaufwirtschaft.</li>
-                    <li><b>Klima- und Innovationsgesetz (2024):</b> 62.5% Ja-Stimmen im Kanton Zürich</li>
-                    <li><b>Autobahn-Ausbau (2024):</b> unter anderem mit dem Argument des klimaschädlichen Mehrverkehrs sagten 52% im Kanton Zürich Nein zur Bundesvorlage.</li>
+                    <li><b>CO2-Gesetz (2021)</b>: wäre im Kanton Zürich mit 55 % angenommen worden</li>
+                    <li><b>Energiegesetz (2021)</b>: 63 % stimmten dafür, dass Öl- und Gasheizungen nach Ablauf durch klimafreundliche Wärmesysteme ersetzt werden müssen</li>
+                    <li><b>Klimaschutz-Artikel (2022)</b>: 67 % befürworteten, dass der Klimaschutz in der Kantonsverfassung verankert wird</li>
+                    <li><b>Kreislauf-Initiative (2022)</b>: 89 % der Stimmberechtigen sagten Ja zur CO2-reduzierenden Kreislaufwirtschaft</li>
+                    <li><b>Klima- und Innovationsgesetz (2024)</b>: 62.5 % Ja-Stimmen im Kanton Zürich</li>
+                    <li><b>Autobahn-Ausbau (2024)</b>: unter anderem mit dem Argument des klimaschädlichen Mehrverkehrs sagten 52 % im Kanton Zürich Nein zur Bundesvorlage<strong> </strong></li>
                 </ul>
             </x-toggle>
         </div>
-        <p class="mt-8 text-xl font-bold">
-            Die Mitglieder der Allianz für Netto-Null 2040 sind zuversichtlich, dass die Bevölkerung erneut an die nächsten Generation denkt und dem Netto Null-Ziel 2040 zustimmen wird.
-        </p>
         <div class="nettonull-basicsection mt-8">
-            <h2 class="font-bold text-2xl !leading-none text-accent mb-2">SVP und FDP im klimapolitischen Rückwärtsgang</h2>
-            <p>Dass die FDP mit der klimawandelskeptischen SVP zusammenspannt, ist angesichts der fortschreitenden Klimaerwärmung bedenklich. Es wäre wünschenswert, dass eine liberale Partei erkennt, dass die voranschreitende Klimaerwärmung die grösste Einschränkung unserer Freiheit ist und darüber hinaus ein finanzielles Risiko. Nicht zu handeln ist 6-mal teurer, als heute die nötigen Anpassungen vorzunehmen.</p>
+            <h2 class="font-bold text-2xl !leading-none text-accent mb-2">SVP im klimapolitischen Rückwärtsgang</h2>
+            <p>Dass die SVP angesichts der fortschreitenden Klimaerwärmung versucht den Klimaschutz auszubremsen, ist äusserst bedenklich. Es wäre wünschenswert, dass alle erkennen, dass die voranschreitende Klimaerwärmung zur Einschränkung unserer Freiheit führt und darüber hinaus ein grosses finanzielles und volkswirtschaftliches Risiko bildet. Nicht zu handeln wird am Ende viel teurer, als heute die nötigen Anpassungen vorzunehmen. Zudem sind der Kanton und die Gemeinden dazu angehalten, die Massnahmen volkswirtschaftlich und sozial tragbar umsetzen.</p>
         </div>
         <div class="nettonull-basicsection mt-8">
             <h2 class="font-bold text-2xl !leading-none text-accent mb-2">Zürich kann Klimaschutz!</h2>
-            <p>In den letzten 15 Jahren konnten die CO2-Emission im Kanton Zürich bereits kontinuierlich gesenkt werden. Jetzt aber muss es schneller gehen: Dafür braucht es einen gesetzlichen Auftrag mit einem klar formulierten Ziel. Netto Null 2040: Zürich kann das!</p>
+            <p>In den letzten 15 Jahren konnten die CO2-Emission im Kanton Zürich bereits kontinuierlich gesenkt werden. Der Kanton Zürich geht voran und übernimmt Veantwortung. Jetzt aber muss es schneller gehen: Dafür braucht es einen gesetzlichen Auftrag mit einem klar formulierten Ziel. Netto Null 2040: Zürich kann das!</p>
             <div id="wrapper-6794caf4e4110">
                 <div id="observablehq-wrapper-6794caf4e4110"></div>
                 <div id="observablehq-leuTheme-6794caf4e4110"></div>
@@ -96,6 +93,16 @@
                     display: none;
                 }
             </style>
+        </div>
+        <div class="nettonull-basicsection mt-8">
+            <h2 class="font-bold text-2xl !leading-none text-accent mb-2">Das sind die wichtigsten kantonalen Massnahmen:</h2>
+            <ul class="list-disc pl-4 mt-4">
+                <li><strong>Gebäude: </strong>Ersatz von Öl und Gasheizungen durch klimafreundlichen Wäremsysteme, Senkung des Energieverbrauchs pro Quadratmeter, Ausrüstung der Gebäude und Parkplätze, wo sinnvoll, mit Photovoltaik und Wärmekollektoren, Reduktion der grauen Emissionen beim Bauen durch Holz, Recycling-Materialien, Wiedergebrauch von Bauteilen und vorhandenen Gebäudestrukturen</li>
+                <li><strong>Verkehr</strong>: Ersatz der benzin- und dieselbetriebenen Fahrzeuge durch elektrische, Verbesserung des ÖV-Angebots, Stiegerung der Attraktivität von Velo und Fussverkehr durch Ausbau der Infrastruktur</li>
+                <li><strong>Industrie und Gewerbe</strong>: Umstieg auf klimafreundliche Rohstoffe, Materialien und CO<sub>2</sub>-freie Industriemaschinen, Biogas für Hochtemperaturprozesse, Transporte verkürzen, Kreislaufwirtschaft vorantrieben, Herstellung langlebiger und reparierbarer Produkte, Dekarbonisierung bei sämtlichen Staats- und Gemeindebetrieben sowie staatsnahen Institutionen</li>
+                <li><strong>Abfall und Abwasser</strong>: Abfall vermieden, Re-Use und Recycling fördern, Lachgasausstoss bei Kläranlagen vermeiden</li>
+                <li><strong>Negative Emissionen:</strong> Wald als CO<sub>2</sub>-Speicher nutzen, einheimische Holz einbauen, Carbon Capture and Storage (CCS) Technologie bei Kehrichtverwertungsanlagen (KVA), Humus auf Agrarflächen aufbauen, Wiedervernässung von Moorgebieten</li>
+            </ul>
         </div>
 
         <div class="nettonull-form pt-8" id="mitmachen">
