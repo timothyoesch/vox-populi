@@ -1,11 +1,43 @@
 {
   "resources/css/app.scss": {
-    "file": "assets/app-BgsfSbnj.css",
+    "file": "assets/app-HTI-ctfG.css",
     "src": "resources/css/app.scss",
     "isEntry": true
   },
+  "resources/fonts/SanukOT-Bold.woff": {
+    "file": "assets/SanukOT-Bold-CoDM3VYi.woff",
+    "src": "resources/fonts/SanukOT-Bold.woff"
+  },
+  "resources/fonts/SanukOT-Bold.woff2": {
+    "file": "assets/SanukOT-Bold-CNlYpqy_.woff2",
+    "src": "resources/fonts/SanukOT-Bold.woff2"
+  },
+  "resources/fonts/SanukOT-Fat.woff": {
+    "file": "assets/SanukOT-Fat-Y_bDGAZD.woff",
+    "src": "resources/fonts/SanukOT-Fat.woff"
+  },
+  "resources/fonts/SanukOT-Fat.woff2": {
+    "file": "assets/SanukOT-Fat-DRJtxWt0.woff2",
+    "src": "resources/fonts/SanukOT-Fat.woff2"
+  },
+  "resources/fonts/SanukOT-Light.woff": {
+    "file": "assets/SanukOT-Light-EUPrmnDV.woff",
+    "src": "resources/fonts/SanukOT-Light.woff"
+  },
+  "resources/fonts/SanukOT-Light.woff2": {
+    "file": "assets/SanukOT-Light-Dm2ZJHco.woff2",
+    "src": "resources/fonts/SanukOT-Light.woff2"
+  },
+  "resources/fonts/SanukOT-Regular.woff": {
+    "file": "assets/SanukOT-Regular-CDN2wm0E.woff",
+    "src": "resources/fonts/SanukOT-Regular.woff"
+  },
+  "resources/fonts/SanukOT-Regular.woff2": {
+    "file": "assets/SanukOT-Regular-Da9h3g7G.woff2",
+    "src": "resources/fonts/SanukOT-Regular.woff2"
+  },
   "resources/js/app.js": {
-    "file": "assets/app-BZ7OUHX4.js",
+    "file": "assets/app-C1HIioPF.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,

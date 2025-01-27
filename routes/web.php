@@ -9,7 +9,7 @@ Route::get('/', function () {
     return view('landing', [
         'supporters' => Supporter::all(),
     ]);
-})->name('landing')->middleware('auth.basic');
+})->name('landing');
 
 Route::prefix("supporter")->group(function () {
     Route::post('submit', [SupporterController::class, 'store'])->name('supporter.submit');
