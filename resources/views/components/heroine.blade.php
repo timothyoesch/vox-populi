@@ -15,7 +15,7 @@
                 <img src="/images/IMG_4915.JPG"
                     alt="crowd going wild" class="aspect-video object-cover">
                 <div
-                    class="nettonull-heroine-overlaygradient absolute h-full w-full bg-gradient-to-b from-transparent to-black top-0 left-0">
+                    class="nettonull-heroine-overlaygradient absolute h-full w-full bg-gradient-to-b from-50% from-transparent to-black top-0 left-0">
                 </div>
                 <div class="nettonull-heroine-content absolute bottom-0 left-0 w-full p-2 md:p-4 text-white">
                     <p class="">Netto Null 2040:</p>
