@@ -47,7 +47,7 @@
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
     (function() {
-        var u="//analytics.kpunkt.ch/matomo/";
+        var u="//analytics.kpunkt.ch/";
         _paq.push(['setTrackerUrl', u+'matomo.php']);
         _paq.push(['setSiteId', '10']);
         var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
@@ -55,6 +55,7 @@
     })();
     </script>
     <!-- End Matomo Code -->
+
 
 </body>
 </html>
