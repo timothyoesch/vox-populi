@@ -10,6 +10,16 @@ window.addEventListener("click", function (e) {
     let icon = toggle.querySelector(".nettonull-toggle--title svg");
 
     if (toggle.open) {
+        content.animate([
+            { opacity: 1, transform: "translateY(0)" },
+            { opacity: 0, transform: "translateY(1rem)" },
+        ],
+            {
+                duration: duration,
+                fill: "forwards",
+                easing: "ease-out",
+            }
+        )
         toggle.animate([
             { backgroundColor: "#f3f3f3" },
             { backgroundColor: "#ffffff" },
@@ -39,6 +49,7 @@ window.addEventListener("click", function (e) {
                 fill: "forwards",
             }
         );
+
     } else {
         toggle.animate([
             { backgroundColor: "#ffffff" },
@@ -70,6 +81,19 @@ window.addEventListener("click", function (e) {
                 fill: "forwards",
             }
         );
+
+        this.setTimeout(() => {
+            content.animate([
+                { opacity: 0, transform: "translateY(1rem)" },
+                { opacity: 1, transform: "translateY(0)" },
+            ],
+                {
+                    duration: 2 * duration,
+                    fill: "forwards",
+                    easing: "ease-out",
+                }
+            )
+        }, duration);
     }
 
     toggle.open = !toggle.open;
