@@ -109,7 +109,7 @@
         <div class="nettonull-form pt-8" id="mitmachen">
             <div class="nettonull-form--container bg-accent text-white p-4 md:p-8">
                 <h2 class="text-secondary font-black text-2xl md:text-4xl uppercase !leading-none mb-2">Unterstütze unsere Kampagne!</h2>
-                <p>Die SVP hat zusammen mit der FDP im Kantonsrat das Referendum für das Netto-Null Gesetz ergriffen. Das heisst: Es kommt zur Abstimmung! Bereits {{$supporters->count() + 2}} Personen sind dabei und helfen mit, dass wir an der Urne zeigen: Zürich kann Klimaschutz!</p>
+                <p>Die SVP hat zusammen mit der FDP im Kantonsrat das Referendum für das Netto-Null Gesetz ergriffen. Das heisst: Es kommt zur Abstimmung! <b>Hilf mit, damit wir an der Urne zeigen: Zürich kann Klimaschutz!</b></p>
                 <x-supporters.form />
             </div>
         </div>
