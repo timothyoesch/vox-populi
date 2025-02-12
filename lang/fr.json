@@ -102,5 +102,10 @@
     "og.title": "Appel urgent – Soutez notre appel pour la paix !",
     "og.description": "Nous demandons au Conseil fédéral de suspendre immédiatement toute collaboration militaire et toute relation d'armement avec Israël et les autres pays du Proche et du Moyen-Orient.",
     "routes.supporters.success": "merci",
-    "routes.supporters.donate": "fair-un-don"
+    "routes.supporters.donate": "fair-un-don",
+    "pages.landing.update.head": "🚨 Update du 12 février 🚨",
+    "pages.landing.update.title": "Notre appel est toujours urgent !",
+    "pages.landing.update.lead": "En très peu de temps, notre appel au Conseil fédéral a recueilli près de 15'000 signatures. Mais l'appel est toujours aussi urgent qu'auparavant. La violence au Proche et Moyen-Orient continue d'escalader. <em>La Suisse doit agir maintenant !</em>",
+    "pages.landing.update.readmore": "En savoir plus",
+    "pages.update.back": "Retour à l'appel"
 }

@@ -36,7 +36,7 @@
     "labels.table.supporter.created_at": "Erstellt am",
     "labels.table.supporter.updated_at": "Aktualisiert am",
     "labels.table.supporter.deleted_at": "Gelöscht am",
-    "labels.table.supporter.is_optin" : "Will Kontakt",
+    "labels.table.supporter.is_optin": "Will Kontakt",
     "lables.actions.activities": "Aktivitäten",
     "labels.navigation.supporters": "Unterstützer*innen",
     "labels.navigation.supporter": "Unterstützer*in",
@@ -107,5 +107,10 @@
     "og.title": "Dringender Appell – Jetzt Aufruf unterschreiben!",
     "og.description": "Wir fordern den Bundesrat auf, unverzüglich jegliche militärische Zusammenarbeit und alle Rüstungsbeziehungen mit Israel und allen anderen Ländern des Nahen und Mittleren Ostens zu sistieren.",
     "routes.supporters.success": "danke",
-    "routes.supporters.donate": "spenden"
+    "routes.supporters.donate": "spenden",
+    "pages.landing.update.head": "🚨 Update vom 12.02 🚨",
+    "pages.landing.update.title": "Unser Appell ist noch immer dringend!",
+    "pages.landing.update.lead": "Innert kürzester Zeit hat unser Appell an den Bundesrat fast 15'000 Unterschriften erzielt. Doch noch immer ist der Appell so dringend wie zuvor. Die Gewalt im Nahen und Mittleren Osten eskaliert weiter. <em>Die Schweiz muss jetzt handeln!</em>",
+    "pages.landing.update.readmore": "Mehr erfahren",
+    "pages.update.back": "Zurück zum Appell"
 }

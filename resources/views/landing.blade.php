@@ -9,6 +9,7 @@
             <a href="#{{__("pages.landing.cta.anchor")}}" class="mt-12 bg-foreground text-background font-inter font-black text-xl md:text-4xl !leading-none text-center uppercase w-full flex justify-center p-4">{{__("pages.landing.cta")}}</a>
         </div>
         <div class="appeal-content py-20">
+            <x-update-box/>
             {!!
                 \Illuminate\Mail\Markdown::parse(
                     file_get_contents(resource_path('content/petition.' . app()->getLocale() . '.md'))
