@@ -54,7 +54,6 @@
         <x-supporters.logos />
         <h2 class="vpb-section__title text-xl md:text-3xl lg:text-4xl mt-12 md:mt-16 !mb-4">{{__("pages.landing.sections.supporters.people.title")}}</h2>
         <x-supporters.people :people="$supporters"/>
-        <x-supporters.form />
     </x-container>
     <x-container class="vpb-section" id="{{__('pages.landing.anchors.donation')}}">
         <h1 class="vpb-section__title">{{__("pages.landing.sections.donation.title")}}</h1>
