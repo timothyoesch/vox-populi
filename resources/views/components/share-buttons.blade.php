@@ -1,13 +1,13 @@
 @php
     $source = (request()->source && request()->source !== "DEFAULT") ? request()->source : false;
-    $url = urlencode(route('landing'));
+    $url = urlencode(route('landing') . "/" . app()->getLocale());
     if ($source) {
         $url .= urlencode("?s=" . $source);
     }
     $text = urlencode(__("pages.success.shareText"));
     // Replace + with %20
     $email = str_replace("+", "%20", $text);
-    $tweet = urlencode(__("pages.success.shareTweet") . "\n" . route("landing"));
+    $tweet = urlencode(__("pages.success.shareTweet") . "\n" . $url);
 @endphp
 <div class="appeal-sharebuttons grid md:grid-cols-2 gap-4">
     @if(!$end)
