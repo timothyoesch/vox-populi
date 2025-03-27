@@ -55,12 +55,3 @@ Route::prefix("supporter")->group(function () {
         return view('supporter.verify-success');
     })->name('supporter.verify.success');
 });
-
-
-Route::get('/filament/exports/{export}/download', DownloadExport::class)
-        ->name('filament.exports.download')
-        ->middleware('filament.actions');
-
-Route::get('/filament/imports/{import}/failed-rows/download', DownloadImportFailureCsv::class)
-    ->name('filament.imports.failed-rows.download')
-    ->middleware('filament.actions');
