@@ -105,5 +105,6 @@
     "petition.heroine.cta.text": "Signez maintenant !",
     "petition.form.anchor": "signer",
     "petition.form.title": "Signez notre pétition maintenant !",
-    "petition.form.content": "Déjà :count personnes soutiennent notre petition ! Aidez-nous à convaincre le Conseil fédéral d'annuler le contrat d'achat du F-35."
+    "petition.form.content": "Déjà :count personnes soutiennent notre petition ! Aidez-nous à convaincre le Conseil fédéral d'annuler le contrat d'achat du F-35.",
+    "petition.organisations.title": "Cette pétition a été lancée par :"
 }
