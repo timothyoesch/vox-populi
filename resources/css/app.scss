@@ -1,12 +1,12 @@
+@use "./typography/typography.scss";
+
+@use "./elements/form.scss";
+@use "./elements/shareButtons.scss";
+
+@use "./views/base.scss";
+
+@use "./elements/buttons.scss";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import "./typography/typography.scss";
-
-
-@import "./views/base.scss";
-@import "./views/landing.scss";
-
-@import "./elements/form.scss";
-@import "./elements/shareButtons.scss";

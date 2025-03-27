@@ -9,13 +9,9 @@ export default {
     theme: {
         extend: {
             "colors": {
-                "background": "#280050",
-                "foreground": "#FFE53E",
+                "background": "#000000",
+                "foreground": "#FFED00",
             },
-            "fontFamily": {
-                "inter": ["Inter", "sans-serif"],
-                "garamond": ["EB Garamond", "serif"],
-            }
         },
     },
     plugins: [],

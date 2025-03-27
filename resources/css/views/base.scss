@@ -4,8 +4,14 @@ html {
     scroll-behavior: smooth;
 }
 
-.appeal-container {
-    max-width: 1080px;
+.petition__container {
+    &--large {
+        max-width: 1146px;
+    }
+
+    &--small {
+        max-width: 944px;
+    }
 
     @apply px-4 md:px-8 mx-auto;
 }

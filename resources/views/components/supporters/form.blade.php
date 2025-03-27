@@ -33,7 +33,7 @@
                 </label>
             </div>
             <div class="appeal-cta__form__fieldgroup col-span-full flex justify-end">
-                <button type="submit" class="appeal-cta__form__fieldgroup__submit">{{__("pages.landing.supporters.form.submit")}}</button>
+                <button type="submit" class="appeal-cta__form__fieldgroup__submit petition__button">{{__("pages.landing.supporters.form.submit")}}</button>
             </div>
             <input type="hidden" name="locale" value="{{app()->getLocale()}}">
             <input type="hidden" name="configuration_id" value="{{$configuration->id}}">

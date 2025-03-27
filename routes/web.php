@@ -20,7 +20,7 @@ Route::get("/update", function () {
 Route::prefix("supporter")->group(function () {
     Route::post('submit', [SupporterController::class, 'store'])->name('supporter.submit');
 
-    Route::get(__("routes.supporters.success"), function () {
+    Route::get("thx", function () {
         if (!request()->name) {
             return redirect()->route('landing');
         }
@@ -34,7 +34,7 @@ Route::prefix("supporter")->group(function () {
         return view('supporter.success-campax');
     })->name('supporter.success.campax');
 
-    Route::get(__("routes.supporters.donate"), function () {
+    Route::get("donate", function () {
         return view('supporter.donate');
     })->name('supporter.donate');
 

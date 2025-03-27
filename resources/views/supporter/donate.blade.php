@@ -1,6 +1,6 @@
 <x-frontend-layout>
-    <div class="appeal-container py-4 md:py-8">
-        <h1 class="text-4xl mb-8">{{__("pages.donate.title")}}</h1>
+    <div class="petition__container petition__container--small py-4 md:py-8">
+        <h1 class="text-4xl mb-8 font-bold uppercase">{{__("pages.donate.title")}}</h1>
         {!!
     \Illuminate\Mail\Markdown::parse(
         file_get_contents(resource_path('content/donate.' . app()->getLocale() . '.md'))
@@ -72,7 +72,7 @@
 
             window.rnw.tamaro.runWidget('.rnw-tamaro-widget', {
                 language: lang,
-                purposes: ['dringenderappell'],
+                purposes: ['stopf35_petition'],
                 forceShowBlocks: {
                     'payment_purposes': false,
                     'payment_amounts_and_intervals': true,
@@ -125,31 +125,31 @@
                 },
                 translations: {
                     de: {
-                        organization_name: "Dringender Appell zum Stopp der Rüstungskooperation mit Israel",
+                        organization_name: "Petition zur Kündigung des F-35-Kaufs",
                         address_form_start_content_html: "<p><em><small>Als politische Organisation ist uns Transparenz in der Finanzierung besonders wichtig. Bitte geben Sie Ihre Adresse an, damit wir Sie als Gönner*in registrieren können. Ihre Daten werden vertraulich behandelt und nicht an Dritte weitergegeben.</small></em></p>",
                         purposes: {
-                            pannendrohnen: "Spende für den dringenden Appell"
+                            stopf35_petition: "Spende für die Petition zur Kündigung des F-35-Kaufs"
                         }
                     },
                     fr: {
-                        organization_name: "Appel urgent pour arrêter la coopération en matière d'armement avec Israël",
+                        organization_name: "Petition pour l'annulation de l'achat des F-35",
                         address_form_start_content_html: "<p><em><small>En tant qu'organisation politique, la transparence du financement est particulièrement importante pour nous. Veuillez indiquer votre adresse afin que nous puissions vous enregistrer en tant que donateur. Vos données seront traitées de manière confidentielle et ne seront pas transmises à des tiers.</small></em></p>",
                         purposes: {
-                            pannendrohnen: "Donation pour l'appel urgent"
+                            stopf35_petition: "Don pour la pétition pour l'annulation de l'achat des F-35"
                         }
                     },
                     it: {
-                        organization_name: "Appello urgente per fermare la cooperazione in materia di armamenti con Israele",
+                        organization_name: "Petizione per la cancellazione dell'acquisto degli F-35",
                         address_form_start_content_html: "<p><em><small>Come organizzazione politica, la trasparenza del finanziamento è particolarmente importante per noi. Si prega di fornire il proprio indirizzo in modo che possiamo registrarti come donatore. I tuoi dati saranno trattati in modo confidenziale e non saranno divulgati a terzi.</small></em></p>",
                         purposes: {
-                            pannendrohnen: "Donazione per l'appello urgente"
+                            stopf35_petition: "Donazione per la petizione per la cancellazione dell'acquisto degli F-35"
                         }
                     },
                     en: {
-                        organization_name: "Campaign against the failed drones",
+                        organization_name: "Petition to cancel the purchase of the F-35",
                         address_form_start_content_html: "<p><em><small>As a political organization, transparency in financing is particularly important to us. Please provide your address so that we can register you as a donor. Your data will be treated confidentially and will not be passed on to third parties.</small></em></p>",
                         purposes: {
-                            pannendrohnen: "Donation to the campaign against the failed drones"
+                            stopf35_petition: "Donation for the petition to cancel the purchase of the F-35"
                         }
                     },
                 }

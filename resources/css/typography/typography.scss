@@ -1,22 +1,11 @@
-@import url(https://fonts.bunny.net/css?family=eb-garamond:400,400i,700,700i|inter:300,700,900);
+@use "./fonts.scss";
 
 html {
-    font-family: 'EB Garamond', serif;
     font-size: clamp(15px, 1.041666666666667vw, 22px);
 
     body {
-        @apply text-2xl md:text-4xl;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: 'Inter', sans-serif;
-        font-weight: 900;
-        text-transform: uppercase;
+        font-family: "MaisonNeue", sans-serif;
+        @apply text-lg md:text-xl;
     }
 
     p+p {

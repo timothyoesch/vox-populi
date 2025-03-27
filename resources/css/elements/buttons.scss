@@ -1,0 +1,7 @@
+.petition__button {
+    padding: 1em;
+    padding-top: 0.6em;
+    padding-bottom: 0.7em;
+    gap: 0.3em;
+    @apply inline-flex justify-center items-center bg-foreground text-background font-bold uppercase rounded-md;
+}

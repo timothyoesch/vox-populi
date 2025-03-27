@@ -1,16 +1,24 @@
 {
   "resources/css/app.scss": {
-    "file": "assets/app-DPnI-iFT.css",
+    "file": "assets/app-weK5xBlN.css",
     "src": "resources/css/app.scss",
     "isEntry": true
   },
+  "resources/fonts/MaisonNeueExtended-Book.woff": {
+    "file": "assets/MaisonNeueExtended-Book-CjGYfk7h.woff",
+    "src": "resources/fonts/MaisonNeueExtended-Book.woff"
+  },
+  "resources/fonts/MaisonNeueExtended-Book.woff2": {
+    "file": "assets/MaisonNeueExtended-Book-Ckw8fJvW.woff2",
+    "src": "resources/fonts/MaisonNeueExtended-Book.woff2"
+  },
   "resources/js/app.js": {
-    "file": "assets/app-BZ7OUHX4.js",
+    "file": "assets/app-BMoWWDXU.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "css": [
-      "assets/app-B0a9OMnn.css"
+      "assets/app-DvB2Xm2x.css"
     ]
   }
 }
