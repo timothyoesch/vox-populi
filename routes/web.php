@@ -17,7 +17,7 @@ Route::get("/{lang}", function ($lang) {
     if (request()->has("s")) {
         $url .= "?s=" . request()->s;
     }
-    return redirect($url)->withCookie("s", $lang, 60 * 24 * 365);
+    return response()->redirectTo($url)->withCookie("lang", $lang, 60 * 24 * 365);
 })->name('landing.lang');
 
 Route::get("/update", function () {
