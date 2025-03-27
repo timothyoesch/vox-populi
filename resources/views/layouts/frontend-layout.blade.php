@@ -31,6 +31,7 @@
     <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
     <meta name="theme-color" content="#280050">
 
+    {!! RecaptchaV3::initJs() !!}
     @vite("resources/css/app.scss")
 </head>
 <body class="antialiased">

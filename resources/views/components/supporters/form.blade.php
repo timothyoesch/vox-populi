@@ -37,6 +37,7 @@
             </div>
             <input type="hidden" name="locale" value="{{app()->getLocale()}}">
             <input type="hidden" name="configuration_id" value="{{$configuration->id}}">
+            {!! RecaptchaV3::field("submit") !!}
         </form>
     </div>
 </div>

@@ -24,12 +24,14 @@ class SupporterController extends Controller
                 'configuration_id' => 'required|exists:configurations,id',
                 'locale' => 'required',
                 'customFields' => 'array',
+                'g-recaptcha-response' => 'required|recaptchav3:submit,0.7'
             ]);
         } catch (\Illuminate\Validation\ValidationException $th) {
             return $th->validator->errors();
         }
         $customFields = $validated['customFields'] ?? [];
         unset($validated['customFields']);
+        unset($validated['g-recaptcha-response']);
 
         if (!isset($validated['optin'])) {
             $validated['optin'] = false;
