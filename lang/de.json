@@ -101,5 +101,6 @@
     "petition.heroine.title": "F-35 Beschaffung sofort stoppen!",
     "petition.heroine.cta.text": "Jetzt unterschreiben!",
     "petition.form.anchor": "unterschreiben",
-    "petition.form.title": "Unterzeichne jetzt unsere Petition!"
+    "petition.form.title": "Unterzeichne jetzt unsere Petition!",
+    "petition.form.content" : "Bereits :count Personen unterstützen unseren Aufruf! Hilf uns, damit wir den Bundesrat dazu bewegen können, den Kaufvertrag für den F-35 Kampfjet zu kündigen."
 }

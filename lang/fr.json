@@ -104,5 +104,6 @@
     "petition.heroine.title": "Nous devons stopper l'achat du F-35 !",
     "petition.heroine.cta.text": "Signez maintenant !",
     "petition.form.anchor": "signer",
-    "petition.form.title": "Signez notre pétition maintenant !"
+    "petition.form.title": "Signez notre pétition maintenant !",
+    "petition.form.content": "Déjà :count personnes soutient notre petition ! Aidez-nous à convaincre le Conseil fédéral de résilier le contrat d'achat du F-35."
 }
