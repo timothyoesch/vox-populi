@@ -4,6 +4,8 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Crypt;
+use Illuminate\Support\Facades\Cookie;
 use Symfony\Component\HttpFoundation\Response;
 
 class SetAppLocale
@@ -15,7 +17,14 @@ class SetAppLocale
      */
     public function handle(Request $request, Closure $next): Response
     {
-        app()->setLocale(config('app.locales')[$request->getHost()] ?? config('app.fallback_locale'));
+        if (!$request->cookie("lang")) {
+            // Get browser language
+            $browser = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+            $lang = in_array($browser, ['de','fr', 'it']) ? $browser : 'de';
+        } else {
+            $lang = explode("|", Crypt::decryptString(Cookie::get('lang')))[1];
+        }
+        app()->setLocale($lang);
         return $next($request);
     }
 }

@@ -11,6 +11,11 @@ Route::get('/', function () {
     ]);
 })->name('landing');
 
+Route::get("/{lang}", function ($lang) {
+    app()->setLocale($lang);
+    return response()->redirectTo("/")->withCookie("lang", $lang, 60*60*24*30);
+})->name('landing.lang');
+
 Route::get("/update", function () {
     return view("update", [
         "supporters" => Supporter::where('email_verified_at', '!=', null)->where('public', true)->get(),
