@@ -18,9 +18,7 @@ class SetAppLocale
     public function handle(Request $request, Closure $next): Response
     {
         if (!$request->cookie("lang")) {
-            // Get browser language
-            $browser = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-            $lang = in_array($browser, ['de','fr', 'it']) ? $browser : 'de';
+            $lang = $request->getPreferredLanguage(["de", "fr", "it"]);
         } else {
             $lang = explode("|", Crypt::decryptString(Cookie::get('lang')))[1];
         }
