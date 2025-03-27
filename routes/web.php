@@ -20,7 +20,7 @@ Route::get("/{lang}", function ($lang) {
         $url .= "?s=" . request()->s;
     }
     return response()->redirectTo($url)->withCookie("lang", $lang, 60 * 24 * 365);
-})->name('landing.lang');
+})->name('landing.lang')->whereIn('lang', ['de','fr', 'it']);
 
 Route::get("/update", function () {
     return view("update", [
