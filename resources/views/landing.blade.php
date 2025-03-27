@@ -22,5 +22,9 @@
             <h2 class="text-2xl md:text-4xl font-black uppercase">{{__("petition.form.title")}}</h2>
             <x-supporters.form/>
         </div>
+        <div class="petition__content__supporters mt-12 md:mt-20">
+            <h2 class="text-2xl md:text-4xl font-black uppercase">{{__("petition.organisations.title")}}</h2>
+            <x-organisations/>
+        </div>
     </div>
 </x-frontend-layout>
