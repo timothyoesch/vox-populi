@@ -13,7 +13,11 @@ Route::get('/', function () {
 
 Route::get("/{lang}", function ($lang) {
     app()->setLocale($lang);
-    return response()->redirectTo("/")->withCookie("lang", $lang, 60*60*24*30);
+    $url = "/";
+    if (request()->has("s")) {
+        $url .= "?s=" . request()->s;
+    }
+    return redirect($url)->withCookie("s", $lang, 60 * 24 * 365);
 })->name('landing.lang');
 
 Route::get("/update", function () {
