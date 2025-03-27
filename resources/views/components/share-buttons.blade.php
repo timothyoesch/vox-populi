@@ -7,7 +7,7 @@
     $text = urlencode(__("pages.success.shareText"));
     // Replace + with %20
     $email = str_replace("+", "%20", $text);
-    $tweet = urlencode(__("pages.success.shareTweet") . "\n" . $url);
+    $tweet = urlencode(__("pages.success.shareTweet") . "\n") . $url;
 @endphp
 <div class="appeal-sharebuttons grid md:grid-cols-2 gap-4">
     @if(!$end)
