@@ -22,6 +22,9 @@ class SetAppLocale
         } else {
             $lang = explode("|", Crypt::decryptString(Cookie::get('lang')))[1];
         }
+        if (!in_array($lang, ["de", "fr", "it"])) {
+            $lang = "de";
+        }
         app()->setLocale($lang);
         return $next($request);
     }
