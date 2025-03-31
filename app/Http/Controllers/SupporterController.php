@@ -26,7 +26,7 @@ class SupporterController extends Controller
                 'configuration_id' => 'required|exists:configurations,id',
                 'locale' => 'required',
                 'customFields' => 'array',
-                'g-recaptcha-response' => 'required|recaptchav3:submit,0.5'
+                // 'g-recaptcha-response' => 'required|recaptchav3:submit,0.5'
             ]);
         } catch (\Illuminate\Validation\ValidationException $th) {
             // Redirect with errors
