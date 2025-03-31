@@ -1,8 +1,16 @@
 {
   "resources/css/app.scss": {
-    "file": "assets/app-weK5xBlN.css",
+    "file": "assets/app-DEInarU9.css",
     "src": "resources/css/app.scss",
     "isEntry": true
+  },
+  "resources/fonts/MaisonNeueExtended-Black.woff": {
+    "file": "assets/MaisonNeueExtended-Black-CJNCNt2F.woff",
+    "src": "resources/fonts/MaisonNeueExtended-Black.woff"
+  },
+  "resources/fonts/MaisonNeueExtended-Black.woff2": {
+    "file": "assets/MaisonNeueExtended-Black-oNfCajns.woff2",
+    "src": "resources/fonts/MaisonNeueExtended-Black.woff2"
   },
   "resources/fonts/MaisonNeueExtended-Book.woff": {
     "file": "assets/MaisonNeueExtended-Book-CjGYfk7h.woff",

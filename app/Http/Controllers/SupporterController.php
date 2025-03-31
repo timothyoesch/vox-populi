@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Supporter;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\URL;
 
 class SupporterController extends Controller
 {
@@ -24,10 +26,14 @@ class SupporterController extends Controller
                 'configuration_id' => 'required|exists:configurations,id',
                 'locale' => 'required',
                 'customFields' => 'array',
-                'g-recaptcha-response' => 'required|recaptchav3:submit,0.5'
+                // 'g-recaptcha-response' => 'required|recaptchav3:submit,0'
             ]);
         } catch (\Illuminate\Validation\ValidationException $th) {
-            return $th->validator->errors();
+            // Redirect with errors
+            $route = URL::route('landing', ["#" . __("petition.form.anchor")]);
+            return Redirect::to($route)
+                ->withErrors($th->validator->errors())
+                ->withInput();
         }
         $customFields = $validated['customFields'] ?? [];
         unset($validated['customFields']);

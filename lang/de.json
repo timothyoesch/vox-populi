@@ -104,5 +104,6 @@
     "petition.form.anchor": "unterschreiben",
     "petition.form.title": "Unterzeichne jetzt unsere Petition!",
     "petition.form.content": "Bereits :count Personen unterstützen unsere Petition! Hilf uns, damit wir den Bundesrat dazu bewegen können, den Kaufvertrag für den F-35 Kampfjet zu kündigen.",
-    "petition.organisations.title": "Diese Petition wurde ins Leben gerufen von:"
+    "petition.organisations.title": "Diese Petition wurde ins Leben gerufen von:",
+    "validation.recaptchav3": "Leider konnten wir nicht bestätigen, dass du ein Mensch bist. Bitte versuche es erneut."
 }
