@@ -4,8 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\Supporter;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\URL;
+use Illuminate\Support\Facades\Redirect;
+use Coderflex\LaravelTurnstile\Rules\TurnstileCheck;
 
 class SupporterController extends Controller
 {
@@ -26,7 +27,7 @@ class SupporterController extends Controller
                 'configuration_id' => 'required|exists:configurations,id',
                 'locale' => 'required',
                 'customFields' => 'array',
-                // 'g-recaptcha-response' => 'required|recaptchav3:submit,0.5'
+                'cf-turnstile-response' => [new TurnstileCheck()]
             ]);
         } catch (\Illuminate\Validation\ValidationException $th) {
             // Redirect with errors
@@ -37,7 +38,7 @@ class SupporterController extends Controller
         }
         $customFields = $validated['customFields'] ?? [];
         unset($validated['customFields']);
-        unset($validated['g-recaptcha-response']);
+        unset($validated['cf-turnstile-response']);
 
         if (!isset($validated['optin'])) {
             $validated['optin'] = false;

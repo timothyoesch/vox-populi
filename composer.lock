@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8d7cad26396f0798e3bb1ff9112b4505",
+    "content-hash": "cab6af26ad08fe7efeacaf27f984c264",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -512,6 +512,80 @@
                 }
             ],
             "time": "2024-02-09T16:56:22+00:00"
+        },
+        {
+            "name": "coderflex/laravel-turnstile",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/coderflexx/laravel-turnstile.git",
+                "reference": "1c1d0c5829851efaa1febcde34733537780eb0a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/coderflexx/laravel-turnstile/zipball/1c1d0c5829851efaa1febcde34733537780eb0a9",
+                "reference": "1c1d0c5829851efaa1febcde34733537780eb0a9",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.7",
+                "illuminate/contracts": "^10.0|^11.0|^12.0",
+                "php": "^8.2|^8.3",
+                "spatie/laravel-package-tools": "^1.14.0"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.0",
+                "nunomaduro/collision": "^7.0|^8.0",
+                "nunomaduro/larastan": "^2.8.0|^3.1.0",
+                "orchestra/testbench": "^8.0|^9.0|^10.0",
+                "pestphp/pest": "^2.0|^3.7",
+                "pestphp/pest-plugin-arch": "^2.0|^3.0",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan-deprecation-rules": "^1.0|^2.0",
+                "phpstan/phpstan-phpunit": "^1.0|^2.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "LaravelTurnstile": "Coderflex\\LaravelTurnstile\\Facades\\LaravelTurnstile"
+                    },
+                    "providers": [
+                        "Coderflex\\LaravelTurnstile\\LaravelTurnstileServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Coderflex\\LaravelTurnstile\\": "src/",
+                    "Coderflex\\LaravelTurnstile\\Database\\Factories\\": "database/factories/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ousid",
+                    "email": "oussama@coderflex.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A package to help you implement the Cloudflare turnstile \"CAPTCHA Alternative\"",
+            "homepage": "https://github.com/coderflexx/laravel-turnstile",
+            "keywords": [
+                "cloudflare",
+                "coderflex",
+                "laravel",
+                "laravel-turnstile",
+                "turnstile"
+            ],
+            "support": {
+                "issues": "https://github.com/coderflexx/laravel-turnstile/issues",
+                "source": "https://github.com/coderflexx/laravel-turnstile/tree/2.1.1"
+            },
+            "time": "2025-03-01T13:04:55+00:00"
         },
         {
             "name": "danharrin/date-format-converter",
@@ -2195,72 +2269,6 @@
                 }
             ],
             "time": "2025-02-03T10:55:03+00:00"
-        },
-        {
-            "name": "josiasmontag/laravel-recaptchav3",
-            "version": "1.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/josiasmontag/laravel-recaptchav3.git",
-                "reference": "08548b818223a20fc7db04a8d060758f8efc4ef5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/josiasmontag/laravel-recaptchav3/zipball/08548b818223a20fc7db04a8d060758f8efc4ef5",
-                "reference": "08548b818223a20fc7db04a8d060758f8efc4ef5",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": "^6.2|^7.0",
-                "illuminate/container": "~5.7.0|~5.8.0|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
-                "illuminate/http": "~5.7.0|~5.8.0|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
-                "illuminate/support": "~5.7.0|~5.8.0|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
-                "php": ">=7.1.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.2",
-                "orchestra/testbench": "~3.7.0|~3.8.0|^4.0|^5.0|^6.0|^7.0|^8.0|^9.0|^10.0",
-                "phpunit/phpunit": "6.2|^7.0|^8.0|^9.5.10|^10.5|^11.5.3"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "aliases": {
-                        "RecaptchaV3": "Lunaweb\\RecaptchaV3\\Facades\\RecaptchaV3"
-                    },
-                    "providers": [
-                        "Lunaweb\\RecaptchaV3\\Providers\\RecaptchaV3ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Lunaweb\\RecaptchaV3\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Josias Montag",
-                    "email": "josias@montag.info"
-                }
-            ],
-            "description": "Recaptcha V3 for Laravel package",
-            "homepage": "https://github.com/josiasmontag/laravel-recaptchav3",
-            "keywords": [
-                "captcha",
-                "laravel",
-                "php",
-                "recaptcha"
-            ],
-            "support": {
-                "issues": "https://github.com/josiasmontag/laravel-recaptchav3/issues",
-                "source": "https://github.com/josiasmontag/laravel-recaptchav3/tree/1.0.4"
-            },
-            "time": "2025-02-25T08:00:22+00:00"
         },
         {
             "name": "kirschbaum-development/eloquent-power-joins",

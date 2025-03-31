@@ -6,9 +6,9 @@
     <div class="appeal-cta__form--container">
         <form action="{{route("supporter.submit")}}" method="POST" class="appeal-cta__form grid md:grid-cols-2 gap-8 mt-4">
             @csrf
-            @if($errors->has("g-recaptcha-response"))
+            @if($errors->has("cf-turnstile-response"))
                 <div class="appeal-cta__form__fieldgroup__error bg-red-200 text-red-800 p-2 rounded mt-2 col-span-full">
-                    {{ $errors->first("g-recaptcha-response") }}
+                    {{ $errors->first("cf-turnstile-response") }}
                 </div>
             @endif
             <div class="appeal-cta__form__fieldgroup">
@@ -62,12 +62,20 @@
                     {!! $configuration->dataprotectiondisclaimer[app()->getLocale()] !!}
                 </label>
             </div>
+            <div class="flex justify-end col-span-full">
+                <x-turnstile-widget
+                    theme="dark"
+                    language="{{app()->getLocale()}}"
+                    size="normal"
+                    callback="callbackFunction"
+                    errorCallback="errorCallbackFunction"
+                />
+            </div>
             <div class="appeal-cta__form__fieldgroup col-span-full flex justify-end">
                 <button type="submit" class="appeal-cta__form__fieldgroup__submit petition__button">{{__("pages.landing.supporters.form.submit")}}</button>
             </div>
             <input type="hidden" name="locale" value="{{app()->getLocale()}}">
             <input type="hidden" name="configuration_id" value="{{$configuration->id}}">
-            {!! RecaptchaV3::field("submit") !!}
         </form>
     </div>
 </div>
