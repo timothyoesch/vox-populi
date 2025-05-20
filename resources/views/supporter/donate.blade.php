@@ -5,5 +5,11 @@
         <div class="mt-8">
             <iframe src="https://gruene-zh.payrexx.com/ch-DE/pay?cid=a7021d57&donation[preselect_amount]=100&hide_description=1&appview=1" allow="payment *" width="100%" height="800" style="border:0;" id="payrexx-embed"></iframe>
         </div>
+        <p class="mt-8">Spenden bitten an:</p>
+        <p>
+            IBAN CH58 0900 0000 8767 0663 6<br>
+            Lautend auf GRÜNE Kanton Zürich, 8005 Zürich<br>
+            Angabe des Spendenzwecks «Netto-Null 2040»
+        </p>
     </div>
 </x-frontend-layout>

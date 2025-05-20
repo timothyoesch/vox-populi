@@ -1,6 +1,6 @@
 {
   "resources/css/app.scss": {
-    "file": "assets/app-HTI-ctfG.css",
+    "file": "assets/app-CAFOh4yy.css",
     "src": "resources/css/app.scss",
     "isEntry": true
   },
@@ -37,12 +37,12 @@
     "src": "resources/fonts/SanukOT-Regular.woff2"
   },
   "resources/js/app.js": {
-    "file": "assets/app-C1HIioPF.js",
+    "file": "assets/app-BgZixX4o.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "css": [
-      "assets/app-B0a9OMnn.css"
+      "assets/app-DvB2Xm2x.css"
     ]
   }
 }

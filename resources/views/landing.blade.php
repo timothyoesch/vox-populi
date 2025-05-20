@@ -2,12 +2,12 @@
 	<x-heroine class="mb-8"/>
 	<div class="nettonull-content nettonull-containerpadding">
 		<p class="nettonull-lead text-xl font-bold">
-			Der Zürcher Kantonsrat hat beschlossen, dass der Kanton Zürich bis 2040 das Netto-Null-Ziel erreichen soll, mit Ausnahmen bis 2050. Eine Mehrheit aus Grünen, SP, GLP, AL und EVP will beim Klimaschutz vorwärts machen: Um im Kanton Zürich unseren Beitrag ans globale 1.5 Grad-Ziel zu leisten, müssen wir alles daran setzen, aus den fossilen Energien auszusteigen. Doch die SVP hat einmal mehr das Kantonsratsreferendum gegen den Klimaschutz ergriffen. Jetzt wird die Bevölkerung über das Klimaziel entscheiden.
+			Der Zürcher Kantonsrat hat beschlossen, dass der Kanton Zürich bis 2040 das Netto-Null-Ziel erreichen soll, mit Ausnahmen bis 2050. Eine Mehrheit aus GRÜNEN, SP, GLP, AL und EVP will beim Klimaschutz vorwärts machen: Um im Kanton Zürich unseren Beitrag ans globale 1.5 Grad-Ziel zu leisten, müssen wir alles daran setzen, aus den fossilen Energien auszusteigen. Doch die SVP hat einmal mehr das Kantonsratsreferendum gegen den Klimaschutz ergriffen. Jetzt wird die Bevölkerung über das Klimaziel entscheiden.
         </p>
         <p>
             Das Ziel Netto-Null 2040 wird im kantonalen Energiegesetz verankert. Der Kanton Zürich muss die Treibhausgasneutralität grundsätzlich bis 2040 erreichen. Ausnahmen gelten dort, wo der Kanton von der Umsetzung auf Bundesebene besonders abhängig ist. Als Zwischenziel muss der Kanton bis 2030 eine Senkung der Treibhausgasemissionen gegenüber 1990 um 48 % anstreben. In den Bereichen, wo die CO2-Emissionen gegenwärtig kaum vermeidbar sind, müssen sie durch natürliche oder technische Kohlenstoffsenkungen ausgeglichen werden.
         </p>
-        <a href="#mitmachen" class="nettonull-button w-full mt-10">Sei auch dabei! 🙌</a>
+        <a href="#mitmachen" class="nettonull-button w-full mt-10">Ich bin auch dabei! 🙌</a>
         <a href="#spenden" class="nettonull-button w-full mt-4">Ich helfe mit einer Spende 💖</a>
 		<div class="nettonull-toggles mt-16">
 	        <x-toggle
@@ -121,6 +121,12 @@
                 <div class="mt-8">
                     <iframe src="https://gruene-zh.payrexx.com/ch-DE/pay?cid=a7021d57&donation[preselect_amount]=100&hide_description=1&appview=1" allow="payment *" width="100%" height="800" style="border:0;" id="payrexx-embed"></iframe>
                 </div>
+                <p class="mt-8">Spenden bitten an:</p>
+                <p>
+                    IBAN CH58 0900 0000 8767 0663 6<br>
+                    Lautend auf GRÜNE Kanton Zürich, 8005 Zürich<br>
+                    Angabe des Spendenzwecks «Netto-Null 2040»
+                </p>
             </x-toggle>
         </div>
 
