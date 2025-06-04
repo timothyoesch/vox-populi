@@ -4,13 +4,17 @@
         position: relative;
 
         &__text {
-            border: 2px solid theme("colors.foreground");
-            border-radius: 0.25rem;
-            background: transparent;
+            border-bottom: 3px solid theme("colors.foreground");
             color: theme("colors.foreground");
             line-height: 1;
             padding: 0.5rem 1rem;
             width: 100%;
+            @apply bg-secondary bg-opacity-20;
+
+            &:focus {
+                outline: none;
+                border-color: theme("colors.highlight");
+            }
         }
 
         &__label {
@@ -20,7 +24,6 @@
             font-size: 0.75rem;
             padding: 0 0.25rem;
             line-height: 1;
-            background-color: theme("colors.background");
         }
 
         &--checkbox {
@@ -44,15 +47,17 @@
             color: theme("colors.background");
             border: 2px solid theme("colors.foreground");
             border-radius: 0.25rem;
-            padding: 0.5rem 1rem;
-            font-size: 1rem;
+            padding: 0.4em 0.75em;
+            font-size: 2.5rem;
             text-transform: uppercase;
             font-weight: 900;
             cursor: pointer;
-            transition: all 0.1s;
+            transition: all 0.25s;
+            font-family: "Bernoru";
 
             &:hover {
-                filter: brightness(1.75);
+                background-color: theme("colors.highlight");
+                color: theme("colors.secondary");
             }
         }
 

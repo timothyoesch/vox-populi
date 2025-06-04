@@ -29,15 +29,6 @@
                     </div>
                 @endif
             </div>
-            <div class="appeal-cta__form__fieldgroup col-span-full">
-                <label for="email" class="appeal-cta__form__fieldgroup__label">{{__("pages.landing.supporters.form.email")}}</label>
-                <input type="email" name="email" id="email" class="appeal-cta__form__fieldgroup__text" required value="{{old("email")}}">
-                @if($errors->has("email"))
-                    <div class="appeal-cta__form__fieldgroup__error bg-red-200 text-red-800 p-2 rounded mt-2">
-                        {{ $errors->first("email") }}
-                    </div>
-                @endif
-            </div>
             <div class="appeal-cta__form__fieldgroup">
                 <label for="zip" class="appeal-cta__form__fieldgroup__label">{{__("pages.landing.supporters.form.zip")}}</label>
                 <input type="text" name="zip" id="zip" class="appeal-cta__form__fieldgroup__text" required value="{{old("zip")}}">
@@ -48,11 +39,20 @@
                 @endif
             </div>
             <div class="appeal-cta__form__fieldgroup">
-                <label for="phone" class="appeal-cta__form__fieldgroup__label">{{__("pages.landing.supporters.form.phone")}}</label>
-                <input type="text" name="phone" id="phone" class="appeal-cta__form__fieldgroup__text" placeholder="{{__("pages.landing.supporters.form.placeholders.optional")}}" value="{{old("phone")}}">
-                @if($errors->has("phone"))
+                <label for="customFields[city]" class="appeal-cta__form__fieldgroup__label">{{__("pages.landing.supporters.form.city")}}</label>
+                <input type="text" name="customFields[city]" id="customFields[city]" class="appeal-cta__form__fieldgroup__text" required value="{{old("customFields.city")}}">
+                @if($errors->has("customFields.city"))
                     <div class="appeal-cta__form__fieldgroup__error bg-red-200 text-red-800 p-2 rounded mt-2">
-                        {{ $errors->first("phone") }}
+                        {{ $errors->first("customFields.city") }}
+                    </div>
+                @endif
+            </div>
+            <div class="appeal-cta__form__fieldgroup col-span-full">
+                <label for="email" class="appeal-cta__form__fieldgroup__label">{{__("pages.landing.supporters.form.email")}}</label>
+                <input type="email" name="email" id="email" class="appeal-cta__form__fieldgroup__text" required value="{{old("email")}}">
+                @if($errors->has("email"))
+                    <div class="appeal-cta__form__fieldgroup__error bg-red-200 text-red-800 p-2 rounded mt-2">
+                        {{ $errors->first("email") }}
                     </div>
                 @endif
             </div>
@@ -64,7 +64,7 @@
             </div>
             <div class="flex justify-end col-span-full">
                 <x-turnstile-widget
-                    theme="dark"
+                    theme="light"
                     language="{{app()->getLocale()}}"
                     size="normal"
                     callback="callbackFunction"

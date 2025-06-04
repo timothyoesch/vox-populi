@@ -5,15 +5,21 @@ export default {
         './resources/**/*.js',
         './resources/**/*.vue',
         './lang/*.json',
+        "./resources/**/*.md"
     ],
     theme: {
         extend: {
             "colors": {
-                "background": "#000000",
-                "foreground": "#FFED00",
+                "background": "#ffffff",
+                "foreground": "#000000",
+                "highlight": "#0E1F8B",
+                "secondary": "#FFDFFD",
+            },
+            "fontFamily": {
+                "bernoru": ['Bernoru', 'sans-serif']
             },
         },
-    },
-    plugins: [],
+        plugins: [],
+    }
 }
 

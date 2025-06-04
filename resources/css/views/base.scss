@@ -4,14 +4,16 @@ html {
     scroll-behavior: smooth;
 }
 
-.petition__container {
+.queer-container {
+    max-width: 1000px;
+    @apply mx-auto w-full px-4 sm:px-6 lg:px-8;
+
     &--large {
-        max-width: 1146px;
+        max-width: 1548px;
     }
+}
 
-    &--small {
-        max-width: 944px;
-    }
-
-    @apply px-4 md:px-8 mx-auto;
+// Selection styles
+::selection {
+    @apply bg-highlight bg-opacity-100 text-secondary;
 }

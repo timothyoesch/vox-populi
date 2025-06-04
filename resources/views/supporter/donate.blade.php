@@ -1,5 +1,5 @@
 <x-frontend-layout>
-    <div class="petition__container petition__container--small py-4 md:py-8">
+    <div class="queer-container py-4 md:py-8">
         <h1 class="text-4xl mb-8 font-bold uppercase">{{__("pages.donate.title")}}</h1>
         {!!
     \Illuminate\Mail\Markdown::parse(

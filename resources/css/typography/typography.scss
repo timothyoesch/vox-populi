@@ -3,8 +3,19 @@
 html {
     font-size: clamp(15px, 1.041666666666667vw, 22px);
 
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Bernoru", grotesk, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+    }
+
     body {
-        font-family: "MaisonNeue", sans-serif;
+        font-family: "SourceSans", sans-serif;
         @apply text-lg md:text-xl;
     }
 

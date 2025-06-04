@@ -9,24 +9,9 @@ use Filament\Actions\Imports\Http\Controllers\DownloadImportFailureCsv;
 
 Route::get('/', function () {
     return view('landing', [
-        'supporters' => Supporter::where('email_verified_at', '!=', null)->where('public', true)->get(),
+        'supporters' => Supporter::all(),
     ]);
 })->name('landing');
-
-Route::get("/{lang}", function ($lang) {
-    app()->setLocale($lang);
-    $url = "/";
-    if (request()->has("s")) {
-        $url .= "?s=" . request()->s;
-    }
-    return response()->redirectTo($url)->withCookie("lang", $lang, 60 * 24 * 365);
-})->name('landing.lang')->whereIn('lang', ['de','fr', 'it']);
-
-Route::get("/update", function () {
-    return view("update", [
-        "supporters" => Supporter::where('email_verified_at', '!=', null)->where('public', true)->get(),
-    ]);
-})->name("update");
 
 Route::prefix("supporter")->group(function () {
     Route::post('submit', [SupporterController::class, 'store'])->name('supporter.submit');
@@ -38,20 +23,7 @@ Route::prefix("supporter")->group(function () {
         return view('supporter.success');
     })->name('supporter.success');
 
-    Route::get("thanks", function () {
-        if (!request()->name) {
-            return redirect()->route('landing');
-        }
-        return view('supporter.success-campax');
-    })->name('supporter.success.campax');
-
     Route::get("donate", function () {
         return view('supporter.donate');
     })->name('supporter.donate');
-
-    Route::get('verify/{id}/{token}', [SupporterController::class, 'verify'])->name('supporter.confirm-email');
-
-    Route::get("verify/success", function () {
-        return view('supporter.verify-success');
-    })->name('supporter.verify.success');
 });
