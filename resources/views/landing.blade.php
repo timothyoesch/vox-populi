@@ -35,7 +35,7 @@
               />
             </picture>
             <h3 class="text-center text-5xl mb-6">{{__("petition.supporters.cofounded")}}</h3>
-            <div class="queer__content__cofounders grid grid-cols-2 md:grid-cols-2 gap-6">
+            <div class="queer__content__cofounders grid grid-cols-2 md:grid-cols-3 gap-6">
                 <picture>
                     <source
                       type="image/avif"
