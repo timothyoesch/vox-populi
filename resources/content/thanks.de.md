@@ -1,1 +1,1 @@
-**Danke, dass du unsere Petition unterschrieben hast!** Damit wir den Bundesrat dazu bringen können, den Kaufvertrag des F35 aufzuheben, müssen wir möglichst viel Druck auf ihn ausüben. Kannst du uns dabei unterstützen? <u>Dann teile den Aufruf mit deinem Umfeld:</u>
+**Danke, dass du den queeren Appell unterschrieben hast!** Der Appell ist wichtiger denn je: Deshalb sind wir darauf angewiesen, dass ihn so viele Menschen wie möglich teilen. Kannst du uns dabei unterstützen?
