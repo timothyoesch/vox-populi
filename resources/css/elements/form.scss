@@ -9,7 +9,7 @@
             line-height: 1;
             padding: 0.5rem 1rem;
             width: 100%;
-            @apply bg-secondary bg-opacity-20;
+            @apply bg-highlight bg-opacity-10;
 
             &:focus {
                 outline: none;
@@ -61,7 +61,6 @@
 
             &:hover {
                 background-color: theme("colors.highlight");
-                color: theme("colors.secondary");
             }
         }
 

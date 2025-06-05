@@ -12,7 +12,7 @@ export default {
             "colors": {
                 "background": "#ffffff",
                 "foreground": "#000000",
-                "highlight": "#0E1F8B",
+                "highlight": "#e84e1b",
                 "secondary": "#FFDFFD",
             },
             "fontFamily": {

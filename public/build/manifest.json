@@ -1,24 +1,144 @@
 {
   "resources/css/app.scss": {
-    "file": "assets/app-DEInarU9.css",
+    "file": "assets/app-rMVdfCb0.css",
     "src": "resources/css/app.scss",
     "isEntry": true
   },
-  "resources/fonts/MaisonNeueExtended-Black.woff": {
-    "file": "assets/MaisonNeueExtended-Black-CJNCNt2F.woff",
-    "src": "resources/fonts/MaisonNeueExtended-Black.woff"
+  "resources/fonts/bernoru-blackcondensed-webfont.woff": {
+    "file": "assets/bernoru-blackcondensed-webfont-CDxQxLNT.woff",
+    "src": "resources/fonts/bernoru-blackcondensed-webfont.woff"
   },
-  "resources/fonts/MaisonNeueExtended-Black.woff2": {
-    "file": "assets/MaisonNeueExtended-Black-oNfCajns.woff2",
-    "src": "resources/fonts/MaisonNeueExtended-Black.woff2"
+  "resources/fonts/bernoru-blackcondensed-webfont.woff2": {
+    "file": "assets/bernoru-blackcondensed-webfont-CXlpKFVf.woff2",
+    "src": "resources/fonts/bernoru-blackcondensed-webfont.woff2"
   },
-  "resources/fonts/MaisonNeueExtended-Book.woff": {
-    "file": "assets/MaisonNeueExtended-Book-CjGYfk7h.woff",
-    "src": "resources/fonts/MaisonNeueExtended-Book.woff"
+  "resources/fonts/source-sans-3/SourceSans3-Black.woff": {
+    "file": "assets/SourceSans3-Black-BaBPeVzS.woff",
+    "src": "resources/fonts/source-sans-3/SourceSans3-Black.woff"
   },
-  "resources/fonts/MaisonNeueExtended-Book.woff2": {
-    "file": "assets/MaisonNeueExtended-Book-Ckw8fJvW.woff2",
-    "src": "resources/fonts/MaisonNeueExtended-Book.woff2"
+  "resources/fonts/source-sans-3/SourceSans3-Black.woff2": {
+    "file": "assets/SourceSans3-Black-Dqfy7-oO.woff2",
+    "src": "resources/fonts/source-sans-3/SourceSans3-Black.woff2"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-BlackItalic.woff": {
+    "file": "assets/SourceSans3-BlackItalic-BxZhtOgD.woff",
+    "src": "resources/fonts/source-sans-3/SourceSans3-BlackItalic.woff"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-BlackItalic.woff2": {
+    "file": "assets/SourceSans3-BlackItalic-DYtrYoNv.woff2",
+    "src": "resources/fonts/source-sans-3/SourceSans3-BlackItalic.woff2"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-Bold.woff": {
+    "file": "assets/SourceSans3-Bold-BRROtfla.woff",
+    "src": "resources/fonts/source-sans-3/SourceSans3-Bold.woff"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-Bold.woff2": {
+    "file": "assets/SourceSans3-Bold-DA4-55EB.woff2",
+    "src": "resources/fonts/source-sans-3/SourceSans3-Bold.woff2"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-BoldItalic.woff": {
+    "file": "assets/SourceSans3-BoldItalic-DE1C4JUA.woff",
+    "src": "resources/fonts/source-sans-3/SourceSans3-BoldItalic.woff"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-BoldItalic.woff2": {
+    "file": "assets/SourceSans3-BoldItalic-EHNs6wR1.woff2",
+    "src": "resources/fonts/source-sans-3/SourceSans3-BoldItalic.woff2"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-ExtraBold.woff": {
+    "file": "assets/SourceSans3-ExtraBold-BR3_xZVM.woff",
+    "src": "resources/fonts/source-sans-3/SourceSans3-ExtraBold.woff"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-ExtraBold.woff2": {
+    "file": "assets/SourceSans3-ExtraBold-DtuxAZOn.woff2",
+    "src": "resources/fonts/source-sans-3/SourceSans3-ExtraBold.woff2"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-ExtraBoldItalic.woff": {
+    "file": "assets/SourceSans3-ExtraBoldItalic-B1XxdT4A.woff",
+    "src": "resources/fonts/source-sans-3/SourceSans3-ExtraBoldItalic.woff"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-ExtraBoldItalic.woff2": {
+    "file": "assets/SourceSans3-ExtraBoldItalic-BN6LPStC.woff2",
+    "src": "resources/fonts/source-sans-3/SourceSans3-ExtraBoldItalic.woff2"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-ExtraLight.woff": {
+    "file": "assets/SourceSans3-ExtraLight-Cx_IgkxR.woff",
+    "src": "resources/fonts/source-sans-3/SourceSans3-ExtraLight.woff"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-ExtraLight.woff2": {
+    "file": "assets/SourceSans3-ExtraLight-DsaisuPo.woff2",
+    "src": "resources/fonts/source-sans-3/SourceSans3-ExtraLight.woff2"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-ExtraLightItalic.woff": {
+    "file": "assets/SourceSans3-ExtraLightItalic-XGefVye-.woff",
+    "src": "resources/fonts/source-sans-3/SourceSans3-ExtraLightItalic.woff"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-ExtraLightItalic.woff2": {
+    "file": "assets/SourceSans3-ExtraLightItalic-Bte0nQsk.woff2",
+    "src": "resources/fonts/source-sans-3/SourceSans3-ExtraLightItalic.woff2"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-Italic.woff": {
+    "file": "assets/SourceSans3-Italic-D6sh-Uap.woff",
+    "src": "resources/fonts/source-sans-3/SourceSans3-Italic.woff"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-Italic.woff2": {
+    "file": "assets/SourceSans3-Italic-CSX1YR4z.woff2",
+    "src": "resources/fonts/source-sans-3/SourceSans3-Italic.woff2"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-Light.woff": {
+    "file": "assets/SourceSans3-Light-BWtvcMHM.woff",
+    "src": "resources/fonts/source-sans-3/SourceSans3-Light.woff"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-Light.woff2": {
+    "file": "assets/SourceSans3-Light-DzYVADsb.woff2",
+    "src": "resources/fonts/source-sans-3/SourceSans3-Light.woff2"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-LightItalic.woff": {
+    "file": "assets/SourceSans3-LightItalic-SAXPj2vQ.woff",
+    "src": "resources/fonts/source-sans-3/SourceSans3-LightItalic.woff"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-LightItalic.woff2": {
+    "file": "assets/SourceSans3-LightItalic-BY3_oQcL.woff2",
+    "src": "resources/fonts/source-sans-3/SourceSans3-LightItalic.woff2"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-Medium.woff": {
+    "file": "assets/SourceSans3-Medium-BXEr5p2n.woff",
+    "src": "resources/fonts/source-sans-3/SourceSans3-Medium.woff"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-Medium.woff2": {
+    "file": "assets/SourceSans3-Medium-BR-mBXKA.woff2",
+    "src": "resources/fonts/source-sans-3/SourceSans3-Medium.woff2"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-MediumItalic.woff": {
+    "file": "assets/SourceSans3-MediumItalic-aWBwJ2c-.woff",
+    "src": "resources/fonts/source-sans-3/SourceSans3-MediumItalic.woff"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-MediumItalic.woff2": {
+    "file": "assets/SourceSans3-MediumItalic-DW4oXplG.woff2",
+    "src": "resources/fonts/source-sans-3/SourceSans3-MediumItalic.woff2"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-Regular.woff": {
+    "file": "assets/SourceSans3-Regular-QP3cDxJc.woff",
+    "src": "resources/fonts/source-sans-3/SourceSans3-Regular.woff"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-Regular.woff2": {
+    "file": "assets/SourceSans3-Regular-nm3g_E-Y.woff2",
+    "src": "resources/fonts/source-sans-3/SourceSans3-Regular.woff2"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-SemiBold.woff": {
+    "file": "assets/SourceSans3-SemiBold-DQ5HGwF_.woff",
+    "src": "resources/fonts/source-sans-3/SourceSans3-SemiBold.woff"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-SemiBold.woff2": {
+    "file": "assets/SourceSans3-SemiBold-BZRY05Uh.woff2",
+    "src": "resources/fonts/source-sans-3/SourceSans3-SemiBold.woff2"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-SemiBoldItalic.woff": {
+    "file": "assets/SourceSans3-SemiBoldItalic-DPT129KH.woff",
+    "src": "resources/fonts/source-sans-3/SourceSans3-SemiBoldItalic.woff"
+  },
+  "resources/fonts/source-sans-3/SourceSans3-SemiBoldItalic.woff2": {
+    "file": "assets/SourceSans3-SemiBoldItalic-CvXrLnRb.woff2",
+    "src": "resources/fonts/source-sans-3/SourceSans3-SemiBoldItalic.woff2"
   },
   "resources/js/app.js": {
     "file": "assets/app-BMoWWDXU.js",

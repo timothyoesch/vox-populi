@@ -1,18 +1,22 @@
 <x-frontend-layout>
-    <div class="queer-container queer-container--large mt-12">
+    <div class="queer-container queer-container--small mt-12">
         <x-app-icon />
     </div>
-    <div class="queer-container mt-12 mb-24">
-        <div class="queer__content__petition text-3xl leading-normal">
+    <div class="queer-container mt-12 mb-24 text-2xl">
+        <div class="queer__content__petition leading-normal p-4 bg-white shadow-2xl mb-12">
             {!!
                 \Illuminate\Mail\Markdown::parse(
                     file_get_contents(resource_path('content/appeal.' . app()->getLocale() . '.md'))
                 )
             !!}
         </div>
+        <p class="font-bold">
+            {{__("petition.form.explainer")}}
+        </p>
         <div class="queer__content__form mt-24 md:mt-20" id="{{__("petition.form.anchor")}}">
             <h2 class="text-center text-7xl mb-6">{{__("petition.form.title")}}</h2>
             <x-supporters.form/>
+            <a href="#" class="petition__button w-full mt-12">{{__("petition.form.download")}}</a>
         </div>
         <div class="queer__content__form mt-24 md:mt-20" id="{{__("petition.form.anchor")}}">
             <h2 class="text-center text-7xl mb-6">{{__("petition.supporters.by")}}</h2>
