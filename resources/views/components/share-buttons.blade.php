@@ -1,6 +1,7 @@
 @php
     $source = (request()->source && request()->source !== "DEFAULT") ? request()->source : false;
-    $url = urlencode(route('landing') . "/" . app()->getLocale());
+    // Get the request URL without the query string
+    $url = request()->host();
     if ($source) {
         $url .= urlencode("?s=" . $source);
     }

@@ -87,12 +87,10 @@ return [
     'faker_locale' => env('APP_FAKER_LOCALE', 'en_US'),
 
     "locales" => [
-        "vp.ddev.site" => "de",
-        "dringender-appell.ch" => "de",
-        "appel-urgent.ch" => "fr",
-        "www.appel-urgent.ch" => "fr",
-        "appello-urgente.ch" => "it",
-        "www.appello-urgente.ch" => "it",
+        "queerer-appell.ddev.site" => "de",
+        "fr.queerer-appell.ddev.site" => "fr",
+        "queerer-appell.ch" => "de",
+        "appel-queer.ch" => "fr"
     ],
 
     /*
