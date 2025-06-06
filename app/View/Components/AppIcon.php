@@ -8,12 +8,13 @@ use Illuminate\View\Component;
 
 class AppIcon extends Component
 {
+    public bool $hideText;
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public function __construct($hideText = "")
     {
-        //
+        $this->hideText = $hideText;
     }
 
     /**

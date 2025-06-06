@@ -15,6 +15,7 @@
         </p>
         <div class="queer__content__form mt-24 md:mt-20" id="{{__("petition.form.anchor")}}">
             <h2 class="text-center text-7xl mb-6">{{__("petition.form.title")}}</h2>
+            <x-barometer />
             <x-supporters.form/>
             <a href="/pdf/Unterschriftenbogen_{{app()->getLocale()}}.pdf"
                class="petition__button w-full mt-12"
