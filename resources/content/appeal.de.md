@@ -12,3 +12,4 @@ Darum bitten wir euch: Hört uns zu. Nehmt uns ernst. **Steht mit uns ein – f�
 
 **Danke.** \
 Die queeren Menschen der Schweiz. Und ihre Verbündeten.
+

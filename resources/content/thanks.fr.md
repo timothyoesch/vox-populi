@@ -1,1 +1,1 @@
-**Merci d'avoir signé notre pétition !** Pour que nous puissions convaincre le Conseil fédéral d'annuler le contrat d'achat des F35, nous devons exercer le plus de pression possible sur lui. Peux-tu nous aider ? <u>Alors partage l'appel avec ton entourage :</u>
+**Merci d’avoir signé l’appel queer !** Peux-tu nous aider à répandre notre message et à lui donner de la visibilité ? **Partage l’appel queer autour de toi :**

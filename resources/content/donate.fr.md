@@ -1,1 +1,5 @@
-Notre travail repose sur beaucoup de bénévolat : nous sommes financés par les dons généreux de personnes comme vous. <u>Pouvez-vous nous soutenir ?</u>
+Soutiens notre travail !
+**S’engager pour les droits queer, ça prend du temps et de l’argent. Chaque don change la donne et nous permet de nous engager davantage. Peux-tu nous soutenir ?**
+
+
+

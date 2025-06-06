@@ -1,1 +1,0 @@
-**Danke, dass du den queeren Appell unterschrieben hast**! Wir wollen, dass möglichst viele Menschen davon erfahren. Kannst du uns dabei unterstützen? **Dann teilen den queeren Appell mit deinem Umfeld:**

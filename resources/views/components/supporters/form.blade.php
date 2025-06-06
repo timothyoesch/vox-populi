@@ -39,11 +39,11 @@
                 @endif
             </div>
             <div class="appeal-cta__form__fieldgroup">
-                <label for="customFields[city]" class="appeal-cta__form__fieldgroup__label">{{__("pages.landing.supporters.form.city")}}</label>
-                <input type="text" name="customFields[city]" id="customFields[city]" class="appeal-cta__form__fieldgroup__text" required value="{{old("customFields.city")}}">
-                @if($errors->has("customFields.city"))
+                <label for="phone" class="appeal-cta__form__fieldgroup__label">{{__("pages.landing.supporters.form.phone")}}</label>
+                <input type="text" name="phone" id="phone" class="appeal-cta__form__fieldgroup__text" value="{{old("phone")}}" placeholder="{{__("pages.landing.supporters.form.placeholders.optional")}}">
+                @if($errors->has("phone"))
                     <div class="appeal-cta__form__fieldgroup__error bg-red-200 text-red-800 p-2 rounded mt-2">
-                        {{ $errors->first("customFields.city") }}
+                        {{ $errors->first("phone") }}
                     </div>
                 @endif
             </div>
