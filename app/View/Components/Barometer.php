@@ -19,9 +19,11 @@ class Barometer extends Component
     {
         $this->count = Supporter::all()->count();
         switch ($this->count) {
-            case $this->count <= 250:
-                $this->count = 161;
+            case $this->count > 161 && $this->count <= 2000:
                 $this->target = 3500;
+                break;
+            case $this->count > 2000 && $this->count <= 4000:
+                $this->target = 5000;
                 break;
             case $this->count > 4000 && $this->count <= 6000:
                 $this->target = 7500;
@@ -39,7 +41,8 @@ class Barometer extends Component
                 $this->target = 25000;
                 break;
             default:
-                $this->target = 5000;
+                $this->count = 161;
+                $this->target = 3500;
                 break;
         }
         $this->percentage = min(100, round(($this->count / $this->target * 100) * 4, 0) / 4);
