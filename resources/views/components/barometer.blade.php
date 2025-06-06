@@ -4,9 +4,9 @@
         <div class="queer-barometer__icon--spacer w-0"></div>
         <x-app-icon :hideText="true" class="!h-12 mb-2 -ml-2"/>
     </div>
-    <div class="queer-barometer__outer rounded-full bg-secondary p-1">
+    <div class="queer-barometer__outer rounded-full bg-gray-200 p-1">
         <div class="queer-barometer__inner h-6 bg-highlight rounded-full w-0 flex justify-center items-center" data-percentage="{{$percentage}}%">
-            <span class="text-sm opacity-0 text-secondary">{{ $percentage }}%</span>
+            <span class="text-sm opacity-0 text-gray-200">{{ $percentage }}%</span>
         </div>
     </div>
     <div class="queer-barometer__numbers flex justify-between mt-2">
