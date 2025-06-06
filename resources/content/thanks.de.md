@@ -1,0 +1,1 @@
+**Merci d’avoir signé l’appel queer !** Peux-tu nous aider à répandre notre message et à lui donner de la visibilité ? **Partage l’appel queer autour de toi :**
