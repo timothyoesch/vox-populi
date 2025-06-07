@@ -29,6 +29,13 @@
                 </div>
             </div>
             <div class="mt-12 md:mt-20">
+                <h1 class="text-3xl md:text-5xl">{{__("pages.donate.title")}}</h1>
+                <div class="mt-4 text-xl">
+                    {!! md_html(resource_path("/content/" . app()->getLocale() . "/donate.lander.md")) !!}
+                </div>
+                <x-donation-form />
+            </div>
+            <div class="mt-12 md:mt-20">
                 <h1 class="text-3xl md:text-5xl">{{__("pages.arguments.title")}}</h1>
                 <x-arguments.grid />
             </div>
