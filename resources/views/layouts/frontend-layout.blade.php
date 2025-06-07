@@ -13,13 +13,13 @@
     <meta property="og:url" content="{{url()->current()}}" />
     <meta property="og:title" content="{{__("og.title")}}" />
     <meta property="og:description" content="{{__("og.description")}}" />
-    <meta property="og:image" content="{{url("images/og/" . app()->getLocale() . "_og.png")}}" />
+    <meta property="og:image" content="{{url("images/og/og_" . app()->getLocale() . ".png")}}" />
 
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="{{url()->current()}}" />
     <meta property="twitter:title" content="{{__("og.title")}}" />
     <meta property="twitter:description" content="{{__("og.description")}}" />
-    <meta property="twitter:image" content="{{url("images/og/" . app()->getLocale() . "_og.png")}}" />
+    <meta property="twitter:image" content="{{url("images/og/og_" . app()->getLocale() . ".png")}}" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
