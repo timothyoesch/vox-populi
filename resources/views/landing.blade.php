@@ -14,18 +14,18 @@
     </div>
     <div class="koref-content -mt-20 md:-mt-32">
         <div class="koref-container">
-            <div class="koref-pledge__form bg-highlight p-6">
+            <div class="koref-pledge__form bg-highlight p-8">
                 <h1 class="text-center text-3xl md:text-5xl">{{__("pages.pledge.title") }}</h1>
                 <x-supporters.form />
             </div>
             <div class="mt-12 md:mt-20">
                 <h1 class="text-3xl md:text-5xl">{{__("pages.about.title")}}</h1>
                 <div class="mt-4 text-xl">
-                    {!! md_html(resource_path("/content/" . app()->getLocale() . "/" . env("DECISION") . "/about.md")) !!}
+                    {!! md_html(resource_path("/content/" . app()->getLocale() . "/about.md")) !!}
                 </div>
                 <x-timeline/>
                 <div class="mt-6 md:mt-12 text-xl">
-                    {!! md_html(resource_path("/content/" . app()->getLocale() . "/" . env("DECISION") . "/about-end.md")) !!}
+                    {!! md_html(resource_path("/content/" . app()->getLocale() . "/about-end.md")) !!}
                 </div>
             </div>
             <div class="mt-12 md:mt-20">
