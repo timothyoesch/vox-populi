@@ -63,7 +63,7 @@
 
     window.rnw.tamaro.runWidget('.rnw-tamaro-widget', {
         language: lang,
-        purposes: ['stopf35_petition'],
+        purposes: ['korrektur_referendum'],
         forceShowBlocks: {
             'payment_purposes': false,
             'payment_amounts_and_intervals': true,
@@ -119,14 +119,14 @@
                 organization_name: "Korrektur Referendum",
                 address_form_start_content_html: "<p><em><small>Als politische Organisation ist uns Transparenz in der Finanzierung besonders wichtig. Bitte geben Sie Ihre Adresse an, damit wir Sie als Gönner*in registrieren können. Ihre Daten werden vertraulich behandelt und nicht an Dritte weitergegeben.</small></em></p>",
                 purposes: {
-                    stopf35_petition: "Spende für das Korrektur Referendum"
+                    korrektur_referendum: "Spende für das Korrektur Referendum"
                 }
             },
             fr: {
                 organization_name: "Référendum correctif",
                 address_form_start_content_html: "<p><em><small>En tant qu'organisation politique, la transparence du financement est particulièrement importante pour nous. Veuillez indiquer votre adresse afin que nous puissions vous enregistrer en tant que donateur. Vos données seront traitées de manière confidentielle et ne seront pas transmises à des tiers.</small></em></p>",
                 purposes: {
-                    stopf35_petition: "Don pour le Référendum correctif"
+                    korrektur_referendum: "Don pour le Référendum correctif"
                 }
             },
         }
