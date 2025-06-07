@@ -34,7 +34,7 @@
 </head>
 <body class="antialiased">
 
-    <div id="main-content" class="mb-12">
+    <div id="main-content" {{$attributes->merge(['class' => 'mb-12'])}}>
         {{ $slot }}
     </div>
 

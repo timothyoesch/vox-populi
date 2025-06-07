@@ -109,5 +109,9 @@
     "user.resource.title.list": "Benutzer*innen",
     "user.resource.title.resource": "Benutzer*in",
     "user.resource.updated_at": "Aktualisiert am",
-    "validation.recaptchav3": "Leider konnten wir nicht bestätigen, dass du ein Mensch bist. Bitte versuche es erneut."
+    "validation.recaptchav3": "Leider konnten wir nicht bestätigen, dass du ein Mensch bist. Bitte versuche es erneut.",
+    "pages.lead.title": "Keine Waffen an&nbsp;Unrechtsregime!",
+    "pages.pledge.title": "Unterstütze unser Referendum!",
+    "pages.about.title": "Darum geht's",
+    "pages.arguments.title": "Unsere Argumente"
 }

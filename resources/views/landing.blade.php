@@ -1,100 +1,36 @@
-<x-frontend-layout>
-    <div class="queer-container queer-container--small mt-12">
-        <x-app-icon />
+<x-frontend-layout class="text-accent">
+    <div class="koref-heroine bg-accent pt-6 md:pt-8 pb-32 md:pb-48">
+        <x-navbar />
+        <div class="koref-container koref-lead">
+            <div class="koref-lead__content text-center">
+                <x-boxed-title>
+                    {!! __("pages.lead.title") !!}
+                </x-boxed-title>
+                <div class="koref-lead__subtitle text-white text-2xl md:text-3xl !leading-snug">
+                    {!! md_html(resource_path("/content/" . app()->getLocale() . "/lead.md")) !!}
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="queer-container mt-12 mb-24 text-2xl">
-        <div class="queer__content__petition leading-normal p-4 bg-white shadow-2xl mb-12">
-            {!!
-                \Illuminate\Mail\Markdown::parse(
-                    file_get_contents(resource_path('content/appeal.' . app()->getLocale() . '.md'))
-                )
-            !!}
-        </div>
-        <p class="font-bold">
-            {{__("petition.form.explainer")}}
-        </p>
-        <div class="queer__content__form mt-24 md:mt-20" id="{{__("petition.form.anchor")}}">
-            <h2 class="text-center text-7xl mb-6">{{__("petition.form.title")}}</h2>
-            <x-barometer />
-            <x-supporters.form/>
-            <a href="/pdf/Unterschriftenbogen_{{app()->getLocale()}}.pdf"
-               class="petition__button w-full mt-12"
-               target="_blank"
-               rel="noopener noreferrer">{{__("petition.form.download")}}</a>
-        </div>
-        <div class="queer__content__form mt-24 md:mt-20" id="{{__("petition.form.anchor")}}">
-            <h2 class="text-center text-7xl mb-6">{{__("petition.supporters.by")}}</h2>
-            <picture>
-                <source
-                  type="image/avif"
-                  srcset="images/organisations/de/los-100.avif?width=100 100w, images/organisations/de/los-200.avif?width=200 200w, images/organisations/de/los-400.avif?width=400 400w, images/organisations/de/los-800.avif?width=800 800w" />
-                <source
-                  type="image/webp"
-                  srcset="images/organisations/de/los-100.webp?width=100 100w, images/organisations/de/los-200.webp?width=200 200w, images/organisations/de/los-400.webp?width=400 400w, images/organisations/de/los-800.webp?width=800 800w" />
-                <img
-                  src="images/organisations/de/los.png"
-                  srcset="images/organisations/de/los-100.png?width=100 100w, images/organisations/de/los-200.png?width=200 200w, images/organisations/de/los-400.png?width=400 400w, images/organisations/de/los-800.png?width=800 800w"
-                  sizes="(max-width: 800px) 100vw, 50vw"
-                  style="width: 100%; aspect-ratio: 7.120481927710843"
-                  loading="lazy"
-                  decoding="async"
-                  alt="LOS Logo"
-                  class="w-full mx-auto mt-8 mb-24"
-                />
-            </picture>
-            <h3 class="text-center text-7xl mb-6">{{__("petition.supporters.cofounded")}}</h3>
-            <div class="queer__content__cofounders grid grid-cols-2 md:grid-cols-3 gap-6">
-                <picture>
-                    <source
-                      type="image/avif"
-                      srcset="images/organisations/de/InterAction-100.avif?width=100 100w, images/organisations/de/InterAction-200.avif?width=200 200w, images/organisations/de/InterAction-400.avif?width=400 400w, images/organisations/de/InterAction-800.avif?width=800 800w" />
-                    <source
-                      type="image/webp"
-                      srcset="images/organisations/de/InterAction-100.webp?width=100 100w, images/organisations/de/InterAction-200.webp?width=200 200w, images/organisations/de/InterAction-400.webp?width=400 400w, images/organisations/de/InterAction-800.webp?width=800 800w" />
-                    <img
-                      src="images/organisations/de/InterAction.png"
-                      srcset="images/organisations/de/InterAction-100.png?width=100 100w, images/organisations/de/InterAction-200.png?width=200 200w, images/organisations/de/InterAction-400.png?width=400 400w, images/organisations/de/InterAction-800.png?width=800 800w"
-                      sizes="(max-width: 800px) 100vw, 50vw"
-                      style="width: 100%; aspect-ratio: 1"
-                      loading="lazy"
-                      decoding="async"
-                      alt="InterAction Logo"
-                    />
-                </picture>
-                <picture>
-                    <source
-                      type="image/avif"
-                      srcset="images/organisations/de/tgns-100.avif?width=100 100w, images/organisations/de/tgns-200.avif?width=200 200w, images/organisations/de/tgns-400.avif?width=400 400w, images/organisations/de/tgns-800.avif?width=800 800w" />
-                    <source
-                      type="image/webp"
-                      srcset="images/organisations/de/tgns-100.webp?width=100 100w, images/organisations/de/tgns-200.webp?width=200 200w, images/organisations/de/tgns-400.webp?width=400 400w, images/organisations/de/tgns-800.webp?width=800 800w" />
-                    <img
-                      src="images/organisations/de/tgns.png"
-                      srcset="images/organisations/de/tgns-100.png?width=100 100w, images/organisations/de/tgns-200.png?width=200 200w, images/organisations/de/tgns-400.png?width=400 400w, images/organisations/de/tgns-800.png?width=800 800w"
-                      sizes="(max-width: 800px) 100vw, 50vw"
-                      style="width: 100%; aspect-ratio: 1"
-                      loading="lazy"
-                      decoding="async"
-                      alt="TGNS Logo"
-                    />
-                </picture>
-                <picture>
-                    <source
-                      type="image/avif"
-                      srcset="images/organisations/de/PinkCross-100.avif?width=100 100w, images/organisations/de/PinkCross-200.avif?width=200 200w, images/organisations/de/PinkCross-400.avif?width=400 400w, images/organisations/de/PinkCross-800.avif?width=800 800w" />
-                    <source
-                      type="image/webp"
-                      srcset="images/organisations/de/PinkCross-100.webp?width=100 100w, images/organisations/de/PinkCross-200.webp?width=200 200w, images/organisations/de/PinkCross-400.webp?width=400 400w, images/organisations/de/PinkCross-800.webp?width=800 800w" />
-                    <img
-                      src="images/organisations/de/PinkCross.png"
-                      srcset="images/organisations/de/PinkCross-100.png?width=100 100w, images/organisations/de/PinkCross-200.png?width=200 200w, images/organisations/de/PinkCross-400.png?width=400 400w, images/organisations/de/PinkCross-800.png?width=800 800w"
-                      sizes="(max-width: 800px) 100vw, 50vw"
-                      style="width: 100%; aspect-ratio: 1"
-                      loading="lazy"
-                      decoding="async"
-                      alt="PinkCross Logo"
-                    />
-                </picture>
+    <div class="koref-content -mt-20 md:-mt-32">
+        <div class="koref-container">
+            <div class="koref-pledge__form bg-highlight p-6">
+                <h1 class="text-center text-3xl md:text-5xl">{{__("pages.pledge.title") }}</h1>
+                <x-supporters.form />
+            </div>
+            <div class="mt-12 md:mt-20">
+                <h1 class="text-3xl md:text-5xl">{{__("pages.about.title")}}</h1>
+                <div class="mt-4 text-xl">
+                    {!! md_html(resource_path("/content/" . app()->getLocale() . "/" . env("DECISION") . "/about.md")) !!}
+                </div>
+                <x-timeline/>
+                <div class="mt-6 md:mt-12 text-xl">
+                    {!! md_html(resource_path("/content/" . app()->getLocale() . "/" . env("DECISION") . "/about-end.md")) !!}
+                </div>
+            </div>
+            <div class="mt-12 md:mt-20">
+                <h1 class="text-3xl md:text-5xl">{{__("pages.arguments.title")}}</h1>
+                <x-arguments.grid />
             </div>
         </div>
     </div>

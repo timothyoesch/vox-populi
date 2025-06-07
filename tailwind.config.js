@@ -10,13 +10,11 @@ export default {
     theme: {
         extend: {
             "colors": {
-                "background": "#ffffff",
-                "foreground": "#000000",
-                "highlight": "#e84e1b",
-                "secondary": "#FFDFFD",
+                "accent": "#2E0045",
+                "highlight": "#F3FF47",
             },
             "fontFamily": {
-                "bernoru": ['Bernoru', 'sans-serif']
+                "anton": ['Anton', 'sans-serif']
             },
         },
         plugins: [],

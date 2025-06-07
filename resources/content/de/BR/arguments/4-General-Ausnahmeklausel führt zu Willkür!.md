@@ -1,0 +1,1 @@
+Die Frage nach Waffenexporte in bestimmte Länder sollte auf klarer rechtlicher Grundlage stehen. Eine General-Ausnahmeklausel schafft Spielraum für willkürliche Entscheidungen: Einmal werden Waffen nach Saudi-Arabien geliefert, da dies die “aussenpolitischen Interessen” der Schweiz erfordern und ein anderes Mal nicht.

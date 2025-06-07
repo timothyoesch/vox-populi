@@ -1,11 +1,11 @@
-name: queerer-appell
+name: korrektur-referendum
 type: laravel
 docroot: public
 php_version: "8.2"
 webserver_type: nginx-fpm
 xdebug_enabled: false
 additional_hostnames: [
-  "fr.queerer-appell"
+  "fr.korrektur-referendum"
 ]
 additional_fqdns: []
 database:

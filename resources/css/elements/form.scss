@@ -4,8 +4,8 @@
         position: relative;
 
         &__text {
-            border-bottom: 3px solid theme("colors.foreground");
-            color: theme("colors.foreground");
+            border-bottom: 3px solid theme("colors.accent");
+            color: theme("colors.accent");
             line-height: 1;
             padding: 0.5rem 1rem;
             width: 100%;
@@ -13,7 +13,6 @@
 
             &:focus {
                 outline: none;
-                border-color: theme("colors.highlight");
             }
         }
 
@@ -28,6 +27,7 @@
 
         &--checkbox {
             display: flex;
+            align-items: start;
             gap: 0.5rem;
 
             .appeal-cta__form__fieldgroup__label {
@@ -46,29 +46,11 @@
             }
         }
 
-        &__submit {
-            background-color: theme("colors.foreground");
-            color: theme("colors.background");
-            border: 2px solid theme("colors.foreground");
-            border-radius: 0.25rem;
-            padding: 0.4em 0.75em;
-            font-size: 2.5rem;
-            text-transform: uppercase;
-            font-weight: 900;
-            cursor: pointer;
-            transition: all 0.25s;
-            font-family: "Bernoru";
-
-            &:hover {
-                background-color: theme("colors.highlight");
-            }
-        }
-
     }
 
     ::placeholder {
-        color: theme("colors.foreground") !important;
-        opacity: 1 !important;
+        color: theme("colors.accent") !important;
+        opacity: 0.5 !important;
         font-style: italic;
     }
 }

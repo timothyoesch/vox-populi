@@ -1,19 +1,17 @@
-html {
-    background-color: theme("colors.background");
-    color: theme("colors.foreground");
-    scroll-behavior: smooth;
-}
-
-.queer-container {
-    max-width: 1000px;
-    @apply mx-auto w-full px-4 sm:px-6 lg:px-8;
+.koref-container {
+    max-width: calc(793px + var(--koref-container-padding) * 2);
+    margin: 0 auto;
+    padding: 0 var(--koref-container-padding);
 
     &--large {
-        max-width: 1548px;
+        max-width: calc(1368px + var(--koref-container-padding) * 2);
     }
 }
 
-// Selection styles
-::selection {
-    @apply bg-highlight bg-opacity-100 text-secondary;
+:root {
+    --koref-container-padding: 1rem;
+
+    @media screen and (min-width: 768px) {
+        --koref-container-padding: 2rem;
+    }
 }
