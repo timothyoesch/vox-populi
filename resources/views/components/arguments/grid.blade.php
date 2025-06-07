@@ -4,7 +4,7 @@
         return !in_array($file, ['.', '..']) && pathinfo($file, PATHINFO_EXTENSION) === 'md';
     })->map(function ($file) {
         return [
-            'name' => explode("-", pathinfo($file, PATHINFO_FILENAME))[1],
+            'name' => explode("::", pathinfo($file, PATHINFO_FILENAME))[1],
             'content' => md_html(resource_path("content/" . app()->getLocale() . "/" . env("DECISION") . "/arguments/" . $file)),
         ];
     })->values()->toArray();
