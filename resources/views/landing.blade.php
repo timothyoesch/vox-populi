@@ -32,6 +32,10 @@
                 <h1 class="text-3xl md:text-5xl">{{__("pages.arguments.title")}}</h1>
                 <x-arguments.grid />
             </div>
+            <div class="mt-12 md:mt-20">
+                <h1 class="text-3xl md:text-5xl">{{__("pages.logos.title")}}</h1>
+                <x-supporters.logos />
+            </div>
         </div>
     </div>
 </x-frontend-layout>
