@@ -62,7 +62,7 @@
                     {!! $configuration->dataprotectiondisclaimer[app()->getLocale()] !!}
                 </label>
             </div>
-            <div class="flex justify-end col-span-full">
+            <div class="flex justify-end">
                 <x-turnstile-widget
                     theme="light"
                     language="{{app()->getLocale()}}"
@@ -71,7 +71,7 @@
                     errorCallback="errorCallbackFunction"
                 />
             </div>
-            <div class="appeal-cta__form__fieldgroup col-span-full flex justify-end">
+            <div class="appeal-cta__form__fieldgroup flex justify-end">
                 <button type="submit" class="appeal-cta__form__fieldgroup__submit petition__button">{{__("pages.landing.supporters.form.submit")}}</button>
             </div>
             <input type="hidden" name="locale" value="{{app()->getLocale()}}">
