@@ -4,7 +4,7 @@
         <x-heroicon-o-chevron-down class="h6 md:h-8 mr-2"/>
     </p>
     <div class="koref-arguments__argument-content--container max-h-0 overflow-hidden">
-        <div class="koref-arguments__argument-content text-xl pt-4 opacity-0 translate-y-4">
+        <div class="koref-arguments__argument-content pt-4 opacity-0 translate-y-4">
             {!! $slot !!}
         </div>
     </div>
