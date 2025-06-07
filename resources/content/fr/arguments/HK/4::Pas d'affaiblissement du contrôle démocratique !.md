@@ -1,0 +1,1 @@
+Le Conseil fédéral peut désormais décider quels pays seront exclus des critères d'exportation. Cela prive notre Parlement et, en fin de compte, la population suisse, du contrôle démocratique sur les exportations d'armes.

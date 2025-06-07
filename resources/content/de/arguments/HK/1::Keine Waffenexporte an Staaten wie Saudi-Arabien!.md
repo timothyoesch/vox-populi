@@ -1,0 +1,1 @@
+Mit der Lockerung der Ausfuhrbestimmungen verliert die Schweiz die Kontrolle über die Waffenexporte. Damit steigt das Risiko, dass Schweizer Waffen an Länder, wie Saudi-Arabien gelangen. Saudi-Arabien ist der weltweit grösste Rüstungsmarkt und im Bürgerkrieg im Jemen verwickelt. Schweizer Waffen dürfen nicht in solchen Gebieten landen.

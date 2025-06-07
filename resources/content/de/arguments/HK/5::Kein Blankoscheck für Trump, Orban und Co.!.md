@@ -1,0 +1,1 @@
+Die Liste von Ländern, für die künftig die Kriterien für Kriegsmaterialexporte aufgehoben würden, umfasst mit den USA, Ungarn und Argentinien auch Staaten mit autoritären Machthabern. Donald Trump, Viktor Orban und Javier Milei missachten die Demokratie und die Menschenrechte. Schweizer Waffen dürfen nicht ohne Auflagen in ihre Hände gelangen!
