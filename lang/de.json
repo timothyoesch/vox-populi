@@ -63,9 +63,8 @@
     "labels.table.user.verified": "Verifiziert",
     "lables.actions.activities": "Aktivitäten",
     "lables.form.supporter.locale": "Sprache",
-    "og.description": "Wir queeren Menschen gehören zur Schweiz. Wir sind eure Nachbar*innen, Arbeitskolleg*innen, Freund*innen und Verwandte. Mit Sorge beobachten wir, wie LGBTIQ+ Rechte weltweit eingeschränkt werden. Darum brauchen wir deine Unterstützung: Unterschreibe jetzt den queeren Appell!",
-    "og.title": "Jetzt den queeren Appell unterschreiben!",
-    "pages.logo": "Der<br>queere<br>Appell",
+    "og.description": "Der Bundesrat und das Parlament wollen die Exportbestimmungen von Kriegsmaterial lockern. Damit werden Schweizer Waffenlieferungen an Unrechtsregime, wie z.B. Saudi-Arabien wieder möglich. Diesen Entscheid müssen wir unbedingt korrigieren!",
+    "og.title": "Keine Waffen an Unrechtsregime!",
     "pages.donate.title": "Unterstütze unsere Arbeit!",
     "pages.landing.supporters.form.city": "Ort",
     "pages.landing.supporters.form.email": "E-Mail Adresse",
@@ -79,8 +78,8 @@
     "pages.success.shareBluesky": "Auf Bluesky teilen",
     "pages.success.shareEmail": "Per E-Mail teilen",
     "pages.success.shareFacebook": "Auf Facebook teilen",
-    "pages.success.shareText": "Hoi👋\nWeltweit werden LGBTIQ+ Rechte eingeschränkt. Und auch in der Schweiz droht die Stimmung zu kippen. Setz mit den queeren Menschen in der Schweiz ein Zeichen: Unterschreibe jetzt den queeren Appell!",
-    "pages.success.shareTweet": "Weltweit werden LGBTIQ+ Rechte eingeschränkt. Und auch in der Schweiz droht die Stimmung zu kippen. Setz mit den queeren Menschen in der Schweiz ein Zeichen: Unterschreibe jetzt den queeren Appell! #QueererAppell #QueerRights #LGBTIQA",
+    "pages.success.shareText": "Hallo 👋\nDer Bundesrat und das Parlament wollen die Exportbestimmungen von Kriegsmaterial lockern. Damit werden Schweizer Waffenlieferungen an Unrechtsregime, wie z.B. Saudi-Arabien wieder möglich. Diesen Entscheid müssen wir unbedingt korrigieren! Hilfst du mit? 🤝",
+    "pages.success.shareTweet": "Bundesrat und Parlament wollen die Exportbestimmungen von Kriegsmaterial lockern. Damit werden Schweizer Waffenlieferungen an Unrechtsregime, wie z.B. Saudi-Arabien wieder möglich. Diesen Entscheid müssen wir unbedingt korrigieren! Hilfst du mit? 🤝",
     "pages.success.shareTwitter": "Auf X teilen",
     "pages.success.shareWhatsApp": "Auf WhatsApp teilen",
     "pages.success.title": "Danke für deine Unterstützung, :name!",
@@ -114,5 +113,5 @@
     "pages.pledge.title": "Unterstütze unser Referendum!",
     "pages.about.title": "Darum geht's",
     "pages.arguments.title": "Unsere Argumente",
-    "pages.logos.title" : "Die Allianz"
+    "pages.logos.title": "Die Allianz"
 }

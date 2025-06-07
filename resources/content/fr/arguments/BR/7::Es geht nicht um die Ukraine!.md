@@ -1,0 +1,1 @@
+Aufgrund der Haager Konventionen ist es der Schweiz verboten, einseitig Waffen an kriegführende Staaten zu liefern, sowohl direkt wie auch indirekt. Daran ändert die KMG-Änderung nichts. Es ist unehrlich, den Angriff auf die Ukraine als Argument für Lockerungen nach Saudi-Arabien zu missbrauchen.

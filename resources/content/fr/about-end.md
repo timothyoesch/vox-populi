@@ -1,0 +1,1 @@
+Das lassen wir uns nicht gefallen. Wir müssen der Rüstungslobby die rote Linie aufzeigen: Schweizer Kriegsmaterial darf nicht in Staaten gelangen, die Menschenrechte verletzen oder sich an bewaffneten Konflikten beteiligen. **Unterstützt du uns dabei?**
