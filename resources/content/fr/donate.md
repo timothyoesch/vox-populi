@@ -1,3 +1,3 @@
-<h1 class="text-3xl md:text-5xl mb-2">Unterstütze das Referendum!</h1>
+<h1 class="text-3xl md:text-5xl mb-2">Faites un don pour le référendum !</h1>
 
-**Der Einsatz für queere Rechte kostet Zeit und Geld.** Jede Spende ermöglicht unsere Engagement. Kannst du uns unterstützen?
+**Lancer un référendum coûte beaucoup d'argent.** Ton don nous aide à soutenir le référendum avec succès et à faire connaître nos préoccupations au public. Chaque contribution compte - **participe et aide à empêcher cette décision désastreuse!**

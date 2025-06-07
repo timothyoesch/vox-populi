@@ -1,1 +1,1 @@
-Das lassen wir uns nicht gefallen. Wir müssen der Rüstungslobby die rote Linie aufzeigen: Schweizer Kriegsmaterial darf nicht in Staaten gelangen, die Menschenrechte verletzen oder sich an bewaffneten Konflikten beteiligen. **Unterstützt du uns dabei?**
+**Nous ne nous laisserons pas faire.** Nous devons poser une limite claire au lobby de l'armement : le matériel de guerre suisse ne doit pas être envoyé dans des Etats qui violent les droits humains ou participent à des conflits armés. **Est-ce que tu nous soutiens dans cette démarche ?**

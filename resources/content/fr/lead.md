@@ -1,1 +1,1 @@
-Bundesrat und Parlament wollen, dass Kriegsmaterialexportbestimmungen gelockert werden - so sollen auch Unrechtsstaaten mit Schweizer Waffen beliefert werden können. **Dagegen wehren wir uns!**
+Le Conseil fédéral et le Parlement veulent assouplir les dispositions relatives à l'exportation de matériel de guerre, de sorte à ce que des armes suisses puissent également être livrées à des Etats qui ne respectent pas les droits humains. **Nous nous y opposons !**

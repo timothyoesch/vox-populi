@@ -1,1 +1,0 @@
-Dass der Bundesrat nicht zurückschreckt, Kriegsmateriallieferungen in Unrechtsstaaten zuzulassen, zeigt das jahrzehntelange Tauziehen um Exporte nach Saudi-Arabien. Saudi-Arabien ist der weltweit grösste Rüstungsmarkt und im Bürgerkrieg im Jemen verwickelt. Schweizer Waffen dürfen nicht in solchen Gebieten landen.
