@@ -1,7 +1,7 @@
 <x-frontend-layout class="text-accent">
     <div class="koref-heroine bg-accent pt-6 md:pt-8 pb-32 md:pb-48">
         <x-navbar />
-        <div class="koref-container koref-lead mt-8 md:-mt-8">
+        <div class="koref-container koref-lead mt-8">
             <div class="koref-lead__content text-center">
                 <x-boxed-title>
                     {!! __("pages.lead.title") !!}

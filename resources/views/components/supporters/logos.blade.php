@@ -10,7 +10,7 @@
     })->values()->toArray();
 @endphp
 
-<div class="koref-logos-grid grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-2">
+<div class="koref-logos-grid grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-2 mt-6">
     @foreach($logos as $logo)
     <picture>
         <source
