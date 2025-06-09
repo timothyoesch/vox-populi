@@ -62,7 +62,7 @@
                     {!! $configuration->dataprotectiondisclaimer[app()->getLocale()] !!}
                 </label>
             </div>
-            <div class="flex justify-end">
+            <div class="flex">
                 <x-turnstile-widget
                     theme="light"
                     language="{{app()->getLocale()}}"
@@ -72,7 +72,7 @@
                 />
             </div>
             <div class="appeal-cta__form__fieldgroup flex justify-end">
-                <button type="submit" class="appeal-cta__form__fieldgroup__submit petition__button">{{__("pages.landing.supporters.form.submit")}}</button>
+                <button type="submit" class="appeal-cta__form__fieldgroup__submit petition__button w-full">{{__("pages.landing.supporters.form.submit")}}</button>
             </div>
             <input type="hidden" name="locale" value="{{app()->getLocale()}}">
             <input type="hidden" name="configuration_id" value="{{$configuration->id}}">

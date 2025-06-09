@@ -115,5 +115,15 @@
     "user.resource.title.list": "Benutzer*innen",
     "user.resource.title.resource": "Benutzer*in",
     "user.resource.updated_at": "Aktualisiert am",
-    "validation.recaptchav3": "Leider konnten wir nicht bestätigen, dass du ein Mensch bist. Bitte versuche es erneut."
+    "validation.recaptchav3": "Leider konnten wir nicht bestätigen, dass du ein Mensch bist. Bitte versuche es erneut.",
+    "menu.participate.anchor": "mitmachen",
+    "menu.participate.label": "Mitmachen",
+    "menu.about.anchor": "darum-gehts",
+    "menu.about.label": "Darum geht's",
+    "menu.donate.anchor": "spenden",
+    "menu.donate.label": "Spenden",
+    "menu.arguments.anchor": "argumente",
+    "menu.arguments.label": "Argumente",
+    "menu.alliance.anchor": "allianz",
+    "menu.alliance.label": "Die Allianz"
 }

@@ -13,12 +13,12 @@
         </div>
     </div>
     <div class="koref-content -mt-20 md:-mt-32">
-        <div class="koref-container">
+        <div class="koref-container" id="{{__("menu.participate.anchor")}}">
             <div class="koref-pledge__form bg-highlight p-8">
                 <h1 class="text-center text-3xl md:text-5xl">{{__("pages.pledge.title") }}</h1>
                 <x-supporters.form />
             </div>
-            <div class="mt-12 md:mt-20">
+            <div class="pt-12 md:pt-20" id="{{__("menu.about.anchor")}}">
                 <h1 class="text-3xl md:text-5xl">{{__("pages.about.title")}}</h1>
                 <div class="mt-4 text-xl">
                     {!! md_html(resource_path("/content/" . app()->getLocale() . "/about.md")) !!}
@@ -28,18 +28,18 @@
                     {!! md_html(resource_path("/content/" . app()->getLocale() . "/about-end.md")) !!}
                 </div>
             </div>
-            <div class="mt-12 md:mt-20">
+            <div class="pt-12 md:pt-20" id="{{__("menu.donate.anchor")}}">
                 <h1 class="text-3xl md:text-5xl">{{__("pages.donate.title")}}</h1>
                 <div class="mt-4 text-xl">
                     {!! md_html(resource_path("/content/" . app()->getLocale() . "/donate.lander.md")) !!}
                 </div>
                 <x-donation-form />
             </div>
-            <div class="mt-12 md:mt-20">
+            <div class="pt-12 md:pt-20" id="{{__("menu.arguments.anchor")}}">
                 <h1 class="text-3xl md:text-5xl">{{__("pages.arguments.title")}}</h1>
                 <x-arguments.grid />
             </div>
-            <div class="mt-12 md:mt-20">
+            <div class="pt-12 md:pt-20" id="{{__("menu.alliance.anchor")}}">
                 <h1 class="text-3xl md:text-5xl">{{__("pages.logos.title")}}</h1>
                 <x-supporters.logos />
             </div>

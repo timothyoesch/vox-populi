@@ -1,0 +1,1 @@
+**Lancer un référendum coûte beaucoup d'argent.** Ton don nous aide à soutenir le référendum avec succès et à faire connaître nos préoccupations au public. Chaque contribution compte - **participe et aide à empêcher cette décision désastreuse!**

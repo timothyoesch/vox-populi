@@ -1,0 +1,11 @@
+.koref-fullscreen-menu {
+    &__item {
+        font-size: clamp(45px, 6vw, 90px);
+    }
+
+    &__tag {
+        h1 {
+            font-size: min(15vw, 270px)
+        }
+    }
+}

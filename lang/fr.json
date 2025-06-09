@@ -115,5 +115,15 @@
     "user.resource.title.list": "Utilisateurs-x-trices",
     "user.resource.title.resource": "Utilisateur-x-trice",
     "user.resource.updated_at": "Mis à jour le",
-    "validation.recaptchav3": "Nous n’avons pas pu confirmer que tu es un humain. Merci de réessayer."
+    "validation.recaptchav3": "Nous n’avons pas pu confirmer que tu es un humain. Merci de réessayer.",
+    "menu.participate.anchor": "participer",
+    "menu.participate.label": "Participer",
+    "menu.about.anchor": "de-quoi-sagit-il",
+    "menu.about.label": "De quoi s'agit-il ?",
+    "menu.donate.anchor": "donner",
+    "menu.donate.label": "Faire un don",
+    "menu.arguments.anchor": "arguments",
+    "menu.arguments.label": "Nos arguments",
+    "menu.alliance.anchor": "alliance",
+    "menu.alliance.label": "L'Alliance"
 }
