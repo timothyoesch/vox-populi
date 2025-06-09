@@ -5,6 +5,7 @@ namespace App\Filament\Resources\ConfigurationResource\Pages;
 use App\Filament\Resources\ConfigurationResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ViewRecord;
+use App\Filament\Resources\ConfigurationResource\Widgets\SupportersCount;
 
 class ViewConfiguration extends ViewRecord
 {
@@ -14,6 +15,13 @@ class ViewConfiguration extends ViewRecord
     {
         return [
             Actions\EditAction::make(),
+        ];
+    }
+
+    protected function getHeaderWidgets(): array
+    {
+        return [
+            SupportersCount::class,
         ];
     }
 }

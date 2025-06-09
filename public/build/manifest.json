@@ -1,6 +1,6 @@
 {
   "resources/css/app.scss": {
-    "file": "assets/app-CZx-HCmh.css",
+    "file": "assets/app-OhRs7x3Z.css",
     "src": "resources/css/app.scss",
     "isEntry": true
   },
@@ -61,7 +61,7 @@
     "src": "resources/fonts/inter/Inter18pt-Regular.woff2"
   },
   "resources/js/app.js": {
-    "file": "assets/app-BMoWWDXU.js",
+    "file": "assets/app-BX0PYBzB.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,

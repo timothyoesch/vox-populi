@@ -125,5 +125,7 @@
     "menu.arguments.anchor": "argumente",
     "menu.arguments.label": "Argumente",
     "menu.alliance.anchor": "allianz",
-    "menu.alliance.label": "Die Allianz"
+    "menu.alliance.label": "Die Allianz",
+    "widgets.supporters_count.total.label": "Anzahl Unterstützer*innen",
+    "widgets.supporters_count.optin_rate.label": "Opt-in Rate"
 }
