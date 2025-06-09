@@ -21,6 +21,7 @@
     window.addEventListener("click", function (event) {
         let argument = event.target.closest(".koref-arguments__argument");
         if (!argument) return;
+        if (event.target.closest(".koref-arguments__argument-content--container")) return;
         let conentContainer = argument.querySelector(".koref-arguments__argument-content--container");
         if (!conentContainer) return;
         let content = argument.querySelector(".koref-arguments__argument-content");

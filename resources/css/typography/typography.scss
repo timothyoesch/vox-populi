@@ -31,4 +31,16 @@ html {
         hyphens: none;
         line-height: 1.25;
     }
+
+    ::selection {
+        background-color: var(--koref-selection-bg, theme("colors.highlight"));
+        color: var(--koref-selection-color, theme("colors.accent"));
+    }
+
+    .bg-highlight {
+        ::selection {
+            background-color: var(--koref-bg-accent, theme("colors.accent"));
+            color: var(--koref-color-accent, white);
+        }
+    }
 }
