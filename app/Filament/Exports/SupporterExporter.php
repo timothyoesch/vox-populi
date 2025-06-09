@@ -26,7 +26,7 @@ class SupporterExporter extends Exporter
                 ->label(__('labels.export.supporter.phone')),
             ExportColumn::make('zip')
                 ->label(__('labels.export.supporter.zip')),
-            ExportColumn::make('configuration.id')
+            ExportColumn::make('configuration.key')
                 ->label(__('labels.export.supporter.configuration_id')),
             ExportColumn::make('optin')
                 ->label(__('labels.export.supporter.optin')),
