@@ -17,3 +17,7 @@
 html {
     scroll-behavior: smooth;
 }
+
+.h-screen {
+    height: calc(100 * var(--vh, 1vh));
+}
