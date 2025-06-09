@@ -1,4 +1,4 @@
-<div class="koref-arguments__argument border-t-2 border-b-2 border-accent py-2 md:py-4">
+<div class="koref-arguments__argument border-t-2 border-b-2 border-accent py-4 md:py-6">
     <p class="koref-arguments__argument-title text-xl md:text-2xl font-bold flex justify-between items-center cursor-pointer">
         <span>{{ $title }}</span>
         <x-heroicon-o-chevron-down class="h-6 md:h-8 mr-2 shrink-0"/>
