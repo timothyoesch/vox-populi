@@ -21,7 +21,7 @@
     <div class="koref-fullscreen-menu__lang-switch z-50">
         <a
             class="font-anton uppercase text-2xl underline block absolute bottom-4 right-4 md:bottom-16 md:right-16 -rotate-90 md:rotate-0"
-            href="{{ app()->getLocale() == 'de' ? "https://referendum-rectification.ch" : "https://korrektur-referendum.ch" }}"
+            href="{{ app()->getLocale() == 'de' ? "https://referendum-correctif.ch" : "https://korrektur-referendum.ch" }}"
         >
             {{(app()->getLocale() == "de") ? "FR" : "DE"}}
         </a>

@@ -90,7 +90,7 @@ return [
         "korrektur-referendum.ddev.site" => "de",
         "fr.korrektur-referendum.ddev.site" => "fr",
         "korrektur-referendum.ch" => "de",
-        "referendum-rectification.ch" => "fr"
+        "referendum-correctif.ch" => "fr"
     ],
 
     /*
