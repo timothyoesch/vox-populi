@@ -1,0 +1,1 @@
+En vertu des Conventions de La Haye, il est interdit à la Suisse de livrer unilatéralement des armes à des pays en guerre, que ce soit directement ou indirectement. La modification de la loi sur le matériel de guerre n'y change rien. Il est donc malhonnête d'utiliser l'attaque contre l'Ukraine comme un argument pour assouplir les exportations d'armes vers l'Arabie saoudite.
