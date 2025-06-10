@@ -1,0 +1,1 @@
+Der Bundesrat kann neu entscheiden, welche Länder von den Ausfuhrkriterien ausgenommen werden. Dies entzieht unserem Parlament und letztlich auch der Schweizer Bevölkerung die demokratische Kontrolle über die Waffenexporte.

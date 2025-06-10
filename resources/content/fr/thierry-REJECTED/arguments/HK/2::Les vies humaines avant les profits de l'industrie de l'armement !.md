@@ -1,0 +1,1 @@
+La nouvelle législation doit soutenir l'industrie de l'armement. Cela signifie que pour augmenter les profits des entreprises d'armement (privées), le matériel de guerre suisse doit également pouvoir être livré à des pays impliqués dans un conflit armé ou qui pourraient utiliser ces armes contre la population civile.

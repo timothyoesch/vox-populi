@@ -1,0 +1,1 @@
+La manière dont le Parlement abuse de la solidarité avec l'horrible situation en Ukraine est abominable. S'il s'agissait vraiment de soutenir l'Ukraine et des situations comparables, il aurait eu la possibilité de le faire en proposant diverses adaptations concrètes. Mais avec ses adaptations, il ouvre la porte à la livraison de matériel de guerre suisse à des États injustes.

@@ -1,11 +1,11 @@
 @php
     // Get files in ressource_path("content/" . app()->getLocale() . "/" . env("DECISION") . "/arguments")
-    $arguments = collect(scandir(resource_path("content/" . app()->getLocale() . "/arguments/" . env("DECISION"))))->filter(function ($file) {
+    $arguments = collect(scandir(resource_path("content/" . app()->getLocale() . "/thierry-" . env("THIERRY") . "/arguments/" . env("DECISION"))))->filter(function ($file) {
         return !in_array($file, ['.', '..']) && pathinfo($file, PATHINFO_EXTENSION) === 'md';
     })->map(function ($file) {
         return [
             'name' => explode("::", pathinfo($file, PATHINFO_FILENAME))[1],
-            'content' => md_html(resource_path("content/" . app()->getLocale() . "/arguments/" . env("DECISION") . "/" . $file)),
+            'content' => md_html(resource_path("content/" . app()->getLocale() . "/thierry-" . env("THIERRY") . "/arguments/" . env("DECISION") . "/" . $file)),
         ];
     })->values()->toArray();
 @endphp

@@ -1,0 +1,1 @@
+Das aktuell gültige Gesetz sieht klare Kriterien für die Ausfuhr von Waffen vor. Diese bewirken, dass keine Waffen an Länder, die in bewaffneten Konflikten verwickelt sind oder Menschenrechtsverletzungen begehen, geliefert werden. Die Gesetzesänderung schwächt diese Ausfuhrkriterien, in dem er gewisse Länder davon ausnimmt.

@@ -43,4 +43,10 @@ html {
             color: var(--koref-color-accent, white);
         }
     }
+
+    .koref-markdown {
+        a {
+            text-decoration: underline;
+        }
+    }
 }

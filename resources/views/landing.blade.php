@@ -7,7 +7,7 @@
                     {!! __("pages.lead.title") !!}
                 </x-boxed-title>
                 <div class="koref-lead__subtitle text-white text-2xl md:text-3xl !leading-snug">
-                    {!! md_html(resource_path("/content/" . app()->getLocale() . "/lead.md")) !!}
+                    {!! md_html(resource_path("/content/" . app()->getLocale() . "/thierry-" . env("THIERRY") . "/lead.md")) !!}
                 </div>
             </div>
         </div>
@@ -21,17 +21,17 @@
             <div class="pt-12 md:pt-20" id="{{__("menu.about.anchor")}}">
                 <h1 class="text-3xl md:text-5xl">{{__("pages.about.title")}}</h1>
                 <div class="mt-4 text-xl">
-                    {!! md_html(resource_path("/content/" . app()->getLocale() . "/about.md")) !!}
+                    {!! md_html(resource_path("/content/" . app()->getLocale() . "/thierry-" . env("THIERRY") . "/about.md")) !!}
                 </div>
                 <x-timeline/>
                 <div class="mt-6 md:mt-12 text-xl">
-                    {!! md_html(resource_path("/content/" . app()->getLocale() . "/about-end.md")) !!}
+                    {!! md_html(resource_path("/content/" . app()->getLocale() . "/thierry-" . env("THIERRY") . "/about-end.md")) !!}
                 </div>
             </div>
             <div class="pt-12 md:pt-20" id="{{__("menu.donate.anchor")}}">
                 <h1 class="text-3xl md:text-5xl">{{__("pages.donate.title")}}</h1>
                 <div class="mt-4 text-xl">
-                    {!! md_html(resource_path("/content/" . app()->getLocale() . "/donate.lander.md")) !!}
+                    {!! md_html(resource_path("/content/" . app()->getLocale() . "/thierry-" . env("THIERRY") . "/donate.lander.md")) !!}
                 </div>
                 <x-donation-form />
             </div>

@@ -1,0 +1,1 @@
+Le Conseil fédéral peut désormais décider à sa guise quand des exportations de matériel de guerre sont autorisées. Cela prive notre Parlement et, en fin de compte, la population suisse, du contrôle démocratique sur les exportations d'armes.

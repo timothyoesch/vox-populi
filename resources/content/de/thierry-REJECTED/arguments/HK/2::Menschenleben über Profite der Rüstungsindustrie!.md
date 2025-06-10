@@ -1,0 +1,1 @@
+Die neue Gesetzgebung soll die Rüstungsindustrie unterstützen. Das bedeutet: Um die Profite von (privatwirtschaftlichen) Rüstungsunternehmen zu erhöhen soll Schweizer Kriegsmaterial auch an Länder geliefert werden können, die in einen bewaffneten Konflikt verwickelt sind oder bei denen die Waffen gegen die Zivilbevölkerung eingesetzt werden könnten.

@@ -8,8 +8,10 @@ if (!function_exists('markdown_to_html')) {
      */
     function md_html($file): string
     {
-        return \Illuminate\Mail\Markdown::parse(
+        return '<div class="koref-markdown">' .
+            \Illuminate\Mail\Markdown::parse(
             file_get_contents($file)
-        );
+            ) .
+        '</div>';
     }
 }
