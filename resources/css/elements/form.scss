@@ -71,6 +71,27 @@
             }
         }
 
+        &--alt {
+            &__label {
+                font-weight: bold;
+                font-size: 1.25rem;
+            }
+
+            &__text {
+                font-size: 2rem;
+                font-weight: 700;
+                background-color: transparent;
+                border: none;
+                border-bottom: 2px solid theme("colors.accent");
+                width: fit-content;
+                padding: 0 0.5rem;
+                text-align: center;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
     }
 
     ::placeholder {

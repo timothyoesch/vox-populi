@@ -9,43 +9,22 @@ use Illuminate\View\Component;
 
 class Barometer extends Component
 {
-    public $count;
-    public $target;
+    public $supportersCount;
+    public $signatureCount;
+    public $target = 50000;
     public $percentage;
     /**
      * Create a new component instance.
      */
     public function __construct()
     {
-        $this->count = Supporter::all()->count();
-        switch ($this->count) {
-            case $this->count > 161 && $this->count <= 2000:
-                $this->target = 3500;
-                break;
-            case $this->count > 2000 && $this->count <= 4000:
-                $this->target = 5000;
-                break;
-            case $this->count > 4000 && $this->count <= 6000:
-                $this->target = 7500;
-                break;
-            case $this->count > 6000 && $this->count <= 8000:
-                $this->target = 10000;
-                break;
-            case $this->count > 8000 && $this->count <= 12000:
-                $this->target = 15000;
-                break;
-            case $this->count > 14000 && $this->count <= 18000:
-                $this->target = 20000;
-                break;
-            case $this->count > 18000:
-                $this->target = 25000;
-                break;
-            default:
-                $this->count = 161;
-                $this->target = 3500;
-                break;
+        $this->supportersCount = Supporter::count();
+        $this->signatureCount = 0;
+        foreach (Supporter::all() as $supporter) {
+            $this->signatureCount += $supporter->getCustomField('pledged_signatures') ?? 0;
         }
-        $this->percentage = min(100, round(($this->count / $this->target * 100) * 4, 0) / 4);
+        $this->signatureCount = (int) $this->signatureCount;
+        $this->percentage = min(100, round(($this->signatureCount / $this->target * 100) * 4, 0) / 4);
     }
 
     /**

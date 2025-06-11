@@ -16,6 +16,7 @@
         <div class="koref-container" id="{{__("menu.participate.anchor")}}">
             <div class="koref-pledge__form bg-highlight p-4 md:p-8">
                 <h1 class="text-center text-3xl md:text-5xl">{{__("pages.pledge.title") }}</h1>
+                <x-barometer />
                 <x-supporters.form />
             </div>
             <div class="pt-12 md:pt-20" id="{{__("menu.about.anchor")}}">

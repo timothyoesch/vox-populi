@@ -27,6 +27,7 @@ class SupporterController extends Controller
                 'configuration_id' => 'required|exists:configurations,id',
                 'locale' => 'required',
                 'customFields' => 'array',
+                "customFields.pledged_signatures" => "integer|min:1",
                 'cf-turnstile-response' => [new TurnstileCheck()]
             ]);
         } catch (\Illuminate\Validation\ValidationException $th) {

@@ -16,8 +16,10 @@
         <path d="M56.1893 36.1731C56.1893 36.1731 59.92 35.5644 61.4111 33.8554C62.9023 32.1464 73.413 40.4232 59.6407 45.081L56.1837 36.1731H56.1893Z"class="fill-white"/>
         <path d="M60.2215 47.0189C60.2215 47.0189 57.9485 47.3764 57.0326 48.4096C56.1167 49.4428 49.7499 44.3605 58.1551 41.5849L60.2215 47.0245V47.0189Z"class="fill-white"/>
     </svg>
+    @if (!$hideText)
     <div class="koref-appname -ml-2 md:-ml-6">
         <h1 class="!block w-fit text-xl md:text-3xl koref-boxed">{{__("logo.line1")}}</h1>
         <h1 class="!block w-fit text-xl md:text-3xl koref-boxed">{{__("logo.line2")}}</h1>
     </div>
+    @endif
 </div>
