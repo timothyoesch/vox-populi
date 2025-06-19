@@ -22,7 +22,7 @@
                target="_blank"
                rel="noopener noreferrer">{{__("petition.form.download")}}</a>
         </div>
-        <div class="queer__content__form mt-24 md:mt-20" id="{{__("petition.form.anchor")}}">
+        <div class="queer__content__form mt-24 md:mt-20">
             <h2 class="text-center text-7xl mb-6">{{__("petition.supporters.by")}}</h2>
             <picture>
                 <source
@@ -96,6 +96,8 @@
                     />
                 </picture>
             </div>
+            <h3 class="text-center text-7xl my-6">{{__("petition.supporters.alliance")}}</h3>
+            <x-alliance />
         </div>
     </div>
 </x-frontend-layout>
