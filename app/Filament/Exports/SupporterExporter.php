@@ -13,7 +13,18 @@ class SupporterExporter extends Exporter
 
     public static function getColumns(): array
     {
-        return [
+        $customFields = [];
+        $i = 0;
+        foreach (Supporter::getCustomFields() as $field) {
+            // Access custom fields dynamically
+            $customFields[] = ExportColumn::make("customFields.$i")
+                ->state(function (Supporter $record) use ($field) {
+                    return $record->getCustomField($field->name);
+                })
+                ->label($field->label[app()->getLocale()] ?? $field->name);
+            $i++;
+        }
+        $columns = [
             ExportColumn::make('id')
                 ->label('ID'),
             ExportColumn::make('firstname')
@@ -41,6 +52,7 @@ class SupporterExporter extends Exporter
             ExportColumn::make('locale')
                 ->label(__('labels.export.supporter.locale')),
         ];
+        return array_merge($columns, $customFields);
     }
 
     public static function getCompletedNotificationBody(Export $export): string

@@ -86,6 +86,14 @@ class Supporter extends Model implements HasAllowedFilters
     }
 
     /**
+     * Get all customFields
+     */
+    public static function getCustomFields()
+    {
+        return CustomField::all();
+    }
+
+    /**
      * Set customFields through array of values
      */
     public function setCustomFields(array $customFields, bool $store = false)
