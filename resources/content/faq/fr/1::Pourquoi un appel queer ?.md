@@ -1,0 +1,3 @@
+Beaucoup de communication autour des sujets queers sont négatifs : que ce soit celle des forces conservatives qui s’attaquent aux droits et à la dignité des personnes queer ou celles des organisations LGBTIQ+ elles-mêmes qui doivent thématiser des sujets tels que les crimes de haine, les discriminations, le manque de prise au sérieux ou de législations appropriées.
+
+Cet appel queer veut changer de perspective : il réunit les forces libérales, ouvertes et progressistes de la société pour faire entendre une voix claire, courageuse et solidaire. Une voix qui défend une Suisse inclusive et digne pour toutes les personnes queer. En somme, une voix d’espoir.

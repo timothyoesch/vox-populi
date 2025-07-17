@@ -23,6 +23,9 @@
                rel="noopener noreferrer">{{__("petition.form.download")}}</a>
         </div>
         <div class="queer__content__form mt-24 md:mt-20">
+            <x-faq />
+        </div>
+        <div class="queer__content__form mt-24 md:mt-20">
             <h2 class="text-center text-7xl mb-6">{{__("petition.supporters.by")}}</h2>
             <picture>
                 <source

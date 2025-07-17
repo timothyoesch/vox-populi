@@ -1,0 +1,22 @@
+.queer-faq {
+    &__question {
+
+        &+& {
+            margin-top: -2px;
+        }
+    }
+
+    ol {
+        margin-left: 1.5rem;
+        padding-left: 0.5rem;
+        list-style: decimal;
+
+        li+li {
+            margin-top: 0.5rem;
+        }
+    }
+
+    a {
+        @apply underline text-highlight
+    }
+}

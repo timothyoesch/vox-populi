@@ -1,0 +1,3 @@
+Viele öffentliche Diskussionen rund um queere Themen sind negativ geprägt. Konservative Kräfte greifen die Rechte und die Würde queerer Menschen an, und LGBTIQ+-Organisationen müssen immer wieder über Hassverbrechen, Diskriminierung, mangelnde Anerkennung oder fehlende Gesetzgebung sprechen.
+
+Mit diesem queeren Appell wollen wir die Perspektive verändern: Wir vereinen die liberalen, offenen und progressiven Kräfte der Gesellschaft, um gemeinsam eine klare, mutige und solidarische Stimme zu erheben. Eine Stimme für eine inklusive und würdevolle Schweiz für alle queeren Menschen. Eine Stimme der Hoffnung.

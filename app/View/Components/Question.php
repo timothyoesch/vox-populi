@@ -8,13 +8,13 @@ use Illuminate\View\Component;
 
 class Question extends Component
 {
-    public $question;
+    public $title;
     /**
      * Create a new component instance.
      */
-    public function __construct($question)
+    public function __construct($title)
     {
-        $this->question = $question;
+        $this->title = $title;
     }
 
     /**
