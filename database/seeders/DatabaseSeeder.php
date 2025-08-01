@@ -16,6 +16,5 @@ class DatabaseSeeder extends Seeder
         $this->call([
             ShieldSeeder::class,
         ]);
-        $this->call(CustomFieldsTableSeeder::class);
     }
 }

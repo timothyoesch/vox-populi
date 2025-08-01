@@ -1,17 +1,21 @@
-.koref-container {
-    max-width: calc(930px + var(--koref-container-padding) * 2);
+.vapko-container {
+    max-width: calc(1680px + var(--vapko-container-padding) * 2);
     margin: 0 auto;
-    padding: 0 var(--koref-container-padding);
+    padding: 0 var(--vapko-container-padding);
 
     &--large {
-        max-width: calc(1368px + var(--koref-container-padding) * 2);
+        max-width: calc(1368px + var(--vapko-container-padding) * 2);
     }
 }
 
 :root {
-    --koref-container-padding: 1rem;
+    --vapko-container-padding: 1rem;
 
     @media screen and (min-width: 768px) {
-        --koref-container-padding: 2rem;
+        --vapko-container-padding: 2rem;
+    }
+
+    @media screen and (min-width: 1080px) {
+        --vapko-container-padding: 4rem;
     }
 }

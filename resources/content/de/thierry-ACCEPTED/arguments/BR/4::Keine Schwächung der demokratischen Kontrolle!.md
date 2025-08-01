@@ -1,1 +1,0 @@
-Der Bundesrat kann neu nach eigenem Gutdünken entscheiden, wann Kriegsmaterialexporte bewilligt werden. Dies entzieht unserem Parlament und letztlich auch der Schweizer Bevölkerung die demokratische Kontrolle über die Waffenexporte.

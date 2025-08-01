@@ -1,1 +1,0 @@
-Der Bundesrat kann ausserordentliche Bewilligungen per Erlass genehmigen und muss lediglich im Nachhinein die sicherheitspolitischen Kommissionen informieren. Die Öffentlichkeit würde so potentiell nie von heiklen Exporten erfahren - respektive erst, wenn mit dem gelieferten Kriegsmaterial bereits Verbrechen begangen wurden.

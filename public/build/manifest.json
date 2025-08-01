@@ -1,67 +1,11 @@
 {
   "resources/css/app.scss": {
-    "file": "assets/app-m-YEprF1.css",
+    "file": "assets/app-DxGGtC2l.css",
     "src": "resources/css/app.scss",
     "isEntry": true
   },
-  "resources/fonts/anton/anton-regular.woff": {
-    "file": "assets/anton-regular-BlEeBMxD.woff",
-    "src": "resources/fonts/anton/anton-regular.woff"
-  },
-  "resources/fonts/anton/anton-regular.woff2": {
-    "file": "assets/anton-regular-CbN_Wi6n.woff2",
-    "src": "resources/fonts/anton/anton-regular.woff2"
-  },
-  "resources/fonts/inter/Inter18pt-Black.woff": {
-    "file": "assets/Inter18pt-Black-C1QDWhcE.woff",
-    "src": "resources/fonts/inter/Inter18pt-Black.woff"
-  },
-  "resources/fonts/inter/Inter18pt-Black.woff2": {
-    "file": "assets/Inter18pt-Black-Dbdp4X8p.woff2",
-    "src": "resources/fonts/inter/Inter18pt-Black.woff2"
-  },
-  "resources/fonts/inter/Inter18pt-BlackItalic.woff": {
-    "file": "assets/Inter18pt-BlackItalic-BXkv0t3J.woff",
-    "src": "resources/fonts/inter/Inter18pt-BlackItalic.woff"
-  },
-  "resources/fonts/inter/Inter18pt-BlackItalic.woff2": {
-    "file": "assets/Inter18pt-BlackItalic-Bymy_Eok.woff2",
-    "src": "resources/fonts/inter/Inter18pt-BlackItalic.woff2"
-  },
-  "resources/fonts/inter/Inter18pt-Bold.woff": {
-    "file": "assets/Inter18pt-Bold-AFsRy5NV.woff",
-    "src": "resources/fonts/inter/Inter18pt-Bold.woff"
-  },
-  "resources/fonts/inter/Inter18pt-Bold.woff2": {
-    "file": "assets/Inter18pt-Bold-MbOruhI0.woff2",
-    "src": "resources/fonts/inter/Inter18pt-Bold.woff2"
-  },
-  "resources/fonts/inter/Inter18pt-BoldItalic.woff": {
-    "file": "assets/Inter18pt-BoldItalic-DwfNuoeM.woff",
-    "src": "resources/fonts/inter/Inter18pt-BoldItalic.woff"
-  },
-  "resources/fonts/inter/Inter18pt-BoldItalic.woff2": {
-    "file": "assets/Inter18pt-BoldItalic-D8VPlMi1.woff2",
-    "src": "resources/fonts/inter/Inter18pt-BoldItalic.woff2"
-  },
-  "resources/fonts/inter/Inter18pt-Italic.woff": {
-    "file": "assets/Inter18pt-Italic-BuQzHACW.woff",
-    "src": "resources/fonts/inter/Inter18pt-Italic.woff"
-  },
-  "resources/fonts/inter/Inter18pt-Italic.woff2": {
-    "file": "assets/Inter18pt-Italic-DI1jJ6KZ.woff2",
-    "src": "resources/fonts/inter/Inter18pt-Italic.woff2"
-  },
-  "resources/fonts/inter/Inter18pt-Regular.woff": {
-    "file": "assets/Inter18pt-Regular-D9G9T7cw.woff",
-    "src": "resources/fonts/inter/Inter18pt-Regular.woff"
-  },
-  "resources/fonts/inter/Inter18pt-Regular.woff2": {
-    "file": "assets/Inter18pt-Regular-B2uJs5iC.woff2",
-    "src": "resources/fonts/inter/Inter18pt-Regular.woff2"
-  },
   "resources/js/app.js": {
-    "file": "assets/app-BX0PYBzB.js",
+    "file": "assets/app-_hfzEjrG.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,

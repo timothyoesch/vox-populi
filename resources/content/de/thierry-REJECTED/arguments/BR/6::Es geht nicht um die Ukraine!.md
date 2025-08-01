@@ -1,1 +1,0 @@
-Aufgrund der Haager Konventionen ist es der Schweiz verboten, einseitig Waffen an kriegführende Staaten zu liefern, sowohl direkt wie auch indirekt. Daran ändert die Änderung im Kriegsmaterialgesetz nichts. Es ist unehrlich, den Angriff auf die Ukraine als Argument für Lockerungen von Waffenexporten nach Saudi-Arabien zu missbrauchen.

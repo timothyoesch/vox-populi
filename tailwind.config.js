@@ -10,6 +10,10 @@ export default {
     theme: {
         extend: {
             "colors": {
+                "vapkored": "#dd0a1e",
+                "vapkogreen": "#3a7e2c",
+                "vapkogrey": "#bfc4c4",
+                "vapkobeige": "#FFF7EB",
                 "accent": "#2E0045",
                 "highlight": "#F3FF47",
             },

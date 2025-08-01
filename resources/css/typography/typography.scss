@@ -9,42 +9,34 @@ html {
     h4,
     h5,
     h6 {
-        font-family: "Anton", grotesk, sans-serif;
-        text-transform: uppercase;
+        font-family: "Carlito", sans-serif;
+        font-weight: 900;
+        font-style: normal;
     }
 
     body {
-        font-family: "Inter", sans-serif;
+        font-family: "Carlito", sans-serif;
+        font-weight: 400;
+        font-style: normal;
     }
 
     p+p {
         margin-top: 1em;
     }
 
-    .koref-boxed {
-        color: var(--koref-boxed-color, theme("colors.accent"));
-        display: inline;
-        background-image: linear-gradient(to right, var(--koref-boxed-bg, white) 10%, var(--koref-boxed-bg, white) 90%);
-        background-position: bottom;
-        box-shadow: .3em 0 0 var(--koref-boxed-bg, white), -.3em 0 0 var(--koref-boxed-bg, white);
-        box-decoration-break: clone;
-        hyphens: none;
-        line-height: 1.25;
-    }
-
     ::selection {
-        background-color: var(--koref-selection-bg, theme("colors.highlight"));
-        color: var(--koref-selection-color, theme("colors.accent"));
+        background-color: var(--vapkoselection-bg, theme("colors.vapkored"));
+        color: var(--vapkoselection-color, theme("colors.white"));
     }
 
     .bg-highlight {
         ::selection {
-            background-color: var(--koref-bg-accent, theme("colors.accent"));
-            color: var(--koref-color-accent, white);
+            background-color: var(--vapkobg-accent, theme("colors.accent"));
+            color: var(--vapkocolor-accent, white);
         }
     }
 
-    .koref-markdown {
+    .vapko-markdown {
         a {
             text-decoration: underline;
         }

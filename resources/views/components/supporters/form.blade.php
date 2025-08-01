@@ -56,18 +56,6 @@
                     </div>
                 @endif
             </div>
-            <div class="appeal-cta__form__fieldgroup--alt col-span-full">
-                <div>
-                    <label for="customFields[pledged_signatures]" class="appeal-cta__form__fieldgroup--alt__label inline">{{__("pages.landing.supporters.form.pledged_signatures.label-before")}}</label>
-                    <input type="number" name="customFields[pledged_signatures]" id="customFields[pledged_signatures]" class="appeal-cta__form__fieldgroup--alt__text inline" required value="{{old("customFields.pledged_signatures", 5)}}" min="1" max="1000000">
-                    <label for="customFields[pledged_signatures]" class="appeal-cta__form__fieldgroup--alt__label inline"><span class="appeal-cta__form__fieldgroup--alt__label__pluralizer">{{__("pages.landing.supporters.form.pledged_signatures.plural")}}</span> {{__("pages.landing.supporters.form.pledged_signatures.label-after")}}</label>
-                </div>
-                @if($errors->has("customFields.pledged_signatures"))
-                    <div class="appeal-cta__form__fieldgroup__error bg-red-200 text-red-800 p-2 rounded mt-2">
-                        {{ $errors->first("customFields.pledged_signatures") }}
-                    </div>
-                @endif
-            </div>
             <div class="appeal-cta__form__fieldgroup appeal-cta__form__fieldgroup--checkbox col-span-full">
                 <input type="checkbox" name="optin" id="optin" class="appeal-cta__form__checkbox" value="1">
                 <label for="optin" class="appeal-cta__form__fieldgroup__label">
@@ -83,7 +71,7 @@
                     errorCallback="errorCallbackFunction"
                 />
             </div>
-            <div class="appeal-cta__form__fieldgroup flex justify-end">
+            <div class="appeal-cta__form__fieldgroup flex justify-end col-span-full">
                 <button type="submit" class="appeal-cta__form__fieldgroup__submit petition__button w-full">{{__("pages.landing.supporters.form.submit")}}</button>
             </div>
             <input type="hidden" name="locale" value="{{app()->getLocale()}}">
@@ -91,17 +79,3 @@
         </form>
     </div>
 </div>
-
-<script>
-    const customFieldsInput = document.querySelector("input[name='customFields[pledged_signatures]']");
-    const pluralizer = document.querySelector(".appeal-cta__form__fieldgroup--alt__label__pluralizer");
-    customFieldsInput.addEventListener("input", function(e) {
-        let value = e.target.value;
-        if (value > 1) {
-            pluralizer.textContent = "{{__("pages.landing.supporters.form.pledged_signatures.plural")}}";
-        } else {
-            pluralizer.textContent = "{{__("pages.landing.supporters.form.pledged_signatures.singular")}}";
-        }
-
-    });
-</script>

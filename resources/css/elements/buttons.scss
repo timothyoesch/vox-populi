@@ -1,16 +1,15 @@
 .petition__button {
     padding: 0.1em 0.5em;
     gap: 0.3em;
-    background-color: theme("colors.accent");
-    color: theme("colors.highlight");
+    background-color: theme("colors.black");
+    color: theme("colors.white");
     font-size: 2rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     font-weight: 900;
     cursor: pointer;
     transition: all 0.25s;
-    font-family: "Anton";
-    @apply inline-flex justify-center items-center bg-accent text-highlight font-bold uppercase;
+    @apply inline-flex justify-center items-center font-bold uppercase;
 
     &:hover {}
 }

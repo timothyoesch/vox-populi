@@ -1,4 +1,4 @@
-.koref-timeline {
+.vapkotimeline {
 
     &__event {
         position: relative;
@@ -19,6 +19,6 @@
     }
 }
 
-.koref-timeline__event:last-of-type .koref-timeline__event__line {
+.vapkotimeline__event:last-of-type .vapkotimeline__event__line {
     display: none;
 }
