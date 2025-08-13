@@ -1,1 +1,0 @@
-**Nous ne nous laisserons pas faire.** Nous devons poser une limite claire au lobby de l'armement : le matériel de guerre suisse ne doit pas être envoyé dans des Etats qui violent les droits humains ou participent à des conflits armés. **Est-ce que tu nous soutiens dans cette démarche ?**

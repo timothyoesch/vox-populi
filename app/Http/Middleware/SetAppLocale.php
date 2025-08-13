@@ -17,12 +17,11 @@ class SetAppLocale
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if (!$request->cookie("lang")) {
-            $lang = config("app.locales")[
-                $request->getHost()
-            ] ?? "de";
+        if (!$request->cookie("APP_LOCALE")) {
+            // Get the preferred browser language
+            $lang = $request->getPreferredLanguage(["de", "fr", "it"]);
         } else {
-            $lang = $request->cookie("lang");
+            $lang = explode("|", Crypt::decrypt($request->cookie("APP_LOCALE"), false))[1];
         }
         if (!in_array($lang, ["de", "fr", "it"])) {
             $lang = "de";

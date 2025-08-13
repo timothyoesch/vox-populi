@@ -1,5 +1,19 @@
 <x-frontend-layout>
-    <div class="vapko-container mt-12 mb-2 lg:mb-6">
+    <div class="vapko-container mt-4 mb-2">
+        @php
+            $langs = ["de", "fr", "it"];
+            $langs = array_filter($langs, fn($lang) => $lang != app()->getLocale());
+        @endphp
+        <div class="flex gap-1 text-vapkored">
+            @foreach($langs as $lang)
+                <a href="/{{ $lang }}" class="text-sm underline">{{ strtoupper($lang) }}</a>
+                @if (!$loop->last)
+                    <span class="text-sm">|</span>
+                @endif
+            @endforeach
+        </div>
+    </div>
+    <div class="vapko-container mt-6 mb-2 lg:mb-6">
         <div class="vapko-heroine lg:grid items-end lg:grid-cols-12 gap-6">
             <div class="vapko-heroine--title lg:col-span-8 lg:-mb-24">
                 <x-app-icon class="w-36 md:w-44 lg:w-52 mb-4" />
@@ -26,6 +40,7 @@
             <div class="vapko-content--petition col-span-full lg:col-span-3 relative">
                 <div class="vapko-content--petition--container bg-white p-8 md:p-12 text-2xl lg:text-3xl shadow-2xl -mt-6 -mb-6 !leading-relaxed relative z-10">
                     {!! md_html(resource_path("/content/" . app()->getLocale() . "/petition.md")) !!}
+                    <a href="{{__("pages.landing.download.href")}}" class="underline mt-6 text-vapkored" target="_blank">{{__("pages.landing.download")}}</a>
                     <div class="vapko-content--images col-span-6 lg:hidden grid grid-rows-4 h-full absolute top-0 left-0 right-0 bottom-0 -z-10 opacity-20 blur-sm">
                         <div class="bg-contain bg-no-repeat bg-center" style="background-image: url('/images/mushrooms/B.edulis.png')"></div>
                         <div class="bg-contain bg-no-repeat bg-center" style="background-image: url('/images/mushrooms/A.archeri.png')"></div>
@@ -48,9 +63,9 @@
             <p class="font-bold text-4xl text-center">{{__("pages.landing.credits")}}</p>
             <div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12 mt-12 items-end">
                 <img src="/images/mushrooms/C.violaceus-2.png" alt="Image of a mushroom">
-                <div class="h-full flex items-center">
+                <a class="h-full flex items-center" href="https://www.vapko.ch/index.php/{{app()->getLocale()}}">
                     <x-app-icon class="w-full" />
-                </div>
+                </a>
                 <img src="/images/mushrooms/A.muscaria-2.png" alt="Image of a mushroom">
             </div>
         </div>

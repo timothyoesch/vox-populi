@@ -1,1 +1,0 @@
-Le Conseil fédéral peut approuver des autorisations extraordinaires par décret et ne doit informer qu'a posteriori les commissions de politique de sécurité. Le public ne serait ainsi potentiellement jamais informé des exportations problématiques, ou alors seulement après que des crimes aient été commis avec le matériel de guerre livré.

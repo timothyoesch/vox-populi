@@ -1,1 +1,0 @@
-La loi actuellement en vigueur prévoit des critères clairs pour l'exportation d'armes. Ceux-ci ont pour effet qu'aucune arme n'est livrée à des pays impliqués dans des conflits armés ou qui commettent des violations des droits humains. La modification de la loi affaiblit ces critères d'exportation en en excluant certains pays.

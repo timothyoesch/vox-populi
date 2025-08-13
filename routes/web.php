@@ -13,6 +13,12 @@ Route::get('/', function () {
     ]);
 })->name('landing');
 
+// Make regex route for /de, /fr, /it to set languages
+Route::get('/{lang}', function ($lang) {
+    // Return redirect with cookie «APP_LOCALE»
+    return redirect()->route('landing')->withCookie(cookie('APP_LOCALE', $lang));
+})->where('lang', 'de|fr|it');
+
 Route::prefix("supporter")->group(function () {
     Route::post('submit', [SupporterController::class, 'store'])->name('supporter.submit');
 
