@@ -63,9 +63,64 @@
             <p class="font-bold text-4xl text-center">{{__("pages.landing.credits")}}</p>
             <div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12 mt-12 items-end">
                 <img src="/images/mushrooms/C.violaceus-2.png" alt="Image of a mushroom">
-                <a class="h-full flex items-center" href="https://www.vapko.ch/index.php/{{app()->getLocale()}}">
-                    <x-app-icon class="w-full" />
-                </a>
+                <div class="h-full flex flex-wrap items-top justify-center">
+                    <a href="https://www.vapko.ch/index.php/{{app()->getLocale()}}" class="w-full" >
+                        <x-app-icon />
+                    </a>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-2 mt-4 items-center">
+                        <picture>
+                        <source
+                            type="image/avif"
+                            srcset="/images/supporters/Logo_Konsumentenschutz-100.avif?width=100 100w, /images/supporters/Logo_Konsumentenschutz-200.avif?width=200 200w, /images/supporters/Logo_Konsumentenschutz-400.avif?width=400 400w, /images/supporters/Logo_Konsumentenschutz-800.avif?width=800 800w" />
+                        <source
+                            type="image/webp"
+                            srcset="/images/supporters/Logo_Konsumentenschutz-100.webp?width=100 100w, /images/supporters/Logo_Konsumentenschutz-200.webp?width=200 200w, /images/supporters/Logo_Konsumentenschutz-400.webp?width=400 400w, /images/supporters/Logo_Konsumentenschutz-800.webp?width=800 800w" />
+                        <img
+                            src="/images/supporters/Logo_Konsumentenschutz.png"
+                            srcset="/images/supporters/Logo_Konsumentenschutz-100.png?width=100 100w, /images/supporters/Logo_Konsumentenschutz-200.png?width=200 200w, /images/supporters/Logo_Konsumentenschutz-400.png?width=400 400w, /images/supporters/Logo_Konsumentenschutz-800.png?width=800 800w"
+                            sizes="(max-width: 800px) 100vw, 50vw"
+                            style="width: 100%; aspect-ratio: 1.9646596858638743"
+                            loading="lazy"
+                            decoding="async"
+                            alt="My awesome image"
+                        />
+                        </picture>
+                        <picture>
+                        <source
+                            type="image/avif"
+                            srcset="/images/supporters/toxinfo_logo-100.avif?width=100 100w, /images/supporters/toxinfo_logo-200.avif?width=200 200w, /images/supporters/toxinfo_logo-400.avif?width=400 400w, /images/supporters/toxinfo_logo-800.avif?width=800 800w" />
+                        <source
+                            type="image/webp"
+                            srcset="/images/supporters/toxinfo_logo-100.webp?width=100 100w, /images/supporters/toxinfo_logo-200.webp?width=200 200w, /images/supporters/toxinfo_logo-400.webp?width=400 400w, /images/supporters/toxinfo_logo-800.webp?width=800 800w" />
+                        <img
+                            src="/images/supporters/toxinfo_logo.png"
+                            srcset="/images/supporters/toxinfo_logo-100.png?width=100 100w, /images/supporters/toxinfo_logo-200.png?width=200 200w, /images/supporters/toxinfo_logo-400.png?width=400 400w, /images/supporters/toxinfo_logo-800.png?width=800 800w"
+                            sizes="(max-width: 800px) 100vw, 50vw"
+                            style="width: 100%; aspect-ratio: 3.2123893805309733"
+                            loading="lazy"
+                            decoding="async"
+                            alt="My awesome image"
+                        />
+                        </picture>
+                        <picture class="col-span-full md:col-span-1">
+                        <source
+                            type="image/avif"
+                            srcset="/images/supporters/Logo_FRC-100.avif?width=100 100w, /images/supporters/Logo_FRC-200.avif?width=200 200w, /images/supporters/Logo_FRC-400.avif?width=400 400w, /images/supporters/Logo_FRC-800.avif?width=800 800w" />
+                        <source
+                            type="image/webp"
+                            srcset="/images/supporters/Logo_FRC-100.webp?width=100 100w, /images/supporters/Logo_FRC-200.webp?width=200 200w, /images/supporters/Logo_FRC-400.webp?width=400 400w, /images/supporters/Logo_FRC-800.webp?width=800 800w" />
+                        <img
+                            src="/images/supporters/Logo_FRC.jpg"
+                            srcset="/images/supporters/Logo_FRC-100.jpg?width=100 100w, /images/supporters/Logo_FRC-200.jpg?width=200 200w, /images/supporters/Logo_FRC-400.jpg?width=400 400w, /images/supporters/Logo_FRC-800.jpg?width=800 800w"
+                            sizes="(max-width: 800px) 100vw, 50vw"
+                            style="width: 100%; aspect-ratio: 5.953488372093023"
+                            loading="lazy"
+                            decoding="async"
+                            alt="My awesome image"
+                        />
+                        </picture>
+                    </div>
+                </div>
                 <img src="/images/mushrooms/A.muscaria-2.png" alt="Image of a mushroom">
             </div>
         </div>

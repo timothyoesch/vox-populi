@@ -13,6 +13,6 @@ Il controllo dei funghi protegge la popolazione dalle intossicazioni. Svolge i s
 
 1. Controllo dei funghi commestibili ed eliminazione di quelli velenosi o avariati.
 2. Sensibilizzazione della popolazione interessata ai rischi, in ottica preventiva.
-3. Punto di riferimento in caso di intossicazioni – per Tox Info Suisse e per il personale medico.
+3. Punto di riferimento per l’identificazione dei funghi in caso di intossicazioni – per Tox Info Suisse e per il personale medico.
 
 **Conclusione: Il controllo pubblico dei funghi non è un  semplice «nice to have», ma una misura di protezione vitale.  Riduce le intossicazioni, protegge i bambini, consente di  risparmiare sui costi sanitari e garantisce una rete funzionante di esperti. È necessario un quadro giuridico a livello nazionale per  garantire questo importante servizio a lungo termine.**

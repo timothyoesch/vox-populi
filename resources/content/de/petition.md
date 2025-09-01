@@ -11,6 +11,6 @@ Die Pilzkontrollstellen sollten als Wissenszentren gestärkt werden, die nicht n
 Die Pilzkontrolle schützt die Bevölkerung vor Pilzvergiftungen. Dabei nimmt sie folgende Aufgaben wahr:
 1. Kontrolle von Speisepilzen und Ausscheiden von gesundheitsgefährdenden Giftpilzen oder verdorbenen Pilzen.
 2. Aufklärung der interessierten Bevölkerung über Risiken im Sinne der Prävention.
-3. Anlaufstelle bei Vergiftungen – für Tox Info Suisse sowie behandelnde Ärztinnen und Ärzte.
+3. Anlaufstelle für die Pilzidentifikation bei Vergiftungsfällen – für Tox Info Suisse sowie behandelnde Ärztinnen und Ärzte.
 
 **Fazit: Die öffentliche Pilzkontrolle ist kein «nice to have», sondern eine lebenswichtige Schutzmassnahme. Sie reduziert Vergiftungen, schützt Kinder, spart hohe Gesundheitskosten und sorgt für ein funktionierendes Netzwerk an Fachpersonen. Ein gesetzlicher Rahmen auf nationaler Ebene ist dringend erforderlich, um diesen wichtigen Service langfristig zu sichern.**

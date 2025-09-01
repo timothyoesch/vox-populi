@@ -13,6 +13,6 @@ Les offices de contrôle doivent être reconnus comme des centres de connaissanc
 Le contrôle des champignons protège la population contre les  intoxications. Il remplit les fonctions suivantes :
 1. Contrôle des champignons comestibles et élimination des espèces toxiques ou avariées  présentant un danger pour la santé.
 2. Sensibilisation du public intéressé aux risques, dans un but de prévention.
-3. Ressource en cas d’intoxication — pour Tox Info  Suisse, ainsi que pour les médecins et les hôpitaux.
+3. Ressource pour l’identification des champignons en cas d’intoxication — pour Tox Info Suisse, ainsi que pour les médecins et les hôpitaux.
 
 **Conclusion : Le contrôle public des champignons n’est pas un  simple « luxe », mais une mesure de protection vitale.  Il réduit les intoxications, protège les enfants, permet d’éviter des coûts de santé inutiles et garantit le maintien d’un réseau de  spécialistes. L’instauration d’un cadre légal au niveau national est urgente pour assurer durablement ce service essentiel.**
